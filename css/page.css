@@ -1,7 +1,46 @@
+header {
+    display: block;
+    position: fixed;
+    text-align: center;
+    clear: none;
+    width: 100%;
+    *zoom: 1;
+}
+
+header::after { clear: both; }
+
+nav{
+    display: inline-block;
+    font-size: 1em;
+    text-align: center;
+    font-weight: 300;
+    line-height: 1em;
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    letter-spacing: normal;
+    text-decoration: none;
+    font-family: HelveticaNeueCyr;
+    z-index: 324;
+    margin-top: 40px;
+    clear: none;
+}
+
+nav a{
+    margin-left: 25px;
+    padding-bottom: 44px;
+}
+nav a:hover{
+    padding-bottom: 41px;
+    border-bottom: 3px solid rgba(255,255,255, 0.5);
+}
+
+.separator {
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 .primaryContainer {
-    /*height: auto;*/
-    /*margin-left: auto;*/
-    /*margin-right: auto;*/
     min-height: 100%;
     position:relative;
     width: 100%;
@@ -10,8 +49,6 @@
 #©_2015_kote_dp_ua_Все_права_защищены {
     float: left;
     font-size: 1em;
-    width: auto;
-    height: auto;
     text-align: center;
     font-weight: normal;
     line-height: 1em;
@@ -87,7 +124,6 @@
     float: left;
     width: auto;
     max-width: 100%;
-    height: auto;
     color: rgb(0, 0, 0);
     position: relative;
     top: 0px;
@@ -103,7 +139,6 @@
     float: left;
     width: auto;
     max-width: 100%;
-    height: auto;
     color: rgb(0, 0, 0);
     position: relative;
     top: 0px;
@@ -118,8 +153,6 @@
 #Галерея_фото_видео_Cамые_красивые_места_в_мире {
     float: left;
     font-size: 1em;
-    width: auto;
-    height: auto;
     text-align: center;
     font-weight: normal;
     line-height: 1em;
@@ -159,8 +192,6 @@
 #Наша_почта_kote_turclub_gmail_com_kote_turclub_gmail_com {
     float: left;
     font-size: 1em;
-    width: auto;
-    height: auto;
     text-align: left;
     font-weight: normal;
     line-height: 1em;
@@ -213,8 +244,6 @@
 #Туристический_оператор_«КОТЭ»_предлагает_Вам_воспользоваться_са {
     float: left;
     font-size: 0.75em;
-    width: auto;
-    height: auto;
     text-align: left;
     font-weight: 300;
     line-height: 16px;
@@ -237,7 +266,6 @@
     float: left;
     width: auto;
     max-width: 100%;
-    height: auto;
     color: rgb(0, 0, 0);
     position: relative;
     top: 0px;
@@ -269,8 +297,6 @@
 #Консультант_38_097-815-68-38_38_050-774-99-18_38_063-796-25 {
     float: left;
     font-size: 1em;
-    width: auto;
-    height: auto;
     text-align: left;
     font-weight: normal;
     line-height: 1em;
@@ -434,7 +460,6 @@
     float: left;
     width: auto;
     max-width: 100%;
-    height: auto;
     color: rgb(0, 0, 0);
     position: relative;
     top: 0px;
@@ -449,8 +474,6 @@
 #Следите_за_нами_14_579_ {
     float: left;
     font-size: 1em;
-    width: auto;
-    height: auto;
     text-align: left;
     font-weight: normal;
     line-height: 1em;
@@ -502,8 +525,6 @@
 #_27_04_2015_Видеоотчет_германия_-_италия {
     float: left;
     font-size: 1em;
-    width: auto;
-    height: auto;
     text-align: center;
     font-weight: normal;
     line-height: 1em;
@@ -544,8 +565,6 @@
 #Вегетарианское_кафе_во_Львове_Украина_Львов8 {
     float: left;
     font-size: 1em;
-    width: auto;
-    height: auto;
     text-align: center;
     font-weight: normal;
     line-height: 1em;
@@ -586,8 +605,6 @@
 #placeholder1 {
     float: left;
     font-size: 1em;
-    width: auto;
-    height: auto;
     text-align: center;
     font-weight: 300;
     line-height: 1em;
@@ -608,8 +625,6 @@
 #Подпишитесь_на_нашу_рассылку_будьте_в_курсе_интересных_предложе1 {
     float: left;
     font-size: 1em;
-    width: auto;
-    height: auto;
     text-align: center;
     font-weight: normal;
     line-height: 1em;
@@ -647,8 +662,6 @@
 }
 .consultLinks{
     font-size: 1.125em;
-    width: auto;
-    height: auto;
     text-align: center;
     font-weight: 300;
     line-height: 1em;
@@ -680,8 +693,6 @@
 #Следи_за_нами_ {
     float: left;
     font-size: 0.875em;
-    width: auto;
-    height: auto;
     text-align: left;
     font-weight: 300;
     line-height: 1em;
@@ -703,8 +714,6 @@
 #Будем_рады_видеть_вас_по_адресу_Украина_г_Днепропетровск_ул_ {
     float: left;
     font-size: 1em;
-    width: auto;
-    height: auto;
     text-align: left;
     font-weight: normal;
     line-height: 1em;
@@ -746,7 +755,6 @@
     float: left;
     width: auto;
     max-width: 100%;
-    height: auto;
     color: rgb(0, 0, 0);
     position: relative;
     top: 0px;
@@ -761,7 +769,6 @@
     float: left;
     width: auto;
     max-width: 100%;
-    height: auto;
     color: rgb(0, 0, 0);
     position: relative;
     top: 0px;
@@ -775,8 +782,6 @@
 #Вегетарианское_кафе_во_Львове_Украина_Львов7 {
     float: left;
     font-size: 1em;
-    width: auto;
-    height: auto;
     text-align: center;
     font-weight: normal;
     line-height: 1em;
@@ -818,7 +823,6 @@
     float: left;
     width: auto;
     max-width: 100%;
-    height: auto;
     color: rgb(0, 0, 0);
     position: relative;
     top: 0px;
@@ -834,7 +838,6 @@
     float: left;
     width: auto;
     max-width: 100%;
-    height: auto;
     color: rgb(0, 0, 0);
     position: relative;
     top: 0px;
@@ -863,7 +866,6 @@
     float: left;
     width: auto;
     max-width: 100%;
-    height: auto;
     color: rgb(0, 0, 0);
     position: relative;
     top: 0px;
@@ -892,7 +894,6 @@
 #big-logo {
     width: auto;
     max-width: 100%;
-    height: auto;
     position: relative;
     top: 0px;
     left: 0px;
@@ -906,7 +907,6 @@
     float: left;
     width: auto;
     max-width: 100%;
-    height: auto;
     color: rgb(0, 0, 0);
     position: relative;
     top: 0px;
@@ -922,7 +922,6 @@
     float: left;
     width: auto;
     max-width: 100%;
-    height: auto;
     color: rgb(0, 0, 0);
     position: relative;
     top: 0px;
@@ -954,8 +953,6 @@
 #Вегетарианское_кафе_во_Львове_Украина_Львов6 {
     float: left;
     font-size: 1em;
-    width: auto;
-    height: auto;
     text-align: center;
     font-weight: normal;
     line-height: 1em;
@@ -996,8 +993,6 @@
 #Тур_Автобусный_Дни_4_Дата_тура_29_12_2014_Днепропетровс8 {
     float: left;
     font-size: 0.875em;
-    width: auto;
-    height: auto;
     text-align: left;
     font-weight: normal;
     line-height: 16px;
@@ -1020,7 +1015,6 @@
     float: left;
     width: auto;
     max-width: 100%;
-    height: auto;
     color: rgb(0, 0, 0);
     position: relative;
     top: 0px;
@@ -3048,12 +3042,7 @@ h1.groupTitle {
     letter-spacing: normal;
     text-decoration: none;
     font-family: HelveticaNeueCyr;
-    /*position: relative;*/
-    /*top: 0px;*/
-    /*left: 0px;*/
-    /*z-index: 267;*/
     margin-top: 58px;
-    /*margin-left: 25%;*/
     clear: none;
 }
 
@@ -3306,25 +3295,6 @@ span.arr {
     /*background-color: rgb(255, 255, 255);*/
 }
 
-.separator {
-    display: inline;
-    margin-left: 10px;
-    margin-right: 10px;
-    /*float: left;*/
-    /*width: auto;*/
-    /*width: 1px !important;*/
-    /*max-width: 100%;*/
-    /*height: auto;*/
-    /*color: rgb(0, 0, 0);*/
-    /*position: relative;*/
-    /*top: 0px;*/
-    /*left: 0px;*/
-    /*z-index: 328;*/
-    /*margin-top: 13px;*/
-    /*margin-left: 4.759231%;*/
-    /*clear: none;*/
-    /*margin-right: 0%;*/
-}
 
 #main-preview-image2 {
     float: left;
@@ -4015,107 +3985,97 @@ span.tourTitle{
 #box12 {
     float: left;
     height: auto;
-    margin-left: 4.483129%;
-    margin-top: 217.71875px;
-    clear: none;
-    width: 90.268642%;
+
+margin-left: 4.483129%;
+margin-top: 217.71875px;
+clear: none;
+width: 90.268642%;
 }
 
 #box9 {
-    float: left;
-    height: auto;
-    margin-left: 37.187152%;
-    margin-top: 49px;
-    clear: both;
-    width: 25.676127%;
+float: left;
+height: auto;
+margin-left: 37.187152%;
+margin-top: 49px;
+clear: both;
+width: 25.676127%;
 }
 
 #box8 {
-    float: left;
-    height: auto;
-    margin-left: 4.483129%;
-    margin-top: 217.71875px;
-    clear: none;
-    width: 90.818829%;
+float: left;
+height: auto;
+margin-left: 4.483129%;
+margin-top: 217.71875px;
+clear: none;
+width: 90.818829%;
 }
 
 #box7 {
-    /*float: left;*/
-    /*height: auto;*/
-    /*margin-left: 24.975802%;*/
-    /*margin-top: 0px;*/
-    /*clear: both;*/
-    /*width: 27.912935%;*/
+/*float: left;*/
+/*height: auto;*/
+/*margin-left: 24.975802%;*/
+/*margin-top: 0px;*/
+/*clear: both;*/
+/*width: 27.912935%;*/
 }
 
 #box6 {
-    float: left;
-    height: auto;
-    margin-left: 4.483129%;
-    margin-top: 217.71875px;
-    clear: none;
-    width: 90.268642%;
+float: left;
+height: auto;
+margin-left: 4.483129%;
+margin-top: 217.71875px;
+clear: none;
+width: 90.268642%;
 }
 
 #box5 {
-    float: left;
-    height: auto;
-    margin-left: 2.227836%;
-    margin-top: 367px;
-    clear: none;
-    width: 45.567295%;
+float: left;
+height: auto;
+margin-left: 2.227836%;
+margin-top: 367px;
+clear: none;
+width: 45.567295%;
 }
 
 div.tour {
-    width: 100%;
-    margin-bottom: 30px;
-    padding-bottom: 20px;
-    border: 1px solid #cccccc;
-    /*float: left;*/
-    /*height: auto;*/
-    /*clear: none;*/
-    /*width: 45%;*/
+width: 100%;
+margin-bottom: 30px;
+padding-bottom: 20px;
+border: 1px solid #cccccc;
+/*float: left;*/
+/*height: auto;*/
+/*clear: none;*/
+/*width: 45%;*/
 }
 
 .centerbox {
-    height: auto;
-    text-align: center;
-    margin-top: 50px;
-    clear: both;
+height: auto;
+text-align: center;
+margin-top: 50px;
+clear: both;
 }
 
 .news-block {
-    /*float: left;*/
-    /*height: auto;*/
-    /*margin-left: 26.041336%;*/
-    /*margin-top: 23px;*/
-    /*clear: both;*/
-    width: 100%;
+/*float: left;*/
+/*height: auto;*/
+/*margin-left: 26.041336%;*/
+/*margin-top: 23px;*/
+/*clear: both;*/
+width: 100%;
 }
 
 .scroll {
-    display: table;
-    left:0;
-    right: 0;
-    /*position: absolute;*/
-    width: 150px;
-    margin: auto;
-    margin-top: 180px;
-    /*clear: both;*/
-    /*width: 4.006243%;*/
+display: table;
+left:0;
+right: 0;
+/*position: absolute;*/
+width: 150px;
+margin: auto;
+margin-top: 180px;
+/*clear: both;*/
+/*width: 4.006243%;*/
 }
 
-.navigate {
-    display: block;
-    position: fixed;
-    text-align: center;
-    left: 0px;
-    right: 0px;
-    margin: auto;
-    clear: none;
-    width: 100%;
-
-}
 
 .user {
     display: table-cell;
@@ -4147,29 +4107,7 @@ div.tour {
     border-bottom: 1px solid rgba(0,0,0, 0.1);
     padding-bottom: 28px;
 }
-.navLinks{
-    display: inline-block;
-    font-size: 1em;
-    text-align: center;
-    font-weight: 300;
-    line-height: 1em;
-    color: rgb(255, 255, 255);
-    font-style: normal;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-    z-index: 324;
-    margin-top: 40px;
-    clear: none;
-}
-.navLink{
-    margin-left: 25px;
-    padding-bottom: 44px;
-}
-.navLink:hover{
-    padding-bottom: 41px;
-    border-bottom: 3px solid rgba(255,255,255, 0.5);
-}
+
 .wish{
     left: 0;
     right: 0;
