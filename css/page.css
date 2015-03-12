@@ -1,5 +1,4 @@
-nav, footer, header, section { display: block }
-
+nav, footer, header, section, article { display: block }
 
 header {
     position: fixed;
@@ -113,7 +112,6 @@ nav a:hover{
     color: rgb(153, 153, 153);
     font-style: normal;
     font-weight: 300;
-    letter-spacing: normal;
     text-decoration: none;
     font-family: HelveticaNeueCyr;
 }
@@ -125,7 +123,6 @@ nav a:hover{
     color: rgb(255, 255, 255);
     font-style: normal;
     font-weight: normal;
-    letter-spacing: normal;
     text-decoration: none;
     font-family: HelveticaNeueCyr;
 }
@@ -149,7 +146,6 @@ nav a:hover{
     color: rgb(153, 153, 153);
     font-style: normal;
     font-weight: 300;
-    letter-spacing: normal;
     text-decoration: none;
     font-family: HelveticaNeueCyr;
 }
@@ -231,7 +227,6 @@ nav a:hover{
     color: rgb(255, 255, 255);
     font-style: normal;
     font-weight: 300;
-    letter-spacing: normal;
     text-decoration: none;
     font-family: HelveticaNeueCyr;
 }
@@ -271,7 +266,6 @@ nav a:hover{
     color: rgb(255, 255, 255);
     font-style: normal;
     font-weight: 300;
-    letter-spacing: normal;
     text-decoration: none;
     font-family: HelveticaNeueCyr;
 }
@@ -633,30 +627,6 @@ nav a:hover{
     margin-right: 0%;
 }
 
-#textspan76 {
-    float: none;
-    font-size: 1.125em;
-    line-height: 18px;
-    color: rgb(255, 111, 64);
-    font-style: normal;
-    font-weight: bold;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
-#textspan77 {
-    float: none;
-    font-size: 0.875em;
-    line-height: 24px;
-    color: rgb(18, 18, 18);
-    font-style: normal;
-    font-weight: 300;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
 #placeholder1 {
     float: left;
     font-size: 1em;
@@ -696,29 +666,6 @@ nav a:hover{
     clear: none;
 }
 
-#textspan64 {
-    float: none;
-    font-size: 1.5em;
-    line-height: 14px;
-    color: rgb(255, 255, 255);
-    font-style: normal;
-    font-weight: bold;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
-#textspan65 {
-    float: none;
-    font-size: 0.875em;
-    line-height: 18px;
-    color: rgb(255, 255, 255);
-    font-style: normal;
-    font-weight: 300;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
 .consultLinks{
     font-size: 1.125em;
     width: auto;
@@ -864,30 +811,6 @@ nav a:hover{
     margin-right: 0%;
 }
 
-#textspan74 {
-    float: none;
-    font-size: 1.125em;
-    line-height: 18px;
-    color: rgb(255, 111, 64);
-    font-style: normal;
-    font-weight: bold;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
-#textspan75 {
-    float: none;
-    font-size: 0.875em;
-    line-height: 24px;
-    color: rgb(18, 18, 18);
-    font-style: normal;
-    font-weight: 300;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
 #arrow5 {
     float: left;
     width: auto;
@@ -947,20 +870,6 @@ nav a:hover{
     margin-left: 22.843102%;
     clear: none;
     margin-right: 0%;
-}
-
-.news {
-    /*float: left;*/
-    /*height: 260px;*/
-    /*width: 99.947944%;*/
-    /*background-color: rgb(255, 255, 255);*/
-    /*position: relative;*/
-    /*top: 0px;*/
-    /*left: 0px;*/
-    /*z-index: 285;*/
-    /*margin-top: 26px;*/
-    /*margin-left: 0%;*/
-    /*clear: both;*/
 }
 
 #big-logo {
@@ -1043,30 +952,6 @@ nav a:hover{
     margin-right: 0%;
 }
 
-#textspan72 {
-    float: none;
-    font-size: 1.125em;
-    line-height: 18px;
-    color: rgb(255, 111, 64);
-    font-style: normal;
-    font-weight: bold;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
-#textspan73 {
-    float: none;
-    font-size: 0.875em;
-    line-height: 24px;
-    color: rgb(18, 18, 18);
-    font-style: normal;
-    font-weight: 300;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
 #Тур_Автобусный_Дни_4_Дата_тура_29_12_2014_Днепропетровс8 {
     float: left;
     font-size: 0.875em;
@@ -1143,29 +1028,6 @@ nav a:hover{
     margin-right: 0%;
 }
 
-#textspan60 {
-    float: none;
-    font-size: 1.125em;
-    line-height: 18px;
-    color: rgb(255, 111, 64);
-    font-style: normal;
-    font-weight: bold;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
-#textspan61 {
-    float: none;
-    font-size: 0.875em;
-    line-height: 24px;
-    color: rgb(18, 18, 18);
-    font-style: normal;
-    font-weight: 300;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
 
 #placeholder {
     float: left;
@@ -1325,37 +1187,28 @@ nav a:hover{
 }
 
 .news-title {
-    /*float: left;*/
     font-size: 1em;
-    /*width: auto;*/
-    /*height: auto;*/
     text-align: center;
     font-weight: normal;
     line-height: 1em;
-    /*z-index: 287;*/
     margin-top: 31px;
-    /*margin-left: 45.625%;*/
-    /*clear: none;*/
 }
 
-#textspan8 {
+.news-title h3{
     float: none;
     font-size: 1.5em;
-    line-height: 24px;
     color: rgb(18, 18, 18);
-    font-style: normal;
-    font-weight: normal;
     letter-spacing: normal;
     text-decoration: none;
     font-family: HelveticaNeueCyr;
+    margin-bottom: 5px;
 }
 
-#textspan9 {
+.news-title h4{
+    margin: 0 auto;
     float: none;
     font-size: 0.875em;
-    line-height: 18px;
     color: rgb(18, 18, 18);
-    font-style: normal;
     font-weight: 300;
     letter-spacing: normal;
     text-decoration: none;
@@ -1463,30 +1316,6 @@ nav a:hover{
     margin-left: 63.348952%;
     clear: both;
     margin-right: 0%;
-}
-
-#textspan78 {
-    float: none;
-    font-size: 1.125em;
-    line-height: 16px;
-    color: rgb(18, 18, 18);
-    font-style: normal;
-    font-weight: normal;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
-#textspan79 {
-    float: none;
-    font-size: 0.875em;
-    line-height: 16px;
-    color: rgb(124, 161, 179);
-    font-style: normal;
-    font-weight: normal;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
 }
 
 #Тур_Автобусный_Дни_4_Дата_тура_29_12_2014_Днепропетровс7 {
@@ -1614,7 +1443,6 @@ nav a:hover{
     color: rgb(245, 247, 250);
     font-style: normal;
     font-weight: normal;
-    letter-spacing: normal;
     text-decoration: none;
     font-family: HelveticaNeueCyr;
 }
@@ -1626,7 +1454,6 @@ nav a:hover{
     color: rgb(255, 254, 254);
     font-style: normal;
     font-weight: normal;
-    letter-spacing: normal;
     text-decoration: none;
     margin-left: 20px;
     font-family: HelveticaNeueCyr;
@@ -1653,55 +1480,6 @@ nav a:hover{
     margin-right: 0%;
 }
 
-
-#textspan21 {
-    float: none;
-    font-size: 1.125em;
-    line-height: 20px;
-    color: rgb(255, 111, 64);
-    font-style: normal;
-    font-weight: 900;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
-#textspan22 {
-    float: none;
-    font-size: 0.625em;
-    line-height: 18px;
-    color: rgb(153, 153, 153);
-    font-style: normal;
-    font-weight: normal;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
-#textspan23 {
-    float: none;
-    font-size: 0.875em;
-    line-height: 24px;
-    color: rgb(18, 18, 18);
-    font-style: normal;
-    font-weight: 300;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
-#textspan24 {
-    float: none;
-    font-size: 0.875em;
-    line-height: 18px;
-    color: rgb(18, 18, 18);
-    font-style: normal;
-    font-weight: 300;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
 #username {
     /*float: left;*/
     font-size: 0.875em;
@@ -1724,6 +1502,7 @@ nav a:hover{
     clear: none;
     /*margin-right: 0%;*/
 }
+
 .scroll-text {
     background: url("../img/scroll.png") no-repeat left center;
     display: table-cell;
@@ -1736,7 +1515,6 @@ nav a:hover{
     line-height: 14px;
     color: rgb(255, 255, 255);
     font-style: normal;
-    letter-spacing: normal;
     text-decoration: none;
     font-family: HelveticaNeueCyr;
     text-shadow: rgba(0, 0, 0, 0.74902) 0px 1px 1px;
@@ -1804,30 +1582,6 @@ nav a:hover{
     margin-left: 63.125565%;
     clear: both;
     margin-right: 0%;
-}
-
-#textspan70 {
-    float: none;
-    font-size: 1.125em;
-    line-height: 16px;
-    color: rgb(18, 18, 18);
-    font-style: normal;
-    font-weight: normal;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
-#textspan71 {
-    float: none;
-    font-size: 0.875em;
-    line-height: 16px;
-    color: rgb(124, 161, 179);
-    font-style: normal;
-    font-weight: normal;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
 }
 
 #bg3 {
@@ -1960,82 +1714,6 @@ nav a:hover{
     display: inline-block;
     vertical-align: middle;
     color: rgb(255, 254, 254);
-}
-.new {
-    float: left;
-    font-size: 1em;
-    width: 250px;
-    height: auto;
-    text-align: center;
-    font-weight: normal;
-    line-height: 1em;
-    /*position: relative;*/
-    /*top: 0px;*/
-    /*left: 0px;*/
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 5%;
-    clear: none;
-}
-
-#textspan15 {
-    float: none;
-    font-size: 1.125em;
-    line-height: 18px;
-    color: rgb(255, 111, 64);
-    font-style: normal;
-    font-weight: 900;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
-#textspan16 {
-    float: none;
-    font-size: 1.125em;
-    line-height: 20px;
-    color: rgb(255, 111, 64);
-    font-style: normal;
-    font-weight: 900;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
-#textspan17 {
-    float: none;
-    font-size: 0.625em;
-    line-height: 18px;
-    color: rgb(153, 153, 153);
-    font-style: normal;
-    font-weight: normal;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
-#textspan18 {
-    float: none;
-    font-size: 0.875em;
-    line-height: 24px;
-    color: rgb(18, 18, 18);
-    font-style: normal;
-    font-weight: 300;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
-#textspan19 {
-    float: none;
-    font-size: 0.875em;
-    line-height: 18px;
-    color: rgb(18, 18, 18);
-    font-style: normal;
-    font-weight: 300;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
 }
 
 /*#scroll {*/
@@ -2174,30 +1852,6 @@ nav a:hover{
     margin-right: 0%;
 }
 
-#textspan62 {
-    float: none;
-    font-size: 1.125em;
-    line-height: 16px;
-    color: rgb(18, 18, 18);
-    font-style: normal;
-    font-weight: normal;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
-#textspan63 {
-    float: none;
-    font-size: 0.875em;
-    line-height: 16px;
-    color: rgb(124, 161, 179);
-    font-style: normal;
-    font-weight: normal;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
 #Тур_Автобусный_Дни_4_Дата_тура_29_12_2014_Днепропетровс4 {
     float: left;
     font-size: 0.875em;
@@ -2297,24 +1951,11 @@ nav a:hover{
     color: rgb(255, 111, 64)!important;
     font-style: normal;
     font-weight: 900;
-    letter-spacing: normal;
     text-decoration: none;
     font-family: HelveticaNeueCyr;
 }
 .new-title:hover {
     color: rgb(124, 161, 179)!important;
-}
-
-#textspan11 {
-    float: none;
-    font-size: 1.125em;
-    line-height: 20px;
-    color: rgb(255, 111, 64);
-    font-style: normal;
-    font-weight: 900;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
 }
 
 .new-date {
@@ -2336,19 +1977,6 @@ nav a:hover{
     color: rgb(18, 18, 18);
     font-style: normal;
     font-weight: 300;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
-#textspan14 {
-    float: none;
-    font-size: 0.875em;
-    line-height: 18px;
-    color: rgb(18, 18, 18);
-    font-style: normal;
-    font-weight: 300;
-    letter-spacing: normal;
     text-decoration: none;
     font-family: HelveticaNeueCyr;
 }
@@ -2448,7 +2076,6 @@ nav a:hover{
     line-height: 1em;
     color: rgb(255, 111, 64);
     font-style: normal;
-    letter-spacing: normal;
     text-decoration: none;
     font-family: HelveticaNeueCyr;
     position: relative;
@@ -3412,7 +3039,6 @@ span.tourTitle{
     line-height: 1em;
     color: rgb(255, 111, 64);
     font-style: normal;
-    letter-spacing: normal;
     text-decoration: none;
     font-family: HelveticaNeueCyr;
     position: relative;
@@ -3433,7 +3059,6 @@ span.tourTitle{
     line-height: 16px;
     color: rgb(18, 18, 18);
     font-style: normal;
-    letter-spacing: normal;
     text-decoration: none;
     font-family: HelveticaNeueCyr;
     position: relative;
@@ -3485,54 +3110,6 @@ span.tourTitle{
     margin-left: 0%;
     clear: none;
     margin-right: 0%;
-}
-
-#textspan66 {
-    float: none;
-    font-size: 1.125em;
-    line-height: 16px;
-    color: rgb(18, 18, 18);
-    font-style: normal;
-    font-weight: normal;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
-#textspan67 {
-    float: none;
-    font-size: 1.5em;
-    line-height: 16px;
-    color: rgb(18, 18, 18);
-    font-style: normal;
-    font-weight: normal;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
-#textspan68 {
-    float: none;
-    font-size: 1.125em;
-    line-height: 16px;
-    color: rgb(18, 18, 18);
-    font-style: normal;
-    font-weight: normal;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
-#textspan69 {
-    float: none;
-    font-size: 0.875em;
-    line-height: 16px;
-    color: rgb(18, 18, 18);
-    font-style: normal;
-    font-weight: normal;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
 }
 
 #maincolor2 {
@@ -3720,12 +3297,18 @@ div.tour {
 }
 
 .news-block {
-    /*float: left;*/
-    /*height: auto;*/
-    /*margin-left: 26.041336%;*/
-    /*margin-top: 23px;*/
-    /*clear: both;*/
     width: 100%;
+}
+
+.news-block article{
+    float: left;
+    font-size: 1em;
+    width: 250px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 5%;
+    clear: none;
 }
 
 .scroll {
