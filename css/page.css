@@ -1,80 +1,33 @@
-header {
-    display: block;
-    position: fixed;
-    text-align: center;
-    clear: none;
-    width: 100%;
-    *zoom: 1;
-}
-
-header::after { clear: both; }
-
-nav{
-    display: inline-block;
-    font-size: 1em;
-    text-align: center;
-    font-weight: 300;
-    line-height: 1em;
-    color: rgb(255, 255, 255);
-    font-style: normal;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-    z-index: 324;
-    margin-top: 40px;
-    clear: none;
-}
-
-nav a{
-    margin-left: 25px;
-    padding-bottom: 44px;
-}
-nav a:hover{
-    padding-bottom: 41px;
-    border-bottom: 3px solid rgba(255,255,255, 0.5);
-}
-
-.separator {
-    display: inline;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.buttons{
-    z-index: 100;
-    width: 410px;
-    margin: auto;
-}
-
-.buttons a{
-    color: rgb(255, 255, 255);
-    font-style: italic;
-    font-weight: normal;
-    text-decoration: none;
-    font-family: georgia;
-    line-height: 1em;
-    font-size: 1.125em;
-}
-
-.textspan2 {
-    font-size: 1.5em;
-    line-height: 1em;
-    font-style: normal;
-    font-weight: bold;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
 .primaryContainer {
+    /*height: auto;*/
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
     min-height: 100%;
     position:relative;
     width: 100%;
 }
 
+.buttons{
+    z-index: 100;
+    left:0;
+    right: 0;
+    width: 410px;
+    margin: auto;
+    font-family: georgia;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 1.125em;
+    line-height: 1em;
+}
+
+
 #©_2015_kote_dp_ua_Все_права_защищены {
     float: left;
     font-size: 1em;
+    width: auto;
+    height: auto;
     text-align: center;
     font-weight: normal;
     line-height: 1em;
@@ -150,6 +103,7 @@ nav a:hover{
     float: left;
     width: auto;
     max-width: 100%;
+    height: auto;
     color: rgb(0, 0, 0);
     position: relative;
     top: 0px;
@@ -165,6 +119,7 @@ nav a:hover{
     float: left;
     width: auto;
     max-width: 100%;
+    height: auto;
     color: rgb(0, 0, 0);
     position: relative;
     top: 0px;
@@ -179,6 +134,8 @@ nav a:hover{
 #Галерея_фото_видео_Cамые_красивые_места_в_мире {
     float: left;
     font-size: 1em;
+    width: auto;
+    height: auto;
     text-align: center;
     font-weight: normal;
     line-height: 1em;
@@ -218,6 +175,8 @@ nav a:hover{
 #Наша_почта_kote_turclub_gmail_com_kote_turclub_gmail_com {
     float: left;
     font-size: 1em;
+    width: auto;
+    height: auto;
     text-align: left;
     font-weight: normal;
     line-height: 1em;
@@ -270,6 +229,8 @@ nav a:hover{
 #Туристический_оператор_«КОТЭ»_предлагает_Вам_воспользоваться_са {
     float: left;
     font-size: 0.75em;
+    width: auto;
+    height: auto;
     text-align: left;
     font-weight: 300;
     line-height: 16px;
@@ -292,6 +253,7 @@ nav a:hover{
     float: left;
     width: auto;
     max-width: 100%;
+    height: auto;
     color: rgb(0, 0, 0);
     position: relative;
     top: 0px;
@@ -323,6 +285,8 @@ nav a:hover{
 #Консультант_38_097-815-68-38_38_050-774-99-18_38_063-796-25 {
     float: left;
     font-size: 1em;
+    width: auto;
+    height: auto;
     text-align: left;
     font-weight: normal;
     line-height: 1em;
@@ -486,6 +450,7 @@ nav a:hover{
     float: left;
     width: auto;
     max-width: 100%;
+    height: auto;
     color: rgb(0, 0, 0);
     position: relative;
     top: 0px;
@@ -500,6 +465,8 @@ nav a:hover{
 #Следите_за_нами_14_579_ {
     float: left;
     font-size: 1em;
+    width: auto;
+    height: auto;
     text-align: left;
     font-weight: normal;
     line-height: 1em;
@@ -551,6 +518,8 @@ nav a:hover{
 #_27_04_2015_Видеоотчет_германия_-_италия {
     float: left;
     font-size: 1em;
+    width: auto;
+    height: auto;
     text-align: center;
     font-weight: normal;
     line-height: 1em;
@@ -591,6 +560,8 @@ nav a:hover{
 #Вегетарианское_кафе_во_Львове_Украина_Львов8 {
     float: left;
     font-size: 1em;
+    width: auto;
+    height: auto;
     text-align: center;
     font-weight: normal;
     line-height: 1em;
@@ -631,6 +602,8 @@ nav a:hover{
 #placeholder1 {
     float: left;
     font-size: 1em;
+    width: auto;
+    height: auto;
     text-align: center;
     font-weight: 300;
     line-height: 1em;
@@ -651,6 +624,8 @@ nav a:hover{
 #Подпишитесь_на_нашу_рассылку_будьте_в_курсе_интересных_предложе1 {
     float: left;
     font-size: 1em;
+    width: auto;
+    height: auto;
     text-align: center;
     font-weight: normal;
     line-height: 1em;
@@ -688,6 +663,8 @@ nav a:hover{
 }
 .consultLinks{
     font-size: 1.125em;
+    width: auto;
+    height: auto;
     text-align: center;
     font-weight: 300;
     line-height: 1em;
@@ -719,6 +696,8 @@ nav a:hover{
 #Следи_за_нами_ {
     float: left;
     font-size: 0.875em;
+    width: auto;
+    height: auto;
     text-align: left;
     font-weight: 300;
     line-height: 1em;
@@ -740,6 +719,8 @@ nav a:hover{
 #Будем_рады_видеть_вас_по_адресу_Украина_г_Днепропетровск_ул_ {
     float: left;
     font-size: 1em;
+    width: auto;
+    height: auto;
     text-align: left;
     font-weight: normal;
     line-height: 1em;
@@ -781,6 +762,7 @@ nav a:hover{
     float: left;
     width: auto;
     max-width: 100%;
+    height: auto;
     color: rgb(0, 0, 0);
     position: relative;
     top: 0px;
@@ -795,6 +777,7 @@ nav a:hover{
     float: left;
     width: auto;
     max-width: 100%;
+    height: auto;
     color: rgb(0, 0, 0);
     position: relative;
     top: 0px;
@@ -808,6 +791,8 @@ nav a:hover{
 #Вегетарианское_кафе_во_Львове_Украина_Львов7 {
     float: left;
     font-size: 1em;
+    width: auto;
+    height: auto;
     text-align: center;
     font-weight: normal;
     line-height: 1em;
@@ -849,6 +834,7 @@ nav a:hover{
     float: left;
     width: auto;
     max-width: 100%;
+    height: auto;
     color: rgb(0, 0, 0);
     position: relative;
     top: 0px;
@@ -864,6 +850,7 @@ nav a:hover{
     float: left;
     width: auto;
     max-width: 100%;
+    height: auto;
     color: rgb(0, 0, 0);
     position: relative;
     top: 0px;
@@ -892,6 +879,7 @@ nav a:hover{
     float: left;
     width: auto;
     max-width: 100%;
+    height: auto;
     color: rgb(0, 0, 0);
     position: relative;
     top: 0px;
@@ -920,6 +908,7 @@ nav a:hover{
 #big-logo {
     width: auto;
     max-width: 100%;
+    height: auto;
     position: relative;
     top: 0px;
     left: 0px;
@@ -933,6 +922,7 @@ nav a:hover{
     float: left;
     width: auto;
     max-width: 100%;
+    height: auto;
     color: rgb(0, 0, 0);
     position: relative;
     top: 0px;
@@ -948,6 +938,7 @@ nav a:hover{
     float: left;
     width: auto;
     max-width: 100%;
+    height: auto;
     color: rgb(0, 0, 0);
     position: relative;
     top: 0px;
@@ -979,6 +970,8 @@ nav a:hover{
 #Вегетарианское_кафе_во_Львове_Украина_Львов6 {
     float: left;
     font-size: 1em;
+    width: auto;
+    height: auto;
     text-align: center;
     font-weight: normal;
     line-height: 1em;
@@ -1019,6 +1012,8 @@ nav a:hover{
 #Тур_Автобусный_Дни_4_Дата_тура_29_12_2014_Днепропетровс8 {
     float: left;
     font-size: 0.875em;
+    width: auto;
+    height: auto;
     text-align: left;
     font-weight: normal;
     line-height: 16px;
@@ -1041,6 +1036,7 @@ nav a:hover{
     float: left;
     width: auto;
     max-width: 100%;
+    height: auto;
     color: rgb(0, 0, 0);
     position: relative;
     top: 0px;
@@ -1074,6 +1070,8 @@ nav a:hover{
 #Вегетарианское_кафе_во_Львове_Украина_Львов5 {
     float: left;
     font-size: 1em;
+    width: auto;
+    height: auto;
     text-align: center;
     font-weight: normal;
     line-height: 1em;
@@ -1114,6 +1112,8 @@ nav a:hover{
 #placeholder {
     float: left;
     font-size: 1em;
+    width: auto;
+    height: auto;
     text-align: center;
     font-weight: 300;
     line-height: 1em;
@@ -1134,6 +1134,8 @@ nav a:hover{
 #Подпишитесь_на_нашу_рассылку_будьте_в_курсе_интересных_предложе {
     float: left;
     font-size: 1em;
+    width: auto;
+    height: auto;
     text-align: center;
     font-weight: normal;
     line-height: 1em;
@@ -1267,12 +1269,15 @@ nav a:hover{
 .news-title {
     /*float: left;*/
     font-size: 1em;
+    /*width: auto;*/
+    /*height: auto;*/
     text-align: center;
     font-weight: normal;
     line-height: 1em;
     /*z-index: 287;*/
     margin-top: 31px;
     /*margin-left: 45.625%;*/
+    /*clear: none;*/
 }
 
 #textspan8 {
@@ -1334,6 +1339,8 @@ nav a:hover{
 #Главная_Туры_Галерея_Контакты1 {
     float: left;
     font-size: 0.875em;
+    width: auto;
+    height: auto;
     text-align: left;
     font-weight: bold;
     line-height: 1em;
@@ -1369,6 +1376,8 @@ nav a:hover{
 #Мы_рекомендуем_2 {
     float: left;
     font-size: 1.5em;
+    width: auto;
+    height: auto;
     text-align: left;
     font-weight: 300;
     line-height: 1em;
@@ -1390,6 +1399,8 @@ nav a:hover{
 #От_13_000_грн_5 {
     float: left;
     font-size: 1em;
+    width: auto;
+    height: auto;
     text-align: left;
     font-weight: normal;
     line-height: 1em;
@@ -1430,6 +1441,8 @@ nav a:hover{
 #Тур_Автобусный_Дни_4_Дата_тура_29_12_2014_Днепропетровс7 {
     float: left;
     font-size: 0.875em;
+    width: auto;
+    height: auto;
     text-align: left;
     font-weight: normal;
     line-height: 16px;
@@ -1451,6 +1464,8 @@ nav a:hover{
 #Шопинг {
     float: left;
     font-size: 3em;
+    width: auto;
+    height: auto;
     text-align: left;
     font-weight: normal;
     line-height: 1em;
@@ -1471,6 +1486,8 @@ nav a:hover{
 #Вегетарианское_кафе_во_Львове_Украина_Львов4 {
     float: left;
     font-size: 1em;
+    width: auto;
+    height: auto;
     text-align: center;
     font-weight: normal;
     line-height: 1em;
@@ -1483,31 +1500,6 @@ nav a:hover{
     clear: none;
     margin-right: 0%;
 }
-
-#textspan58 {
-    float: none;
-    font-size: 1.125em;
-    line-height: 18px;
-    color: rgb(255, 111, 64);
-    font-style: normal;
-    font-weight: bold;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
-#textspan59 {
-    float: none;
-    font-size: 0.875em;
-    line-height: 24px;
-    color: rgb(18, 18, 18);
-    font-style: normal;
-    font-weight: 300;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
 #arrow3 {
     float: left;
     width: auto;
@@ -1576,18 +1568,6 @@ nav a:hover{
     font-family: HelveticaNeueCyr;
 }
 
-#textspan31 {
-    float: none;
-    font-size: 1em;
-    line-height: 1em;
-    color: rgb(124, 161, 179);
-    font-style: normal;
-    font-weight: normal;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
 .groupLink {
     float: none;
     font-size: 1em;
@@ -1602,18 +1582,6 @@ nav a:hover{
 }
 .groupLink:hover {
     color: rgb(124, 161, 179);
-}
-
-#textspan33 {
-    float: none;
-    font-size: 1em;
-    line-height: 1em;
-    color: rgb(255, 254, 254);
-    font-style: normal;
-    font-weight: normal;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
 }
 
 #Туроператор_OpenGeorgia_11_02_2015_Мы_являемся_первым_профиль_копия_2 {
@@ -1634,17 +1602,6 @@ nav a:hover{
     margin-right: 0%;
 }
 
-#textspan20 {
-    float: none;
-    font-size: 1.125em;
-    line-height: 18px;
-    color: rgb(255, 111, 64);
-    font-style: normal;
-    font-weight: 900;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
 
 #textspan21 {
     float: none;
@@ -1760,6 +1717,8 @@ nav a:hover{
 #Новый_год_во_Львове8 {
     float: left;
     font-size: 1.5em;
+    width: auto;
+    height: auto;
     text-align: left;
     font-weight: normal;
     line-height: 1em;
@@ -1781,6 +1740,8 @@ nav a:hover{
 #От_13_000_грн_4 {
     float: left;
     font-size: 1em;
+    width: auto;
+    height: auto;
     text-align: left;
     font-weight: normal;
     line-height: 1em;
@@ -1835,6 +1796,8 @@ nav a:hover{
 #Вегетарианское_кафе_во_Львове_Украина_Львов3 {
     float: left;
     font-size: 1em;
+    width: auto;
+    height: auto;
     text-align: center;
     font-weight: normal;
     line-height: 1em;
@@ -1848,33 +1811,11 @@ nav a:hover{
     margin-right: 0%;
 }
 
-#textspan56 {
-    float: none;
-    font-size: 1.125em;
-    line-height: 18px;
-    color: rgb(255, 111, 64);
-    font-style: normal;
-    font-weight: bold;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
-#textspan57 {
-    float: none;
-    font-size: 0.875em;
-    line-height: 24px;
-    color: rgb(18, 18, 18);
-    font-style: normal;
-    font-weight: 300;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
 #Тур_Автобусный_Дни_4_Дата_тура_29_12_2014_Днепропетровс5 {
     float: left;
     font-size: 0.875em;
+    width: auto;
+    height: auto;
     text-align: left;
     font-weight: normal;
     line-height: 16px;
@@ -1931,6 +1872,8 @@ nav a:hover{
 #Вегетарианское_кафе_во_Львове_Украина_Львов2 {
     float: left;
     font-size: 1em;
+    width: auto;
+    height: auto;
     text-align: center;
     font-weight: normal;
     line-height: 1em;
@@ -1942,30 +1885,6 @@ nav a:hover{
     margin-left: 7.850337%;
     clear: none;
     margin-right: 0%;
-}
-
-#textspan44 {
-    float: none;
-    font-size: 1.125em;
-    line-height: 18px;
-    color: rgb(255, 111, 64);
-    font-style: normal;
-    font-weight: bold;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
-#textspan45 {
-    float: none;
-    font-size: 0.875em;
-    line-height: 24px;
-    color: rgb(18, 18, 18);
-    font-style: normal;
-    font-weight: 300;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
 }
 
 .groups {
@@ -2143,6 +2062,8 @@ nav a:hover{
 #Новый_год_во_Львове7 {
     float: left;
     font-size: 1.5em;
+    width: auto;
+    height: auto;
     text-align: left;
     font-weight: normal;
     line-height: 1em;
@@ -2164,6 +2085,8 @@ nav a:hover{
 #Мы_рекомендуем_1 {
     float: left;
     font-size: 1.5em;
+    width: auto;
+    height: auto;
     text-align: left;
     font-weight: 300;
     line-height: 1em;
@@ -2185,6 +2108,8 @@ nav a:hover{
 #От_13_000_грн_3 {
     float: left;
     font-size: 1em;
+    width: auto;
+    height: auto;
     text-align: left;
     font-weight: normal;
     line-height: 1em;
@@ -2225,6 +2150,8 @@ nav a:hover{
 #Тур_Автобусный_Дни_4_Дата_тура_29_12_2014_Днепропетровс4 {
     float: left;
     font-size: 0.875em;
+    width: auto;
+    height: auto;
     text-align: left;
     font-weight: normal;
     line-height: 16px;
@@ -2246,6 +2173,8 @@ nav a:hover{
 #Развлечения {
     float: left;
     font-size: 3em;
+    width: auto;
+    height: auto;
     text-align: left;
     font-weight: normal;
     line-height: 1em;
@@ -2266,6 +2195,8 @@ nav a:hover{
 #Вегетарианское_кафе_во_Львове_Украина_Львов1 {
     float: left;
     font-size: 1em;
+    width: auto;
+    height: auto;
     text-align: center;
     font-weight: normal;
     line-height: 1em;
@@ -2279,29 +2210,6 @@ nav a:hover{
     margin-right: 0%;
 }
 
-#textspan42 {
-    float: none;
-    font-size: 1.125em;
-    line-height: 18px;
-    color: rgb(255, 111, 64);
-    font-style: normal;
-    font-weight: bold;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
-#textspan43 {
-    float: none;
-    font-size: 0.875em;
-    line-height: 24px;
-    color: rgb(18, 18, 18);
-    font-style: normal;
-    font-weight: 300;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
 
 #arrow1 {
     float: left;
@@ -2420,6 +2328,8 @@ nav a:hover{
 #Нет_что-то_другое {
     float: left;
     font-size: 1em;
+    width: auto;
+    height: auto;
     text-align: center;
     font-weight: normal;
     line-height: 1em;
@@ -2497,6 +2407,8 @@ nav a:hover{
 #Новый_год_во_Львове5 {
     float: left;
     font-size: 1.5em;
+    width: auto;
+    height: auto;
     text-align: left;
     font-weight: normal;
     line-height: 1em;
@@ -2518,6 +2430,8 @@ nav a:hover{
 #От_13_000_грн_2 {
     float: left;
     font-size: 1em;
+    width: auto;
+    height: auto;
     text-align: left;
     font-weight: normal;
     line-height: 1em;
@@ -2531,32 +2445,11 @@ nav a:hover{
     margin-right: 0%;
 }
 
-#textspan54 {
-    float: none;
-    font-size: 1.125em;
-    line-height: 16px;
-    color: rgb(18, 18, 18);
-    font-style: normal;
-    font-weight: normal;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
-#textspan55 {
-    font-size: 0.875em;
-    line-height: 16px;
-    color: rgb(124, 161, 179);
-    font-style: normal;
-    font-weight: normal;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
 #Подробнее1 {
     float: left;
     font-size: 1.125em;
+    width: auto;
+    height: auto;
     text-align: left;
     font-weight: normal;
     line-height: 1em;
@@ -2608,6 +2501,8 @@ nav a:hover{
 .recomendedLink {
     float: left;
     font-size: 1em;
+    width: auto;
+    height: auto;
     text-align: center;
     font-weight: normal;
     line-height: 1em;
@@ -2622,6 +2517,7 @@ nav a:hover{
 }
 
 a.recLink {
+    float: none;
     font-size: 1.125em;
     line-height: 18px;
     color: rgb(255, 111, 64);
@@ -2632,6 +2528,7 @@ a.recLink {
     font-family: HelveticaNeueCyr;
 }
 a.recLink:hover {
+    float: none;
     font-size: 1.125em;
     line-height: 18px;
     color: rgb(255, 111, 64);
@@ -2643,6 +2540,7 @@ a.recLink:hover {
 }
 
 .where {
+    float: none;
     font-size: 0.875em;
     line-height: 24px;
     color: rgb(18, 18, 18);
@@ -2656,6 +2554,8 @@ a.recLink:hover {
 #Тур_Автобусный_Дни_4_Дата_тура_29_12_2014_Днепропетровс2 {
     float: left;
     font-size: 0.875em;
+    width: auto;
+    height: auto;
     text-align: left;
     font-weight: normal;
     line-height: 16px;
@@ -2713,17 +2613,22 @@ a.recLink:hover {
     /*height: 57px;*/
     /*color: rgb(0, 0, 0);*/
     /*position: relative;*/
+    /*top: 0px;*/
+    /*left: 0px;*/
     /*z-index: 304;*/
     /*background-image: url("img/yes-btn.png");*/
     /*-webkit-background-size: 100%;*/
     /*background-size: 100%;*/
     /*margin-top: 76px;*/
     /*margin-left: 3.800104%;*/
+    /*clear: none;*/
 }
 
 .yes-btn {
     float: left;
     font-size: 1em;
+    width: auto;
+    height: auto;
     text-align: center;
     font-weight: normal;
     line-height: 1em;
@@ -2751,6 +2656,8 @@ a.recLink:hover {
 .no-btn {
     float: left;
     font-size: 1em;
+    width: auto;
+    height: auto;
     text-align: center;
     font-weight: normal;
     line-height: 1em;
@@ -2775,18 +2682,17 @@ a.recLink:hover {
     box-shadow:         none;
 }
 
-#textspan3 {
+#textspan2 {
+    float: none;
     font-size: 1.5em;
     line-height: 1em;
     color: rgb(255, 255, 255);
     font-style: normal;
-    font-weight: normal;
+    font-weight: bold;
     letter-spacing: normal;
     text-decoration: none;
     font-family: HelveticaNeueCyr;
 }
-
-
 #small-preview-img4 {
     float: left;
     width: auto;
@@ -2819,6 +2725,8 @@ a.recLink:hover {
 #Новый_год_во_Львове4 {
     float: left;
     font-size: 1.5em;
+    width: auto;
+    height: auto;
     text-align: left;
     font-weight: normal;
     line-height: 1em;
@@ -2840,6 +2748,8 @@ a.recLink:hover {
 #Тур_Автобусный_Дни_4_Дата_тура_29_12_2014_Днепропетровс3 {
     float: left;
     font-size: 0.875em;
+    width: auto;
+    height: auto;
     text-align: left;
     font-weight: normal;
     line-height: 16px;
@@ -2860,6 +2770,8 @@ a.recLink:hover {
 
 .recommendedTitle {
     font-size: 1.5em;
+    width: auto;
+    height: auto;
     text-align: left;
     font-weight: 300;
     line-height: 1em;
@@ -2873,6 +2785,8 @@ a.recLink:hover {
 #От_13_000_грн_1 {
     float: left;
     font-size: 1em;
+    width: auto;
+    height: auto;
     text-align: left;
     font-weight: normal;
     line-height: 1em;
@@ -2886,31 +2800,11 @@ a.recLink:hover {
     margin-right: 0%;
 }
 
-#textspan46 {
-    font-size: 1.125em;
-    line-height: 16px;
-    color: rgb(18, 18, 18);
-    font-style: normal;
-    font-weight: normal;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
-#textspan47 {
-    font-size: 0.875em;
-    line-height: 16px;
-    color: rgb(124, 161, 179);
-    font-style: normal;
-    font-weight: normal;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
 #Тур_Автобусный_Дни_4_Дата_тура_29_12_2014_Днепропетровс1 {
     float: left;
     font-size: 0.875em;
+    width: auto;
+    height: auto;
     text-align: left;
     font-weight: normal;
     line-height: 16px;
@@ -2932,6 +2826,8 @@ a.recLink:hover {
 h1.groupTitle {
     /*float: left;*/
     font-size: 3em;
+    width: auto;
+    height: auto;
     text-align: left;
     font-weight: normal;
     line-height: 1em;
@@ -2940,7 +2836,12 @@ h1.groupTitle {
     letter-spacing: normal;
     text-decoration: none;
     font-family: HelveticaNeueCyr;
+    /*position: relative;*/
+    /*top: 0px;*/
+    /*left: 0px;*/
+    /*z-index: 267;*/
     margin-top: 58px;
+    /*margin-left: 25%;*/
     clear: none;
 }
 
@@ -3028,6 +2929,8 @@ h1.groupTitle {
 #От_13_000_грн_Актуальная_стоимость_тура_формируется_в_корзи1 {
     float: left;
     font-size: 1em;
+    width: auto;
+    height: auto;
     text-align: left;
     font-weight: normal;
     line-height: 1em;
@@ -3041,53 +2944,11 @@ h1.groupTitle {
     margin-right: 0%;
 }
 
-#textspan50 {
-    font-size: 1.125em;
-    line-height: 16px;
-    color: rgb(18, 18, 18);
-    font-style: normal;
-    font-weight: normal;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
-#textspan51 {
-    font-size: 1.5em;
-    line-height: 16px;
-    color: rgb(18, 18, 18);
-    font-style: normal;
-    font-weight: normal;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
-#textspan52 {
-    font-size: 1.125em;
-    line-height: 16px;
-    color: rgb(18, 18, 18);
-    font-style: normal;
-    font-weight: normal;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
-#textspan53 {
-    font-size: 0.875em;
-    line-height: 16px;
-    color: rgb(18, 18, 18);
-    font-style: normal;
-    font-weight: normal;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
 #Новый_год_во_Львове2 {
     float: left;
     font-size: 1.5em;
+    width: auto;
+    height: auto;
     text-align: left;
     font-weight: normal;
     line-height: 1em;
@@ -3109,6 +2970,8 @@ h1.groupTitle {
 #От_13_000_грн_ {
     float: left;
     font-size: 1em;
+    width: auto;
+    height: auto;
     text-align: left;
     font-weight: normal;
     line-height: 1em;
@@ -3120,30 +2983,6 @@ h1.groupTitle {
     margin-left: 63.125565%;
     clear: both;
     margin-right: 0%;
-}
-
-#textspan38 {
-    float: none;
-    font-size: 1.125em;
-    line-height: 16px;
-    color: rgb(18, 18, 18);
-    font-style: normal;
-    font-weight: normal;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
-#textspan39 {
-    float: none;
-    font-size: 0.875em;
-    line-height: 16px;
-    color: rgb(124, 161, 179);
-    font-style: normal;
-    font-weight: normal;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
 }
 
 #Подробнее {
@@ -3183,6 +3022,25 @@ span.arr {
     /*background-color: rgb(255, 255, 255);*/
 }
 
+.separator {
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+    /*float: left;*/
+    /*width: auto;*/
+    /*width: 1px !important;*/
+    /*max-width: 100%;*/
+    /*height: auto;*/
+    /*color: rgb(0, 0, 0);*/
+    /*position: relative;*/
+    /*top: 0px;*/
+    /*left: 0px;*/
+    /*z-index: 328;*/
+    /*margin-top: 13px;*/
+    /*margin-left: 4.759231%;*/
+    /*clear: none;*/
+    /*margin-right: 0%;*/
+}
 
 #main-preview-image2 {
     float: left;
@@ -3236,6 +3094,8 @@ span.arr {
 #Новый_год_во_Львове3 {
     float: left;
     font-size: 1.5em;
+    width: auto;
+    height: auto;
     text-align: left;
     font-weight: bold;
     line-height: 1em;
@@ -3271,6 +3131,8 @@ span.arr {
 #Новый_год_во_Львове1 {
     float: left;
     font-size: 1.5em;
+    width: auto;
+    height: auto;
     text-align: left;
     font-weight: normal;
     line-height: 1em;
@@ -3375,33 +3237,9 @@ span.arr {
     clear: none;
 }
 
-#textspan34 {
-    float: none;
-    font-size: 1.125em;
-    line-height: 16px;
-    color: rgb(18, 18, 18);
-    font-style: normal;
-    font-weight: normal;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
 .boldPrice {
     float: none;
     font-size: 1.5em;
-    line-height: 16px;
-    color: rgb(18, 18, 18);
-    font-style: normal;
-    font-weight: normal;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
-#textspan36 {
-    float: none;
-    font-size: 1.125em;
     line-height: 16px;
     color: rgb(18, 18, 18);
     font-style: normal;
@@ -3618,6 +3456,8 @@ span.tourTitle{
 #Новый_год_во_Львове6 {
     float: left;
     font-size: 1.5em;
+    width: auto;
+    height: auto;
     text-align: left;
     font-weight: bold;
     line-height: 1em;
@@ -3639,6 +3479,8 @@ span.tourTitle{
 #Тур_Автобусный_Дни_4_Дата_тура_29_12_2014_Днепропетровс6 {
     float: left;
     font-size: 0.875em;
+    width: auto;
+    height: auto;
     text-align: left;
     font-weight: normal;
     line-height: 16px;
@@ -3685,6 +3527,8 @@ span.tourTitle{
 #От_13_000_грн_Актуальная_стоимость_тура_формируется_в_корзи2 {
     float: left;
     font-size: 1em;
+    width: auto;
+    height: auto;
     text-align: left;
     font-weight: normal;
     line-height: 1em;
@@ -3787,6 +3631,8 @@ span.tourTitle{
 #Подробнее2 {
     float: left;
     font-size: 1.125em;
+    width: auto;
+    height: auto;
     text-align: left;
     font-weight: normal;
     line-height: 1em;
@@ -3861,97 +3707,107 @@ span.tourTitle{
 #box12 {
     float: left;
     height: auto;
-
-margin-left: 4.483129%;
-margin-top: 217.71875px;
-clear: none;
-width: 90.268642%;
+    margin-left: 4.483129%;
+    margin-top: 217.71875px;
+    clear: none;
+    width: 90.268642%;
 }
 
 #box9 {
-float: left;
-height: auto;
-margin-left: 37.187152%;
-margin-top: 49px;
-clear: both;
-width: 25.676127%;
+    float: left;
+    height: auto;
+    margin-left: 37.187152%;
+    margin-top: 49px;
+    clear: both;
+    width: 25.676127%;
 }
 
 #box8 {
-float: left;
-height: auto;
-margin-left: 4.483129%;
-margin-top: 217.71875px;
-clear: none;
-width: 90.818829%;
+    float: left;
+    height: auto;
+    margin-left: 4.483129%;
+    margin-top: 217.71875px;
+    clear: none;
+    width: 90.818829%;
 }
 
 #box7 {
-/*float: left;*/
-/*height: auto;*/
-/*margin-left: 24.975802%;*/
-/*margin-top: 0px;*/
-/*clear: both;*/
-/*width: 27.912935%;*/
+    /*float: left;*/
+    /*height: auto;*/
+    /*margin-left: 24.975802%;*/
+    /*margin-top: 0px;*/
+    /*clear: both;*/
+    /*width: 27.912935%;*/
 }
 
 #box6 {
-float: left;
-height: auto;
-margin-left: 4.483129%;
-margin-top: 217.71875px;
-clear: none;
-width: 90.268642%;
+    float: left;
+    height: auto;
+    margin-left: 4.483129%;
+    margin-top: 217.71875px;
+    clear: none;
+    width: 90.268642%;
 }
 
 #box5 {
-float: left;
-height: auto;
-margin-left: 2.227836%;
-margin-top: 367px;
-clear: none;
-width: 45.567295%;
+    float: left;
+    height: auto;
+    margin-left: 2.227836%;
+    margin-top: 367px;
+    clear: none;
+    width: 45.567295%;
 }
 
 div.tour {
-width: 100%;
-margin-bottom: 30px;
-padding-bottom: 20px;
-border: 1px solid #cccccc;
-/*float: left;*/
-/*height: auto;*/
-/*clear: none;*/
-/*width: 45%;*/
+    width: 100%;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border: 1px solid #cccccc;
+    /*float: left;*/
+    /*height: auto;*/
+    /*clear: none;*/
+    /*width: 45%;*/
 }
 
 .centerbox {
-height: auto;
-text-align: center;
-margin-top: 50px;
-clear: both;
+    height: auto;
+    text-align: center;
+    margin-top: 50px;
+    clear: both;
 }
 
 .news-block {
-/*float: left;*/
-/*height: auto;*/
-/*margin-left: 26.041336%;*/
-/*margin-top: 23px;*/
-/*clear: both;*/
-width: 100%;
+    /*float: left;*/
+    /*height: auto;*/
+    /*margin-left: 26.041336%;*/
+    /*margin-top: 23px;*/
+    /*clear: both;*/
+    width: 100%;
 }
 
 .scroll {
-display: table;
-left:0;
-right: 0;
-/*position: absolute;*/
-width: 150px;
-margin: auto;
-margin-top: 180px;
-/*clear: both;*/
-/*width: 4.006243%;*/
+    display: table;
+    left:0;
+    right: 0;
+    /*position: absolute;*/
+    width: 150px;
+    margin: auto;
+    margin-top: 180px;
+    /*clear: both;*/
+    /*width: 4.006243%;*/
 }
 
+.navigate {
+    display: block;
+    position: fixed;
+    text-align: center;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    clear: none;
+    width: 100%;
+
+}
 
 .user {
     display: table-cell;
@@ -3983,14 +3839,34 @@ margin-top: 180px;
     border-bottom: 1px solid rgba(0,0,0, 0.1);
     padding-bottom: 28px;
 }
-
+.navLinks{
+    display: inline-block;
+    font-size: 1em;
+    text-align: center;
+    font-weight: 300;
+    line-height: 1em;
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    text-decoration: none;
+    font-family: HelveticaNeueCyr;
+    z-index: 324;
+    margin-top: 40px;
+    clear: none;
+}
+.navLinks a{
+    margin-left: 25px;
+    padding-bottom: 44px;
+}
+.navLinks a:hover{
+    padding-bottom: 41px;
+    border-bottom: 3px solid rgba(255,255,255, 0.5);
+}
 .wish{
     left: 0;
     right: 0;
     margin: auto;
     text-align: center;
 }
-
 .middleHelper{
     display:inline-block;
     vertical-align:middle;
