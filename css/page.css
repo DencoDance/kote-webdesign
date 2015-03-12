@@ -1,3 +1,39 @@
+nav, footer, header, section { display: block }
+
+
+header {
+    position: fixed;
+    text-align: center;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    clear: none;
+    width: 100%;
+
+}
+nav{
+    display: inline-block;
+    font-size: 1em;
+    text-align: center;
+    font-weight: 300;
+    line-height: 1em;
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    text-decoration: none;
+    font-family: HelveticaNeueCyr;
+    z-index: 324;
+    margin-top: 40px;
+    clear: none;
+}
+nav a{
+    margin-left: 25px;
+    padding-bottom: 44px;
+}
+nav a:hover{
+    padding-bottom: 41px;
+    border-bottom: 3px solid rgba(255,255,255, 0.5);
+}
+
 .primaryContainer {
     /*height: auto;*/
     /*margin-left: auto;*/
@@ -1305,18 +1341,11 @@
 }
 
 #top-shadow {
-    /*float: left;*/
-    width: auto;
     max-width: 100%;
-    height: auto;
-    /*color: rgb(0, 0, 0);*/
     /*position: absolute;*/
     margin: auto;
     right: 0px;
     left: 0px;
-    /*z-index: 316;*/
-    /*margin-top: 8px;*/
-    /*margin-left: 21.238456%;*/
     clear: both;
 }
 
@@ -3797,18 +3826,6 @@ div.tour {
     /*width: 4.006243%;*/
 }
 
-.navigate {
-    display: block;
-    position: fixed;
-    text-align: center;
-    left: 0px;
-    right: 0px;
-    margin: auto;
-    clear: none;
-    width: 100%;
-
-}
-
 .user {
     display: table-cell;
     /*width: 150px;*/
@@ -3838,28 +3855,6 @@ div.tour {
 #bar{
     border-bottom: 1px solid rgba(0,0,0, 0.1);
     padding-bottom: 28px;
-}
-.navLinks{
-    display: inline-block;
-    font-size: 1em;
-    text-align: center;
-    font-weight: 300;
-    line-height: 1em;
-    color: rgb(255, 255, 255);
-    font-style: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-    z-index: 324;
-    margin-top: 40px;
-    clear: none;
-}
-.navLinks a{
-    margin-left: 25px;
-    padding-bottom: 44px;
-}
-.navLinks a:hover{
-    padding-bottom: 41px;
-    border-bottom: 3px solid rgba(255,255,255, 0.5);
 }
 .wish{
     left: 0;
