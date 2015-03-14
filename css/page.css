@@ -1,17 +1,120 @@
+nav, footer, header, section, article { display: block }
+
+header {
+    position: fixed;
+    text-align: center;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    clear: none;
+    width: 100%;
+
+}
+nav{
+    display: inline-block;
+    font-size: 1em;
+    text-align: center;
+    font-weight: 300;
+    line-height: 1em;
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    text-decoration: none;
+    font-family: HelveticaNeueCyr;
+    z-index: 324;
+    margin-top: 40px;
+    clear: none;
+}
+nav a{
+    margin-left: 25px;
+    padding-bottom: 44px;
+}
+nav a:hover{
+    padding-bottom: 41px;
+    border-bottom: 3px solid rgba(255,255,255, 0.5);
+}
+
 .primaryContainer {
-    /*height: auto;*/
-    /*margin-left: auto;*/
-    /*margin-right: auto;*/
     min-height: 100%;
     position:relative;
     width: 100%;
 }
 
+.buttons{
+    z-index: 100;
+    width: 510px;
+    margin: 50px auto 0 auto;
+    font-family: georgia;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 1.125em;
+}
+
+.yes-btn {
+    width: 220px;
+    float: left;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.74902) 1px 1px 2px;
+    padding: 15px;
+    background-color: #ff6f40;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: 0px 2px 2px 0px rgba(239, 98, 52, 1);
+    -moz-box-shadow:    0px 2px 2px 0px rgba(239, 98, 52, 1);
+    box-shadow:         0px 2px 2px 0px rgba(239, 98, 52, 1);
+    clear: none;
+}
+.yes-btn:hover, .no-btn:hover{
+    margin-top: 2px;
+    margin-bottom: -2px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow:    none;
+    box-shadow:         none;
+}
+.no-btn {
+    float: right;
+    width: 220px;
+    height: auto;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.74902) 1px 1px 2px;
+    padding: 15px;
+    background-color: #121212;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 1);
+    -moz-box-shadow:    0px 2px 2px 0px rgba(0, 0, 0, 1);
+    box-shadow:         0px 2px 2px 0px rgba(0, 0, 0, 1);
+    clear: none;
+}
+
+
+.groupLinks{
+    display: inline-block;
+    vertical-align: middle;
+    color: rgb(255, 254, 254);
+}
+
+.groupLinks a{
+    float: none;
+    font-size: 1em;
+    line-height: 1em;
+    color: rgb(255, 254, 254);
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    margin-left: 20px;
+    font-family: HelveticaNeueCyr;
+}
+.groupLinks a:hover {
+    color: rgb(124, 161, 179);
+}
+
 #©_2015_kote_dp_ua_Все_права_защищены {
     float: left;
     font-size: 1em;
-    width: auto;
-    height: auto;
     text-align: center;
     font-weight: normal;
     line-height: 1em;
@@ -31,7 +134,6 @@
     color: rgb(153, 153, 153);
     font-style: normal;
     font-weight: 300;
-    letter-spacing: normal;
     text-decoration: none;
     font-family: HelveticaNeueCyr;
 }
@@ -43,7 +145,6 @@
     color: rgb(255, 255, 255);
     font-style: normal;
     font-weight: normal;
-    letter-spacing: normal;
     text-decoration: none;
     font-family: HelveticaNeueCyr;
 }
@@ -67,7 +168,6 @@
     color: rgb(153, 153, 153);
     font-style: normal;
     font-weight: 300;
-    letter-spacing: normal;
     text-decoration: none;
     font-family: HelveticaNeueCyr;
 }
@@ -118,8 +218,6 @@
 #Галерея_фото_видео_Cамые_красивые_места_в_мире {
     float: left;
     font-size: 1em;
-    width: auto;
-    height: auto;
     text-align: center;
     font-weight: normal;
     line-height: 1em;
@@ -151,7 +249,6 @@
     color: rgb(255, 255, 255);
     font-style: normal;
     font-weight: 300;
-    letter-spacing: normal;
     text-decoration: none;
     font-family: HelveticaNeueCyr;
 }
@@ -159,8 +256,6 @@
 #Наша_почта_kote_turclub_gmail_com_kote_turclub_gmail_com {
     float: left;
     font-size: 1em;
-    width: auto;
-    height: auto;
     text-align: left;
     font-weight: normal;
     line-height: 1em;
@@ -193,7 +288,6 @@
     color: rgb(255, 255, 255);
     font-style: normal;
     font-weight: 300;
-    letter-spacing: normal;
     text-decoration: none;
     font-family: HelveticaNeueCyr;
 }
@@ -213,8 +307,6 @@
 #Туристический_оператор_«КОТЭ»_предлагает_Вам_воспользоваться_са {
     float: left;
     font-size: 0.75em;
-    width: auto;
-    height: auto;
     text-align: left;
     font-weight: 300;
     line-height: 16px;
@@ -544,8 +636,6 @@
 #Вегетарианское_кафе_во_Львове_Украина_Львов8 {
     float: left;
     font-size: 1em;
-    width: auto;
-    height: auto;
     text-align: center;
     font-weight: normal;
     line-height: 1em;
@@ -557,30 +647,6 @@
     margin-left: 7.850337%;
     clear: none;
     margin-right: 0%;
-}
-
-#textspan76 {
-    float: none;
-    font-size: 1.125em;
-    line-height: 18px;
-    color: rgb(255, 111, 64);
-    font-style: normal;
-    font-weight: bold;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
-#textspan77 {
-    float: none;
-    font-size: 0.875em;
-    line-height: 24px;
-    color: rgb(18, 18, 18);
-    font-style: normal;
-    font-weight: 300;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
 }
 
 #placeholder1 {
@@ -622,53 +688,34 @@
     clear: none;
 }
 
-#textspan64 {
-    float: none;
-    font-size: 1.5em;
-    line-height: 14px;
-    color: rgb(255, 255, 255);
-    font-style: normal;
-    font-weight: bold;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
-#textspan65 {
-    float: none;
-    font-size: 0.875em;
-    line-height: 18px;
-    color: rgb(255, 255, 255);
-    font-style: normal;
-    font-weight: 300;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
 .consultLinks{
     font-size: 1.125em;
-    width: auto;
-    height: auto;
     text-align: center;
     font-weight: 300;
     line-height: 1em;
     color: rgb(255, 255, 255);
     font-style: normal;
-    letter-spacing: normal;
     text-decoration: none;
     font-family: HelveticaNeueCyr;
     z-index: 281;
     margin-top: 6px;
     clear: none;
     margin-right: 0%;
+    font-size: 1em;
+    line-height: 18px;
+    font-weight: 300;
+}
+
+.subscribe-title {
+    font-size: 1.7em;
+    line-height: 14px;
+    font-weight: bold;
 }
 
 .groups-bg {
     width: 100%;
     height: 245px;
     background: url("../img/groups-bg.png") no-repeat;
-    /*-webkit-background-size: 100%;*/
-    /*background-size: 100%;*/
     margin-top: 80px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -790,30 +837,6 @@
     margin-right: 0%;
 }
 
-#textspan74 {
-    float: none;
-    font-size: 1.125em;
-    line-height: 18px;
-    color: rgb(255, 111, 64);
-    font-style: normal;
-    font-weight: bold;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
-#textspan75 {
-    float: none;
-    font-size: 0.875em;
-    line-height: 24px;
-    color: rgb(18, 18, 18);
-    font-style: normal;
-    font-weight: 300;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
 #arrow5 {
     float: left;
     width: auto;
@@ -875,20 +898,6 @@
     margin-right: 0%;
 }
 
-.news {
-    /*float: left;*/
-    /*height: 260px;*/
-    /*width: 99.947944%;*/
-    /*background-color: rgb(255, 255, 255);*/
-    /*position: relative;*/
-    /*top: 0px;*/
-    /*left: 0px;*/
-    /*z-index: 285;*/
-    /*margin-top: 26px;*/
-    /*margin-left: 0%;*/
-    /*clear: both;*/
-}
-
 #big-logo {
     width: auto;
     max-width: 100%;
@@ -897,7 +906,7 @@
     top: 0px;
     left: 0px;
     z-index: 321;
-    margin-top: 15%;
+    margin-top: 12%;
     margin-left: 45%;
     clear: both;
 }
@@ -967,30 +976,6 @@
     margin-left: 2.051461%;
     clear: both;
     margin-right: 0%;
-}
-
-#textspan72 {
-    float: none;
-    font-size: 1.125em;
-    line-height: 18px;
-    color: rgb(255, 111, 64);
-    font-style: normal;
-    font-weight: bold;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
-#textspan73 {
-    float: none;
-    font-size: 0.875em;
-    line-height: 24px;
-    color: rgb(18, 18, 18);
-    font-style: normal;
-    font-weight: 300;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
 }
 
 #Тур_Автобусный_Дни_4_Дата_тура_29_12_2014_Днепропетровс8 {
@@ -1069,29 +1054,6 @@
     margin-right: 0%;
 }
 
-#textspan60 {
-    float: none;
-    font-size: 1.125em;
-    line-height: 18px;
-    color: rgb(255, 111, 64);
-    font-style: normal;
-    font-weight: bold;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
-#textspan61 {
-    float: none;
-    font-size: 0.875em;
-    line-height: 24px;
-    color: rgb(18, 18, 18);
-    font-style: normal;
-    font-weight: 300;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
 
 #placeholder {
     float: left;
@@ -1130,30 +1092,6 @@
     margin-top: 51px;
     margin-left: 40.052083%;
     clear: none;
-}
-
-#textspan48 {
-    float: none;
-    font-size: 1.5em;
-    line-height: 14px;
-    color: rgb(255, 255, 255);
-    font-style: normal;
-    font-weight: bold;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
-#textspan49 {
-    float: none;
-    font-size: 0.875em;
-    line-height: 18px;
-    color: rgb(255, 255, 255);
-    font-style: normal;
-    font-weight: 300;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
 }
 
 #small-btn2 {
@@ -1251,37 +1189,28 @@
 }
 
 .news-title {
-    /*float: left;*/
     font-size: 1em;
-    /*width: auto;*/
-    /*height: auto;*/
     text-align: center;
     font-weight: normal;
     line-height: 1em;
-    /*z-index: 287;*/
     margin-top: 31px;
-    /*margin-left: 45.625%;*/
-    /*clear: none;*/
 }
 
-#textspan8 {
+.news-title h3{
     float: none;
     font-size: 1.5em;
-    line-height: 24px;
     color: rgb(18, 18, 18);
-    font-style: normal;
-    font-weight: normal;
     letter-spacing: normal;
     text-decoration: none;
     font-family: HelveticaNeueCyr;
+    margin-bottom: 5px;
 }
 
-#textspan9 {
+.news-title h4{
+    margin: 0 auto;
     float: none;
     font-size: 0.875em;
-    line-height: 18px;
     color: rgb(18, 18, 18);
-    font-style: normal;
     font-weight: 300;
     letter-spacing: normal;
     text-decoration: none;
@@ -1289,18 +1218,11 @@
 }
 
 #top-shadow {
-    /*float: left;*/
-    width: auto;
     max-width: 100%;
-    height: auto;
-    /*color: rgb(0, 0, 0);*/
     /*position: absolute;*/
     margin: auto;
     right: 0px;
     left: 0px;
-    /*z-index: 316;*/
-    /*margin-top: 8px;*/
-    /*margin-left: 21.238456%;*/
     clear: both;
 }
 
@@ -1398,30 +1320,6 @@
     margin-right: 0%;
 }
 
-#textspan78 {
-    float: none;
-    font-size: 1.125em;
-    line-height: 16px;
-    color: rgb(18, 18, 18);
-    font-style: normal;
-    font-weight: normal;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
-#textspan79 {
-    float: none;
-    font-size: 0.875em;
-    line-height: 16px;
-    color: rgb(124, 161, 179);
-    font-style: normal;
-    font-weight: normal;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
 #Тур_Автобусный_Дни_4_Дата_тура_29_12_2014_Днепропетровс7 {
     float: left;
     font-size: 0.875em;
@@ -1484,31 +1382,6 @@
     clear: none;
     margin-right: 0%;
 }
-
-#textspan58 {
-    float: none;
-    font-size: 1.125em;
-    line-height: 18px;
-    color: rgb(255, 111, 64);
-    font-style: normal;
-    font-weight: bold;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
-#textspan59 {
-    float: none;
-    font-size: 0.875em;
-    line-height: 24px;
-    color: rgb(18, 18, 18);
-    font-style: normal;
-    font-weight: 300;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
 #arrow3 {
     float: left;
     width: auto;
@@ -1572,47 +1445,6 @@
     color: rgb(245, 247, 250);
     font-style: normal;
     font-weight: normal;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
-#textspan31 {
-    float: none;
-    font-size: 1em;
-    line-height: 1em;
-    color: rgb(124, 161, 179);
-    font-style: normal;
-    font-weight: normal;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
-.groupLink {
-    float: none;
-    font-size: 1em;
-    line-height: 1em;
-    color: rgb(255, 254, 254);
-    font-style: normal;
-    font-weight: normal;
-    letter-spacing: normal;
-    text-decoration: none;
-    margin-left: 20px;
-    font-family: HelveticaNeueCyr;
-}
-.groupLink:hover {
-    color: rgb(124, 161, 179);
-}
-
-#textspan33 {
-    float: none;
-    font-size: 1em;
-    line-height: 1em;
-    color: rgb(255, 254, 254);
-    font-style: normal;
-    font-weight: normal;
-    letter-spacing: normal;
     text-decoration: none;
     font-family: HelveticaNeueCyr;
 }
@@ -1633,66 +1465,6 @@
     margin-left: 4.462723%;
     clear: none;
     margin-right: 0%;
-}
-
-#textspan20 {
-    float: none;
-    font-size: 1.125em;
-    line-height: 18px;
-    color: rgb(255, 111, 64);
-    font-style: normal;
-    font-weight: 900;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
-#textspan21 {
-    float: none;
-    font-size: 1.125em;
-    line-height: 20px;
-    color: rgb(255, 111, 64);
-    font-style: normal;
-    font-weight: 900;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
-#textspan22 {
-    float: none;
-    font-size: 0.625em;
-    line-height: 18px;
-    color: rgb(153, 153, 153);
-    font-style: normal;
-    font-weight: normal;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
-#textspan23 {
-    float: none;
-    font-size: 0.875em;
-    line-height: 24px;
-    color: rgb(18, 18, 18);
-    font-style: normal;
-    font-weight: 300;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
-#textspan24 {
-    float: none;
-    font-size: 0.875em;
-    line-height: 18px;
-    color: rgb(18, 18, 18);
-    font-style: normal;
-    font-weight: 300;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
 }
 
 #username {
@@ -1717,6 +1489,7 @@
     clear: none;
     /*margin-right: 0%;*/
 }
+
 .scroll-text {
     background: url("../img/scroll.png") no-repeat left center;
     display: table-cell;
@@ -1729,7 +1502,6 @@
     line-height: 14px;
     color: rgb(255, 255, 255);
     font-style: normal;
-    letter-spacing: normal;
     text-decoration: none;
     font-family: HelveticaNeueCyr;
     text-shadow: rgba(0, 0, 0, 0.74902) 0px 1px 1px;
@@ -1799,30 +1571,6 @@
     margin-right: 0%;
 }
 
-#textspan70 {
-    float: none;
-    font-size: 1.125em;
-    line-height: 16px;
-    color: rgb(18, 18, 18);
-    font-style: normal;
-    font-weight: normal;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
-#textspan71 {
-    float: none;
-    font-size: 0.875em;
-    line-height: 16px;
-    color: rgb(124, 161, 179);
-    font-style: normal;
-    font-weight: normal;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
 #bg3 {
     float: left;
     height: 974px;
@@ -1853,30 +1601,6 @@
     margin-left: 2.051461%;
     clear: both;
     margin-right: 0%;
-}
-
-#textspan56 {
-    float: none;
-    font-size: 1.125em;
-    line-height: 18px;
-    color: rgb(255, 111, 64);
-    font-style: normal;
-    font-weight: bold;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
-#textspan57 {
-    float: none;
-    font-size: 0.875em;
-    line-height: 24px;
-    color: rgb(18, 18, 18);
-    font-style: normal;
-    font-weight: 300;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
 }
 
 #Тур_Автобусный_Дни_4_Дата_тура_29_12_2014_Днепропетровс5 {
@@ -1955,30 +1679,6 @@
     margin-right: 0%;
 }
 
-#textspan44 {
-    float: none;
-    font-size: 1.125em;
-    line-height: 18px;
-    color: rgb(255, 111, 64);
-    font-style: normal;
-    font-weight: bold;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
-#textspan45 {
-    float: none;
-    font-size: 0.875em;
-    line-height: 24px;
-    color: rgb(18, 18, 18);
-    font-style: normal;
-    font-weight: 300;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
 .groups {
     text-align: center;
     margin-top: 50px;
@@ -1996,87 +1696,6 @@
     /*margin: auto;*/
     /*text-align: center;*/
     /*vertical-align: middle;*/
-}
-.groupLinks{
-    display: inline-block;
-    vertical-align: middle;
-    color: rgb(255, 254, 254);
-}
-.new {
-    float: left;
-    font-size: 1em;
-    width: 250px;
-    height: auto;
-    text-align: center;
-    font-weight: normal;
-    line-height: 1em;
-    /*position: relative;*/
-    /*top: 0px;*/
-    /*left: 0px;*/
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 5%;
-    clear: none;
-}
-
-#textspan15 {
-    float: none;
-    font-size: 1.125em;
-    line-height: 18px;
-    color: rgb(255, 111, 64);
-    font-style: normal;
-    font-weight: 900;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
-#textspan16 {
-    float: none;
-    font-size: 1.125em;
-    line-height: 20px;
-    color: rgb(255, 111, 64);
-    font-style: normal;
-    font-weight: 900;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
-#textspan17 {
-    float: none;
-    font-size: 0.625em;
-    line-height: 18px;
-    color: rgb(153, 153, 153);
-    font-style: normal;
-    font-weight: normal;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
-#textspan18 {
-    float: none;
-    font-size: 0.875em;
-    line-height: 24px;
-    color: rgb(18, 18, 18);
-    font-style: normal;
-    font-weight: 300;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
-#textspan19 {
-    float: none;
-    font-size: 0.875em;
-    line-height: 18px;
-    color: rgb(18, 18, 18);
-    font-style: normal;
-    font-weight: 300;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
 }
 
 /*#scroll {*/
@@ -2215,35 +1834,9 @@
     margin-right: 0%;
 }
 
-#textspan62 {
-    float: none;
-    font-size: 1.125em;
-    line-height: 16px;
-    color: rgb(18, 18, 18);
-    font-style: normal;
-    font-weight: normal;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
-#textspan63 {
-    float: none;
-    font-size: 0.875em;
-    line-height: 16px;
-    color: rgb(124, 161, 179);
-    font-style: normal;
-    font-weight: normal;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
 #Тур_Автобусный_Дни_4_Дата_тура_29_12_2014_Днепропетровс4 {
     float: left;
     font-size: 0.875em;
-    width: auto;
-    height: auto;
     text-align: left;
     font-weight: normal;
     line-height: 16px;
@@ -2265,8 +1858,6 @@
 #Развлечения {
     float: left;
     font-size: 3em;
-    width: auto;
-    height: auto;
     text-align: left;
     font-weight: normal;
     line-height: 1em;
@@ -2287,8 +1878,6 @@
 #Вегетарианское_кафе_во_Львове_Украина_Львов1 {
     float: left;
     font-size: 1em;
-    width: auto;
-    height: auto;
     text-align: center;
     font-weight: normal;
     line-height: 1em;
@@ -2302,29 +1891,6 @@
     margin-right: 0%;
 }
 
-#textspan42 {
-    float: none;
-    font-size: 1.125em;
-    line-height: 18px;
-    color: rgb(255, 111, 64);
-    font-style: normal;
-    font-weight: bold;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
-#textspan43 {
-    float: none;
-    font-size: 0.875em;
-    line-height: 24px;
-    color: rgb(18, 18, 18);
-    font-style: normal;
-    font-weight: 300;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
 
 #arrow1 {
     float: left;
@@ -2367,24 +1933,11 @@
     color: rgb(255, 111, 64)!important;
     font-style: normal;
     font-weight: 900;
-    letter-spacing: normal;
     text-decoration: none;
     font-family: HelveticaNeueCyr;
 }
 .new-title:hover {
     color: rgb(124, 161, 179)!important;
-}
-
-#textspan11 {
-    float: none;
-    font-size: 1.125em;
-    line-height: 20px;
-    color: rgb(255, 111, 64);
-    font-style: normal;
-    font-weight: 900;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
 }
 
 .new-date {
@@ -2406,19 +1959,6 @@
     color: rgb(18, 18, 18);
     font-style: normal;
     font-weight: 300;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
-#textspan14 {
-    float: none;
-    font-size: 0.875em;
-    line-height: 18px;
-    color: rgb(18, 18, 18);
-    font-style: normal;
-    font-weight: 300;
-    letter-spacing: normal;
     text-decoration: none;
     font-family: HelveticaNeueCyr;
 }
@@ -2443,8 +1983,6 @@
 #Нет_что-то_другое {
     float: left;
     font-size: 1em;
-    width: auto;
-    height: auto;
     text-align: center;
     font-weight: normal;
     line-height: 1em;
@@ -2470,48 +2008,17 @@
     font-family: HelveticaNeueCyr;
 }
 
-#textspan6 {
-    float: none;
-    font-size: 1.5em;
-    line-height: 1em;
-    color: rgb(255, 255, 255);
-    font-style: normal;
-    font-weight: normal;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
-#textspan7 {
-    float: none;
-    font-size: 1.125em;
-    line-height: 1em;
-    color: rgb(255, 255, 255);
-    font-style: italic;
-    font-weight: normal;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: georgia;
-}
-
 #big-preview-img {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    /*float: left;*/
     width: 100%;
     height: 100%;
     min-height: 850px;
     display: block;
-    /*color: rgb(0, 0, 0);*/
-    /*position: absolute;*/
-    /*top: 0px;*/
-    /*left: 0px;*/
     z-index: 297;
-    background: url("../img/big-preview-img.jpg") no-repeat;
-    /*-webkit-background-size: 100%;*/
-    /*background-size: 100%;*/
+    background: url("../img/big-preview-img.jpg") no-repeat center;
 }
 
 #small-preview-img5 {
@@ -2546,14 +2053,11 @@
 #Новый_год_во_Львове5 {
     float: left;
     font-size: 1.5em;
-    width: auto;
-    height: auto;
     text-align: left;
     font-weight: normal;
     line-height: 1em;
     color: rgb(255, 111, 64);
     font-style: normal;
-    letter-spacing: normal;
     text-decoration: none;
     font-family: HelveticaNeueCyr;
     position: relative;
@@ -2582,30 +2086,6 @@
     margin-left: 63.125565%;
     clear: both;
     margin-right: 0%;
-}
-
-#textspan54 {
-    float: none;
-    font-size: 1.125em;
-    line-height: 16px;
-    color: rgb(18, 18, 18);
-    font-style: normal;
-    font-weight: normal;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
-#textspan55 {
-    float: none;
-    font-size: 0.875em;
-    line-height: 16px;
-    color: rgb(124, 161, 179);
-    font-style: normal;
-    font-weight: normal;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
 }
 
 #Подробнее1 {
@@ -2770,81 +2250,6 @@ a.recLink:hover {
     /*margin-right: 0%;*/
 }
 
-#yes-btn {
-    float: left;
-    width: 11.452369%;
-    /*height: 57px;*/
-    /*color: rgb(0, 0, 0);*/
-    /*position: relative;*/
-    /*top: 0px;*/
-    /*left: 0px;*/
-    /*z-index: 304;*/
-    /*background-image: url("img/yes-btn.png");*/
-    /*-webkit-background-size: 100%;*/
-    /*background-size: 100%;*/
-    /*margin-top: 76px;*/
-    /*margin-left: 3.800104%;*/
-    /*clear: none;*/
-}
-
-.yes-btn {
-    float: left;
-    font-size: 1em;
-    width: auto;
-    height: auto;
-    text-align: center;
-    font-weight: normal;
-    line-height: 1em;
-    text-shadow: rgba(0, 0, 0, 0.74902) 1px 1px 2px;
-    z-index: 101;
-    margin-top: 17px;
-    margin-left: 35px;
-    padding: 10px;
-    background-color: #ff6f40;
-    -webkit-border-radius: 6px;
-    -moz-border-radius: 6px;
-    border-radius: 6px;
-    -webkit-box-shadow: 0px 2px 2px 0px rgba(239, 98, 52, 1);
-    -moz-box-shadow:    0px 2px 2px 0px rgba(239, 98, 52, 1);
-    box-shadow:         0px 2px 2px 0px rgba(239, 98, 52, 1);
-    clear: none;
-}
-.yes-btn:hover {
-    margin-top: 19px;
-    margin-bottom: -2px;
-    -webkit-box-shadow: none;
-    -moz-box-shadow:    none;
-    box-shadow:         none;
-}
-.no-btn {
-    float: left;
-    font-size: 1em;
-    width: auto;
-    height: auto;
-    text-align: center;
-    font-weight: normal;
-    line-height: 1em;
-    text-shadow: rgba(0, 0, 0, 0.74902) 1px 1px 2px;
-    margin-top: 17px;
-    margin-left: 35px;
-    padding: 10px;
-    background-color: #121212;
-    -webkit-border-radius: 6px;
-    -moz-border-radius: 6px;
-    border-radius: 6px;
-    -webkit-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 1);
-    -moz-box-shadow:    0px 2px 2px 0px rgba(0, 0, 0, 1);
-    box-shadow:         0px 2px 2px 0px rgba(0, 0, 0, 1);
-    clear: none;
-}
-.no-btn:hover {
-    margin-top: 19px;
-    margin-bottom: -2px;
-    -webkit-box-shadow: none;
-    -moz-box-shadow:    none;
-    box-shadow:         none;
-}
-
 #textspan2 {
     float: none;
     font-size: 1.5em;
@@ -2856,31 +2261,6 @@ a.recLink:hover {
     text-decoration: none;
     font-family: HelveticaNeueCyr;
 }
-
-#textspan3 {
-    float: none;
-    font-size: 1.5em;
-    line-height: 1em;
-    color: rgb(255, 255, 255);
-    font-style: normal;
-    font-weight: normal;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
-#textspan4 {
-    float: none;
-    font-size: 1.125em;
-    line-height: 1em;
-    color: rgb(255, 255, 255);
-    font-style: italic;
-    font-weight: normal;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: georgia;
-}
-
 #small-preview-img4 {
     float: left;
     width: auto;
@@ -2988,30 +2368,6 @@ a.recLink:hover {
     margin-right: 0%;
 }
 
-#textspan46 {
-    float: none;
-    font-size: 1.125em;
-    line-height: 16px;
-    color: rgb(18, 18, 18);
-    font-style: normal;
-    font-weight: normal;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
-#textspan47 {
-    float: none;
-    font-size: 0.875em;
-    line-height: 16px;
-    color: rgb(124, 161, 179);
-    font-style: normal;
-    font-weight: normal;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
 #Тур_Автобусный_Дни_4_Дата_тура_29_12_2014_Днепропетровс1 {
     float: left;
     font-size: 0.875em;
@@ -3036,10 +2392,7 @@ a.recLink:hover {
 }
 
 h1.groupTitle {
-    /*float: left;*/
     font-size: 3em;
-    width: auto;
-    height: auto;
     text-align: left;
     font-weight: normal;
     line-height: 1em;
@@ -3048,12 +2401,7 @@ h1.groupTitle {
     letter-spacing: normal;
     text-decoration: none;
     font-family: HelveticaNeueCyr;
-    /*position: relative;*/
-    /*top: 0px;*/
-    /*left: 0px;*/
-    /*z-index: 267;*/
     margin-top: 58px;
-    /*margin-left: 25%;*/
     clear: none;
 }
 
@@ -3156,59 +2504,9 @@ h1.groupTitle {
     margin-right: 0%;
 }
 
-#textspan50 {
-    float: none;
-    font-size: 1.125em;
-    line-height: 16px;
-    color: rgb(18, 18, 18);
-    font-style: normal;
-    font-weight: normal;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
-#textspan51 {
-    float: none;
-    font-size: 1.5em;
-    line-height: 16px;
-    color: rgb(18, 18, 18);
-    font-style: normal;
-    font-weight: normal;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
-#textspan52 {
-    float: none;
-    font-size: 1.125em;
-    line-height: 16px;
-    color: rgb(18, 18, 18);
-    font-style: normal;
-    font-weight: normal;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
-#textspan53 {
-    float: none;
-    font-size: 0.875em;
-    line-height: 16px;
-    color: rgb(18, 18, 18);
-    font-style: normal;
-    font-weight: normal;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
 #Новый_год_во_Львове2 {
     float: left;
     font-size: 1.5em;
-    width: auto;
-    height: auto;
     text-align: left;
     font-weight: normal;
     line-height: 1em;
@@ -3230,8 +2528,6 @@ h1.groupTitle {
 #От_13_000_грн_ {
     float: left;
     font-size: 1em;
-    width: auto;
-    height: auto;
     text-align: left;
     font-weight: normal;
     line-height: 1em;
@@ -3243,30 +2539,6 @@ h1.groupTitle {
     margin-left: 63.125565%;
     clear: both;
     margin-right: 0%;
-}
-
-#textspan38 {
-    float: none;
-    font-size: 1.125em;
-    line-height: 16px;
-    color: rgb(18, 18, 18);
-    font-style: normal;
-    font-weight: normal;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
-#textspan39 {
-    float: none;
-    font-size: 0.875em;
-    line-height: 16px;
-    color: rgb(124, 161, 179);
-    font-style: normal;
-    font-weight: normal;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
 }
 
 #Подробнее {
@@ -3378,8 +2650,6 @@ span.arr {
 #Новый_год_во_Львове3 {
     float: left;
     font-size: 1.5em;
-    width: auto;
-    height: auto;
     text-align: left;
     font-weight: bold;
     line-height: 1em;
@@ -3415,8 +2685,6 @@ span.arr {
 #Новый_год_во_Львове1 {
     float: left;
     font-size: 1.5em;
-    width: auto;
-    height: auto;
     text-align: left;
     font-weight: normal;
     line-height: 1em;
@@ -3436,10 +2704,8 @@ span.arr {
 }
 
 .tourDescription {
-    /*float: left;*/
     display: block;
     font-size: 0.875em;
-    /*text-align: left;*/
     font-weight: normal;
     line-height: 16px;
     color: rgb(18, 18, 18);
@@ -3521,33 +2787,9 @@ span.arr {
     clear: none;
 }
 
-#textspan34 {
-    float: none;
-    font-size: 1.125em;
-    line-height: 16px;
-    color: rgb(18, 18, 18);
-    font-style: normal;
-    font-weight: normal;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
 .boldPrice {
     float: none;
     font-size: 1.5em;
-    line-height: 16px;
-    color: rgb(18, 18, 18);
-    font-style: normal;
-    font-weight: normal;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
-#textspan36 {
-    float: none;
-    font-size: 1.125em;
     line-height: 16px;
     color: rgb(18, 18, 18);
     font-style: normal;
@@ -3640,10 +2882,11 @@ img.groupMainPreview{
 img.groupSubPreview{
     width: 418px;
 }
-span.tourTitle{
+h2.tourTitle{
     display: block;
     padding-top: 10px;
-    margin-left: 15px;
+    margin: 0 0 0 15px;
+    font-size: 1em;
 }
 
 #main-block-border {
@@ -3764,14 +3007,11 @@ span.tourTitle{
 #Новый_год_во_Львове6 {
     float: left;
     font-size: 1.5em;
-    width: auto;
-    height: auto;
     text-align: left;
     font-weight: bold;
     line-height: 1em;
     color: rgb(255, 111, 64);
     font-style: normal;
-    letter-spacing: normal;
     text-decoration: none;
     font-family: HelveticaNeueCyr;
     position: relative;
@@ -3787,14 +3027,11 @@ span.tourTitle{
 #Тур_Автобусный_Дни_4_Дата_тура_29_12_2014_Днепропетровс6 {
     float: left;
     font-size: 0.875em;
-    width: auto;
-    height: auto;
     text-align: left;
     font-weight: normal;
     line-height: 16px;
     color: rgb(18, 18, 18);
     font-style: normal;
-    letter-spacing: normal;
     text-decoration: none;
     font-family: HelveticaNeueCyr;
     position: relative;
@@ -3835,8 +3072,6 @@ span.tourTitle{
 #От_13_000_грн_Актуальная_стоимость_тура_формируется_в_корзи2 {
     float: left;
     font-size: 1em;
-    width: auto;
-    height: auto;
     text-align: left;
     font-weight: normal;
     line-height: 1em;
@@ -3848,54 +3083,6 @@ span.tourTitle{
     margin-left: 0%;
     clear: none;
     margin-right: 0%;
-}
-
-#textspan66 {
-    float: none;
-    font-size: 1.125em;
-    line-height: 16px;
-    color: rgb(18, 18, 18);
-    font-style: normal;
-    font-weight: normal;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
-#textspan67 {
-    float: none;
-    font-size: 1.5em;
-    line-height: 16px;
-    color: rgb(18, 18, 18);
-    font-style: normal;
-    font-weight: normal;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
-#textspan68 {
-    float: none;
-    font-size: 1.125em;
-    line-height: 16px;
-    color: rgb(18, 18, 18);
-    font-style: normal;
-    font-weight: normal;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
-#textspan69 {
-    float: none;
-    font-size: 0.875em;
-    line-height: 16px;
-    color: rgb(18, 18, 18);
-    font-style: normal;
-    font-weight: normal;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
 }
 
 #maincolor2 {
@@ -3939,8 +3126,6 @@ span.tourTitle{
 #Подробнее2 {
     float: left;
     font-size: 1.125em;
-    width: auto;
-    height: auto;
     text-align: left;
     font-weight: normal;
     line-height: 1em;
@@ -4085,12 +3270,18 @@ div.tour {
 }
 
 .news-block {
-    /*float: left;*/
-    /*height: auto;*/
-    /*margin-left: 26.041336%;*/
-    /*margin-top: 23px;*/
-    /*clear: both;*/
     width: 100%;
+}
+
+.news-block article{
+    float: left;
+    font-size: 1em;
+    width: 250px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 5%;
+    clear: none;
 }
 
 .scroll {
@@ -4103,18 +3294,6 @@ div.tour {
     margin-top: 180px;
     /*clear: both;*/
     /*width: 4.006243%;*/
-}
-
-.navigate {
-    display: block;
-    position: fixed;
-    text-align: center;
-    left: 0px;
-    right: 0px;
-    margin: auto;
-    clear: none;
-    width: 100%;
-
 }
 
 .user {
@@ -4147,41 +3326,11 @@ div.tour {
     border-bottom: 1px solid rgba(0,0,0, 0.1);
     padding-bottom: 28px;
 }
-.navLinks{
-    display: inline-block;
-    font-size: 1em;
-    text-align: center;
-    font-weight: 300;
-    line-height: 1em;
-    color: rgb(255, 255, 255);
-    font-style: normal;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-    z-index: 324;
-    margin-top: 40px;
-    clear: none;
-}
-.navLink{
-    margin-left: 25px;
-    padding-bottom: 44px;
-}
-.navLink:hover{
-    padding-bottom: 41px;
-    border-bottom: 3px solid rgba(255,255,255, 0.5);
-}
 .wish{
     left: 0;
     right: 0;
     margin: auto;
     text-align: center;
-}
-.buttons{
-    z-index: 100;
-    left:0;
-    right: 0;
-    width: 410px;
-    margin: auto;
 }
 .middleHelper{
     display:inline-block;

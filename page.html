@@ -6,23 +6,26 @@
     <link rel="stylesheet" href="css/page.css">
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0">
+    <!--[if IE]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
 </head>
 <body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script src="js/common.js"></script>
 
-<div id="primaryContainer" class="primaryContainer clearfix">
+<div class="primaryContainer clearfix">
     <div id="big-preview-img" class="clearfix">
-        <div id="navigate" class="navigate clearfix">
+        <header>
             <div id="bar">
                 <img id="small-logo" src="img/small-logo.png" class="image"/>
 
-                <div class="navLinks">
-                    <a href="#" class="navLink">Главная</a>
-                    <a href="#" class="navLink">Туры</a>
-                    <a href="#" class="navLink">Галерея</a>
-                    <a href="#" class="navLink">Контакты</a>
-                </div>
+                <nav>
+                    <a href="#">Главная</a>
+                    <a href="#">Туры</a>
+                    <a href="#">Галерея</a>
+                    <a href="#">Контакты</a>
+                </nav>
                 <img src="img/separator.png" class="separator"/>
 
                 <div class="profile">
@@ -35,7 +38,7 @@
                 <a href="#"><img id="Searching" src="img/Searching.png" class="image"/></a>
             </div>
             <img id="top-shadow" src="img/top-shadow.png" class="image"/>
-        </div>
+        </header>
 
         <div class="wish">
             <img id="big-logo" src="img/big-logo.png" class="image"/>
@@ -46,11 +49,10 @@
 
             <div class="buttons clearfix">
                 <a href="#" class="yes-btn">
-                    <span id="textspan2">Да,</span><span id="textspan3"> </span><span id="textspan4">Я хочу&#x21;</span>
+                    <span id="textspan2">Да,</span> <span> Я хочу&#x21;</span>
                 </a>
                 <a href="#" class="no-btn">
-                    <span id="textspan5">Нет,</span><span id="textspan6"> </span><span
-                        id="textspan7">что-то другое</span>
+                    <span id="textspan5">Нет,</span> <span> что-то другое</span>
                 </a>
             </div>
         </div>
@@ -61,48 +63,38 @@
     </div>
     <div class="news clearfix">
         <div class="news-title">
-            <p>
-                <span id="textspan8">Новости<br/></span><span id="textspan9">будь в курсе всех событий</span>
-            </p>
+                <h3>Новости</h3><h4>будь в курсе всех событий</h4>
         </div>
         <div class="news-block clearfix">
-            <div class="new">
-                <p>
+            <article>
                     <a href="#" class="new-title">Туроператор &quot;OpenGeorgia&quot;<br/></a>
                     <span class="new-date">11.02.2015<br/></span>
                     <span class="new-content">Мы являемся первым профильным туристическим оператором по Грузии в Украине.</span>
-                </p>
-            </div>
-            <div class="new">
-                <p>
+            </article>
+            <article>
                     <a href="#" class="new-title">Туроператор &quot;OpenGeorgia&quot;<br/></a>
                     <span class="new-date">11.02.2015<br/></span>
                     <span class="new-content">Мы являемся первым профильным туристическим оператором по Грузии в Украине.</span>
-                </p>
-            </div>
-            <div class="new">
-                <p>
+            </article>
+            <article>
                     <a href="#" class="new-title">Туроператор &quot;OpenGeorgia&quot;<br/></a>
                     <span class="new-date">11.02.2015<br/></span>
                     <span class="new-content">Мы являемся первым профильным туристическим оператором по Грузии в Украине.</span>
-                </p>
-            </div>
-            <div class="new">
-                <p>
+            </article>
+            <article>
                     <a href="#" class="new-title">Туроператор &quot;OpenGeorgia&quot;<br/></a>
                     <span class="new-date">11.02.2015<br/></span>
                     <span class="new-content">Мы являемся первым профильным туристическим оператором по Грузии в Украине.</span>
-                </p>
-            </div>
+            </article>
         </div>
     </div>
     <div class="groups-bg clearfix">
         <div class="groups clearfix">
             <div class="groupLinks">
                 <span id="textspan30">Туры&#x3a;</span>
-                <a href="#" class="groupLink">гастрономические</a>
-                <a href="#" class="groupLink">развлечения</a>
-                <a href="#" class="groupLink">шопинг</a>
+                <a href="#">гастрономические</a>
+                <a href="#">развлечения</a>
+                <a href="#">шопинг</a>
             </div>
             <div class="middleHelper"></div>
         </div>
@@ -123,7 +115,7 @@
             <div class="tour clearfix">
                 <div class="tourName">
                     <img src="img/main-preview-image.jpg" class="groupMainPreview image">
-                    <span class="tourTitle">Новый год во Львове</span>
+                    <h2 class="tourTitle">Новый год во Львове</h2>
                 </div>
 
                 <div class="tourInfo">
@@ -174,7 +166,7 @@
             <div class="tour clearfix">
                 <div class="tourName">
                     <img src="img/small-preview-img.jpg" class="groupSubPreview image">
-                    <span class="tourTitle">Новый год во Львове</span>
+                    <h2 class="tourTitle">Новый год во Львове</h2>
                 </div>
                 <div class="tourInfo">
                     <p class="tourDescription">
@@ -196,7 +188,7 @@
             <div class="tour clearfix">
                 <div class="tourName">
                     <img src="img/small-preview-img.jpg" class="groupSubPreview image">
-                    <span class="tourTitle">Новый год во Львове</span>
+                    <h2 class="tourTitle">Новый год во Львове</h2>
                 </div>
                 <div class="tourInfo">
                     <p class="tourDescription">
@@ -223,7 +215,7 @@
     <div class="groups-bg clearfix">
         <div class="centerbox">
             <p class="consultLinks">
-                <span id="textspan48">Подпишитесь на нашу рассылку<br/></span><span id="textspan49">будьте в курсе интересных предложений и горящих туров</span>
+                <span class="subscribe-title">Подпишитесь на нашу рассылку<br/></span>будьте в курсе интересных предложений и горящих туров
             </p>
 
             <form class="mailform">
@@ -243,7 +235,7 @@
             <div class="tour clearfix">
                 <div class="tourName">
                     <img src="img/main-preview-image.jpg" class="groupMainPreview image">
-                    <span class="tourTitle">Новый год во Львове</span>
+                    <h2 class="tourTitle">Новый год во Львове</h2>
                 </div>
 
                 <div class="tourInfo">
@@ -294,7 +286,7 @@
             <div class="tour clearfix">
                 <div class="tourName">
                     <img src="img/small-preview-img.jpg" class="groupSubPreview image">
-                    <span class="tourTitle">Новый год во Львове</span>
+                    <h2 class="tourTitle">Новый год во Львове</h2>
                 </div>
                 <div class="tourInfo">
                     <p class="tourDescription">
@@ -316,7 +308,7 @@
             <div class="tour clearfix">
                 <div class="tourName">
                     <img src="img/small-preview-img.jpg" class="groupSubPreview image">
-                    <span class="tourTitle">Новый год во Львове</span>
+                    <h2 class="tourTitle">Новый год во Львове</h2>
                 </div>
                 <div class="tourInfo">
                     <p class="tourDescription">
@@ -343,7 +335,7 @@
     <div class="groups-bg clearfix">
         <div class="centerbox">
             <p class="consultLinks">
-                <span id="textspan48">Подпишитесь на нашу рассылку<br/></span><span id="textspan49">будьте в курсе интересных предложений и горящих туров</span>
+                <span class="subscribe-title">Подпишитесь на нашу рассылку<br/></span>будьте в курсе интересных предложений и горящих туров
             </p>
 
             <form class="mailform">
@@ -363,7 +355,7 @@
         <div class="tour clearfix">
             <div class="tourName">
                 <img src="img/main-preview-image.jpg" class="groupMainPreview image">
-                <span class="tourTitle">Новый год во Львове</span>
+                <h2 class="tourTitle">Новый год во Львове</h2>
             </div>
 
             <div class="tourInfo">
@@ -414,7 +406,7 @@
         <div class="tour clearfix">
             <div class="tourName">
                 <img src="img/small-preview-img.jpg" class="groupSubPreview image">
-                <span class="tourTitle">Новый год во Львове</span>
+                <h2 class="tourTitle">Новый год во Львове</h2>
             </div>
             <div class="tourInfo">
                 <p class="tourDescription">
@@ -436,7 +428,7 @@
         <div class="tour clearfix">
             <div class="tourName">
                 <img src="img/small-preview-img.jpg" class="groupSubPreview image">
-                <span class="tourTitle">Новый год во Львове</span>
+                <h2 class="tourTitle">Новый год во Львове</h2>
             </div>
             <div class="tourInfo">
                 <p class="tourDescription">
