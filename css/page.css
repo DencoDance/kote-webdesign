@@ -257,41 +257,6 @@ nav a:hover{
     margin-right: 0%;
 }
 
-#textspan100 {
-    float: none;
-    font-size: 1.125em;
-    line-height: 18px;
-    color: rgb(254, 254, 254);
-    font-style: normal;
-    font-weight: normal;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
-#textspan101 {
-    float: none;
-    font-size: 0.875em;
-    line-height: 24px;
-    color: rgb(255, 255, 255);
-    font-style: normal;
-    font-weight: 300;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
-#textspan102 {
-    float: none;
-    font-size: 0.875em;
-    line-height: 18px;
-    color: rgb(255, 255, 255);
-    font-style: normal;
-    font-weight: 300;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
 #about {
     float: left;
     font-size: 0.75em;
@@ -320,7 +285,7 @@ nav a:hover{
     *zoom: 1;
 }
 
-#Консультант_38_097-815-68-38_38_050-774-99-18_38_063-796-25 {
+#contacts {
     float: left;
     font-size: 1em;
     width: auto;
@@ -338,136 +303,29 @@ nav a:hover{
     margin-right: 0%;
 }
 
-#textspan89 {
-    float: none;
+#contacts h5{
+    margin-top: 0;
+    font-weight: lighter;
     font-size: 1.125em;
-    line-height: 18px;
+    margin-bottom: 0.7em;
     color: rgb(254, 254, 254);
-    font-style: normal;
-    font-weight: normal;
-    letter-spacing: normal;
-    text-decoration: none;
     font-family: HelveticaNeueCyr;
 }
 
-#textspan90 {
-    float: none;
+.mail {
     font-size: 0.875em;
-    line-height: 24px;
     color: rgb(255, 255, 255);
-    font-style: normal;
-    font-weight: 300;
-    letter-spacing: normal;
-    text-decoration: none;
     font-family: HelveticaNeueCyr;
 }
 
-#textspan91 {
-    float: none;
+.phone {
     font-size: 0.875em;
-    line-height: 24px;
+    color: rgb(255, 255, 255);
+    font-family: HelveticaNeueCyr;
+}
+
+.phone-code {
     color: rgb(255, 111, 64);
-    font-style: normal;
-    font-weight: 300;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
-#textspan92 {
-    float: none;
-    font-size: 0.875em;
-    line-height: 24px;
-    color: rgb(255, 255, 255);
-    font-style: normal;
-    font-weight: 300;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
-#textspan93 {
-    float: none;
-    font-size: 0.875em;
-    line-height: 14px;
-    color: rgb(255, 255, 255);
-    font-style: normal;
-    font-weight: 300;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
-#textspan94 {
-    float: none;
-    font-size: 0.875em;
-    line-height: 14px;
-    color: rgb(255, 111, 64);
-    font-style: normal;
-    font-weight: 300;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
-#textspan95 {
-    float: none;
-    font-size: 0.875em;
-    line-height: 14px;
-    color: rgb(255, 255, 255);
-    font-style: normal;
-    font-weight: 300;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
-#textspan96 {
-    float: none;
-    font-size: 0.875em;
-    line-height: 14px;
-    color: rgb(255, 111, 64);
-    font-style: normal;
-    font-weight: 300;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
-#textspan97 {
-    float: none;
-    font-size: 0.875em;
-    line-height: 14px;
-    color: rgb(255, 255, 255);
-    font-style: normal;
-    font-weight: 300;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
-#textspan98 {
-    float: none;
-    font-size: 0.875em;
-    line-height: 14px;
-    color: rgb(255, 111, 64);
-    font-style: normal;
-    font-weight: 300;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
-#textspan99 {
-    float: none;
-    font-size: 0.875em;
-    line-height: 14px;
-    color: rgb(255, 255, 255);
-    font-style: normal;
-    font-weight: 300;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
 }
 
 footer {
@@ -666,6 +524,7 @@ footer {
 }
 
 #Следи_за_нами_ {
+    margin-left: -255px;
     float: left;
     font-size: 0.875em;
     width: auto;
@@ -679,11 +538,8 @@ footer {
     text-decoration: none;
     font-family: HelveticaNeueCyr;
     position: relative;
-    top: 0px;
-    left: 0px;
     z-index: 20;
     margin-top: 29px;
-    margin-left: -69.098573%;
     clear: none;
     margin-right: 0%;
 }
