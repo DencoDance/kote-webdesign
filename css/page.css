@@ -148,27 +148,6 @@ nav a:hover{
     min-width: 930px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #©_2015_kote_dp_ua_Все_права_защищены {
     float: left;
     font-size: 1em;
@@ -340,23 +319,6 @@ footer {
 }
 
 
-#Следите_за_нами_14_579_ {
-    float: left;
-    font-size: 1em;
-    width: auto;
-    height: auto;
-    text-align: left;
-    font-weight: normal;
-    line-height: 1em;
-    position: relative;
-    top: 0px;
-    left: 0px;
-    z-index: 66;
-    margin-top: 18px;
-    margin-left: -73.186873%;
-    clear: none;
-}
-
 #textspan84 {
     float: none;
     font-size: 0.875em;
@@ -523,19 +485,14 @@ footer {
     clear: both;
 }
 
-#Следи_за_нами_ {
-    margin-left: -255px;
+#follow-us {
     float: left;
+    width: 100%;
     font-size: 0.875em;
-    width: auto;
-    height: auto;
     text-align: left;
     font-weight: 300;
     line-height: 1em;
     color: rgb(255, 255, 255);
-    font-style: normal;
-    letter-spacing: normal;
-    text-decoration: none;
     font-family: HelveticaNeueCyr;
     position: relative;
     z-index: 20;
@@ -706,22 +663,6 @@ footer {
     margin-top: 12%;
     margin-left: 45%;
     clear: both;
-}
-
-#facebook {
-    float: left;
-    width: auto;
-    max-width: 100%;
-    height: auto;
-    color: rgb(0, 0, 0);
-    position: relative;
-    top: 0px;
-    left: 0px;
-    z-index: 17;
-    margin-top: 18px;
-    margin-left: 3.270335%;
-    clear: none;
-    margin-right: 0%;
 }
 
 #youtube-ico {
@@ -1023,22 +964,6 @@ footer {
     clear: both;
 }
 
-#google {
-    float: left;
-    width: auto;
-    max-width: 100%;
-    height: auto;
-    color: rgb(0, 0, 0);
-    position: relative;
-    top: 0px;
-    left: 0px;
-    z-index: 18;
-    margin-top: 18px;
-    margin-left: 3.270335%;
-    clear: none;
-    margin-right: 0%;
-}
-
 #Главная_Туры_Галерея_Контакты1 {
     float: left;
     font-size: 0.875em;
@@ -1138,28 +1063,6 @@ footer {
     margin-left: -100%;
     clear: none;
     margin-right: 0%;
-}
-
-#Шопинг {
-    float: left;
-    font-size: 3em;
-    width: auto;
-    height: auto;
-    text-align: left;
-    font-weight: normal;
-    line-height: 1em;
-    color: rgb(18, 18, 18);
-    font-style: normal;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-    position: relative;
-    top: 0px;
-    left: 0px;
-    z-index: 129;
-    margin-top: 58px;
-    margin-left: 25%;
-    clear: none;
 }
 
 #Вегетарианское_кафе_во_Львове_Украина_Львов4 {
@@ -1311,19 +1214,30 @@ footer {
     clear: both;
 }
 
-#twitter {
-    float: left;
-    width: auto;
-    max-width: 100%;
-    height: auto;
-    color: rgb(0, 0, 0);
+#google {
     position: relative;
-    top: 0px;
-    left: 0px;
+    z-index: 18;
+    margin-top: 18px;
+}
+
+#facebook {
+    position: relative;
+    z-index: 17;
+    margin-top: 18px;
+}
+
+#twitter {
+    position: relative;
     z-index: 19;
     margin-top: 18px;
-    margin-left: 34.111543%;
-    clear: both;
+}
+
+.image-icons {
+    float: left;
+    display: block;
+    max-width: 100%;
+    margin-left: 3%;
+    clear: none;
     margin-right: 0%;
 }
 
