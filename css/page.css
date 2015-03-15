@@ -145,7 +145,7 @@ nav a:hover{
     margin: 0 auto;
     padding-top: 40px;
     width: 80%;
-    min-width: 900px;
+    min-width: 930px;
 }
 
 
@@ -292,41 +292,32 @@ nav a:hover{
     font-family: HelveticaNeueCyr;
 }
 
-#Туристический_оператор_«КОТЭ»_предлагает_Вам_воспользоваться_са {
+#about {
     float: left;
     font-size: 0.75em;
     text-align: left;
     font-weight: 300;
     line-height: 16px;
     color: rgb(153, 153, 153);
-    font-style: normal;
-    letter-spacing: normal;
     text-decoration: none;
     font-family: HelveticaNeueCyr;
     position: relative;
     top: 0px;
     left: 0px;
     z-index: 28;
-    margin-top: 0px;
-    margin-left: 0%;
     clear: none;
     margin-right: 0%;
 }
 
 #media-bg {
-    float: left;
-    width: 100%;
     height: 605px;
-    color: rgb(0, 0, 0);
-    position: relative;
-    top: 0px;
-    left: 0px;
     z-index: 37;
     background-image: url("../img/media-bg.jpg");
     -webkit-background-size: 100%;
     background-size: 100%;
     margin-top: 20px;
     clear: both;
+    *zoom: 1;
 }
 
 #Консультант_38_097-815-68-38_38_050-774-99-18_38_063-796-25 {
@@ -479,9 +470,7 @@ nav a:hover{
     font-family: HelveticaNeueCyr;
 }
 
-#footer-bg {
-    float: left;
-    width: 99.947944%;
+footer {
     height: 244px;
     color: rgb(0, 0, 0);
     position: relative;
@@ -490,7 +479,6 @@ nav a:hover{
     z-index: 6;
     background-image: url("../img/footer-bg.jpg");
     -webkit-background-size: 100%;
-    background-size: 100%;
 }
 
 
@@ -645,6 +633,7 @@ nav a:hover{
 }
 
 .consultLinks{
+    margin-top: 50px;
     font-size: 1.125em;
     text-align: center;
     font-weight: 300;
@@ -654,12 +643,8 @@ nav a:hover{
     text-decoration: none;
     font-family: HelveticaNeueCyr;
     z-index: 281;
-    margin-top: 6px;
     clear: none;
     margin-right: 0%;
-    font-size: 1em;
-    line-height: 18px;
-    font-weight: 300;
 }
 
 .subscribe-title {
@@ -677,7 +662,7 @@ nav a:hover{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    /*clear: both;*/
+    clear: both;
 }
 
 #Следи_за_нами_ {
@@ -1679,12 +1664,7 @@ nav a:hover{
     font-weight: normal;
     line-height: 1em;
     text-shadow: rgba(0, 0, 0, 0.74902) 1px 1px 2px;
-    /*position: relative;*/
-    /*top: 0px;*/
-    /*left: 0px;*/
-    /*z-index: 312;*/
     margin-top: 97px;
-    /*margin-left: 27.849408%;*/
     clear: both;
 }
 
@@ -2529,9 +2509,7 @@ span.arr {
 .tourGroup {
     margin-left: 10%;
     margin-right: 10%;
-    /*height: 974px;*/
-    /*width: 100%;*/
-    /*background-color: rgb(255, 255, 255);*/
+    min-width: 930px;
 }
 
 .separator {
@@ -2877,28 +2855,21 @@ h2.tourTitle{
 #box23 {
     float: left;
     height: auto;
-    margin-left: 24.991256%;
-    margin-top: 45px;
-    clear: none;
-    width: 14.732031%;
+    width: 33%;
 }
 
 #box24 {
     float: left;
     height: auto;
-    margin-left: 5.051935%;
-    margin-top: 44px;
-    clear: none;
-    width: 17.559357%;
+    margin-left: 5%;
+    width: 36%;
 }
 
 #box25 {
     float: left;
     height: auto;
-    margin-left: 4.371131%;
-    margin-top: 45px;
-    clear: none;
-    width: 7.652327%;
+    margin-left: 10%;
+    width: 15%;
 }
 
 #box18 {
@@ -3200,13 +3171,6 @@ div.tour {
     /*width: 45%;*/
 }
 
-.centerbox {
-    height: auto;
-    text-align: center;
-    margin-top: 50px;
-    clear: both;
-}
-
 .news-block {
     width: 100%;
 }
@@ -3376,3 +3340,41 @@ input.mail-submit{
 form.mailform{
     margin: 30px 35% 0 35%;
 }
+/*
+@media only screen and (min-width: 480px) {
+*/
+/*
+    Здесь стили более разумных, но все еще мобильных устройств. Android, iPhone  и так далее.
+*//*
+
+
+}
+
+@media only screen and (min-width: 768px) {
+
+*/
+/*
+    Планшеты в режиме portrait.
+*//*
+
+
+}
+
+@media only screen and (min-width: 992px) {
+
+*/
+/*
+    Планшеты в режиме landscape, нетбуки, ноутбуки, десктоп.
+*//*
+
+
+}
+
+@media only screen and (min-width: 1382px) {
+*/
+/*
+    Десктоп с большими разрешениями, телевизоры.
+*//*
+
+
+}*/
