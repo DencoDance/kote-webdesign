@@ -112,6 +112,63 @@ nav a:hover{
     color: rgb(124, 161, 179);
 }
 
+.gallery-preview {
+    float: left;
+    width: 47%;
+    max-width: 100%;
+    height: auto;
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 43;
+    margin-top: 0px;
+    margin-left: 1.45%;
+    clear: none;
+    margin-right: 1.45%;
+}
+
+
+#box22 {
+    height: auto;
+    margin-left: 40%;
+    width: 59%;
+}
+
+#box21 {
+    float: left;
+    width: 40%;
+    height: auto;
+}
+
+.cont {
+    margin: 0 auto;
+    padding-top: 40px;
+    width: 80%;
+    min-width: 900px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #©_2015_kote_dp_ua_Все_права_защищены {
     float: left;
     font-size: 1em;
@@ -183,75 +240,6 @@ nav a:hover{
     z-index: 2;
 }
 
-#photo2 {
-    float: left;
-    width: auto;
-    max-width: 100%;
-    height: auto;
-    color: rgb(0, 0, 0);
-    position: relative;
-    top: 0px;
-    left: 0px;
-    z-index: 53;
-    margin-top: 10px;
-    margin-left: 1.482197%;
-    clear: none;
-    margin-right: 0%;
-}
-
-#photo1 {
-    float: left;
-    width: auto;
-    max-width: 100%;
-    height: auto;
-    color: rgb(0, 0, 0);
-    position: relative;
-    top: 0px;
-    left: 0px;
-    z-index: 58;
-    margin-top: 10px;
-    margin-left: 0%;
-    clear: both;
-    margin-right: 0%;
-}
-
-#Галерея_фото_видео_Cамые_красивые_места_в_мире {
-    float: left;
-    font-size: 1em;
-    text-align: center;
-    font-weight: normal;
-    line-height: 1em;
-    position: relative;
-    top: 0px;
-    left: 0px;
-    z-index: 74;
-    margin-top: 59px;
-    margin-left: 42.604167%;
-    clear: none;
-}
-
-#textspan80 {
-    float: none;
-    font-size: 1.5em;
-    line-height: 18px;
-    color: rgb(255, 255, 255);
-    font-style: normal;
-    font-weight: bold;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
-#textspan81 {
-    float: none;
-    font-size: 0.875em;
-    line-height: 18px;
-    color: rgb(255, 255, 255);
-    font-style: normal;
-    font-weight: 300;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
 
 #Наша_почта_kote_turclub_gmail_com_kote_turclub_gmail_com {
     float: left;
@@ -325,25 +313,9 @@ nav a:hover{
     margin-right: 0%;
 }
 
-#photo4 {
-    float: left;
-    width: auto;
-    max-width: 100%;
-    height: auto;
-    color: rgb(0, 0, 0);
-    position: relative;
-    top: 0px;
-    left: 0px;
-    z-index: 43;
-    margin-top: 0px;
-    margin-left: 1.453802%;
-    clear: none;
-    margin-right: 0%;
-}
-
 #media-bg {
     float: left;
-    width: 99.947944%;
+    width: 100%;
     height: 605px;
     color: rgb(0, 0, 0);
     position: relative;
@@ -353,8 +325,7 @@ nav a:hover{
     background-image: url("../img/media-bg.jpg");
     -webkit-background-size: 100%;
     background-size: 100%;
-    margin-top: 974px;
-    margin-left: 0%;
+    margin-top: 20px;
     clear: both;
 }
 
@@ -522,21 +493,6 @@ nav a:hover{
     background-size: 100%;
 }
 
-#photo3 {
-    float: left;
-    width: auto;
-    max-width: 100%;
-    height: auto;
-    color: rgb(0, 0, 0);
-    position: relative;
-    top: 0px;
-    left: 0px;
-    z-index: 48;
-    margin-top: 0px;
-    margin-left: 0.05111023%;
-    clear: none;
-    margin-right: 0%;
-}
 
 #Следите_за_нами_14_579_ {
     float: left;
@@ -2943,24 +2899,6 @@ h2.tourTitle{
     margin-top: 45px;
     clear: none;
     width: 7.652327%;
-}
-
-#box22 {
-    float: left;
-    height: auto;
-    margin-left: 0.41726654%;
-    margin-top: -336px;
-    clear: none;
-    width: 28.645795%;
-}
-
-#box21 {
-    float: left;
-    height: auto;
-    margin-left: 25.050633%;
-    margin-top: 37px;
-    clear: both;
-    width: 20.781175%;
 }
 
 #box18 {
