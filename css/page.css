@@ -3,8 +3,8 @@ nav, footer, header, section, article { display: block }
 header {
     position: fixed;
     text-align: center;
-    left: 0px;
-    right: 0px;
+    left: 0;
+    right: 0;
     margin: auto;
     clear: none;
     width: 100%;
@@ -61,9 +61,9 @@ nav a:hover{
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
     border-radius: 6px;
-    -webkit-box-shadow: 0px 2px 2px 0px rgba(239, 98, 52, 1);
-    -moz-box-shadow:    0px 2px 2px 0px rgba(239, 98, 52, 1);
-    box-shadow:         0px 2px 2px 0px rgba(239, 98, 52, 1);
+    -webkit-box-shadow: 0 2px 2px 0 rgba(239, 98, 52, 1);
+    -moz-box-shadow:    0 2px 2px 0 rgba(239, 98, 52, 1);
+    box-shadow:         0 2px 2px 0 rgba(239, 98, 52, 1);
     clear: none;
 }
 .yes-btn:hover, .no-btn:hover{
@@ -84,9 +84,9 @@ nav a:hover{
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
     border-radius: 6px;
-    -webkit-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 1);
-    -moz-box-shadow:    0px 2px 2px 0px rgba(0, 0, 0, 1);
-    box-shadow:         0px 2px 2px 0px rgba(0, 0, 0, 1);
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 1);
+    -moz-box-shadow:    0 2px 2px 0 rgba(0, 0, 0, 1);
+    box-shadow:         0 2px 2px 0 rgba(0, 0, 0, 1);
     clear: none;
 }
 
@@ -119,10 +119,10 @@ nav a:hover{
     height: auto;
     color: rgb(0, 0, 0);
     position: relative;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     z-index: 43;
-    margin-top: 0px;
+    margin-top: 0;
     margin-left: 1.45%;
     clear: none;
     margin-right: 1.45%;
@@ -155,8 +155,8 @@ nav a:hover{
     font-weight: normal;
     line-height: 1em;
     position: relative;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     z-index: 3;
     margin-top: 8px;
     margin-left: 46.979167%;
@@ -214,8 +214,8 @@ nav a:hover{
     width: 99.947944%;
     background-color: rgb(12, 12, 12);
     position: relative;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     z-index: 2;
 }
 
@@ -227,8 +227,8 @@ nav a:hover{
     font-weight: normal;
     line-height: 1em;
     position: relative;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     z-index: 9;
     margin-top: 10px;
     margin-left: 0.01062925%;
@@ -246,8 +246,8 @@ nav a:hover{
     text-decoration: none;
     font-family: HelveticaNeueCyr;
     position: relative;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     z-index: 28;
     clear: none;
     margin-right: 0%;
@@ -273,10 +273,10 @@ nav a:hover{
     font-weight: normal;
     line-height: 1em;
     position: relative;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     z-index: 12;
-    margin-top: 0px;
+    margin-top: 0;
     margin-left: 0.05314626%;
     clear: none;
     margin-right: 0%;
@@ -311,8 +311,8 @@ footer {
     height: 244px;
     color: rgb(0, 0, 0);
     position: relative;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     z-index: 6;
     background-image: url("../img/footer-bg.jpg");
     -webkit-background-size: 100%;
@@ -355,24 +355,6 @@ footer {
     font-family: HelveticaNeueCyr;
 }
 
-#_27_04_2015_Видеоотчет_германия_-_италия {
-    float: left;
-    font-size: 1em;
-    width: auto;
-    height: auto;
-    text-align: center;
-    font-weight: normal;
-    line-height: 1em;
-    position: relative;
-    top: 0px;
-    left: 0px;
-    z-index: 71;
-    margin-top: 25px;
-    margin-left: 15.973228%;
-    clear: both;
-    margin-right: 0%;
-}
-
 #textspan82 {
     float: none;
     font-size: 0.875em;
@@ -411,28 +393,11 @@ footer {
     text-decoration: none;
     font-family: HelveticaNeueCyr;
     position: relative;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     z-index: 141;
     margin-top: 24px;
     margin-left: 7.096447%;
-    clear: none;
-}
-
-#Подпишитесь_на_нашу_рассылку_будьте_в_курсе_интересных_предложе1 {
-    float: left;
-    font-size: 1em;
-    width: auto;
-    height: auto;
-    text-align: center;
-    font-weight: normal;
-    line-height: 1em;
-    position: relative;
-    top: 0px;
-    left: 0px;
-    z-index: 144;
-    margin-top: 51px;
-    margin-left: 40.052083%;
     clear: none;
 }
 
@@ -485,24 +450,6 @@ footer {
     margin-right: 0%;
 }
 
-#Будем_рады_видеть_вас_по_адресу_Украина_г_Днепропетровск_ул_ {
-    float: left;
-    font-size: 1em;
-    width: auto;
-    height: auto;
-    text-align: left;
-    font-weight: normal;
-    line-height: 1em;
-    position: relative;
-    top: 0px;
-    left: 0px;
-    z-index: 22;
-    margin-top: 41px;
-    margin-left: 0.02316102%;
-    clear: both;
-    margin-right: 0%;
-}
-
 #textspan87 {
     float: none;
     font-size: 0.875em;
@@ -534,8 +481,8 @@ footer {
     height: auto;
     color: rgb(0, 0, 0);
     position: relative;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     z-index: 64;
     margin-top: 7px;
     margin-left: 17.293233%;
@@ -549,8 +496,8 @@ footer {
     height: auto;
     color: rgb(0, 0, 0);
     position: relative;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     z-index: 70;
     margin-top: 94px;
     margin-left: 34.085213%;
@@ -564,8 +511,8 @@ footer {
     height: auto;
     color: rgb(0, 0, 0);
     position: relative;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     z-index: 106;
     margin-top: 86px;
     margin-left: -63.637654%;
@@ -580,8 +527,8 @@ footer {
     height: auto;
     color: rgb(0, 0, 0);
     position: relative;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     z-index: 142;
     margin-top: 16px;
     margin-left: 74.042027%;
@@ -594,8 +541,8 @@ footer {
     height: 245px;
     color: rgb(0, 0, 0);
     position: relative;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     z-index: 138;
     background-image: url("../img/mailme-bg.jpg");
     -webkit-background-size: 100%;
@@ -609,13 +556,13 @@ footer {
     height: auto;
     color: rgb(0, 0, 0);
     position: relative;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     z-index: 280;
-    margin-top: 0px;
+    margin-top: 0;
     margin-left: 22.843102%;
     clear: none;
-    margin-right: 0%;
+    margin-right: 0;
 }
 
 #big-logo {
@@ -623,8 +570,8 @@ footer {
     max-width: 100%;
     height: auto;
     position: relative;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     z-index: 321;
     margin-top: 12%;
     margin-left: 45%;
@@ -638,8 +585,8 @@ footer {
     height: auto;
     color: rgb(0, 0, 0);
     position: relative;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     z-index: 65;
     margin-top: 7px;
     margin-left: 44.862155%;
@@ -652,16 +599,14 @@ footer {
     height: 275px;
     color: rgb(0, 0, 0);
     position: relative;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     z-index: 69;
     background-image: url("../img/video-preview.jpg");
     -webkit-background-size: 100%;
     background-size: 100%;
-    margin-top: 0px;
-    margin-left: 0%;
+    margin: 0;
     clear: none;
-    margin-right: 0%;
 }
 
 #arrow4 {
@@ -671,13 +616,13 @@ footer {
     height: auto;
     color: rgb(0, 0, 0);
     position: relative;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     z-index: 94;
     margin-top: 86px;
-    margin-left: -63.416028%;
+    margin-left: -63.416%;
     clear: none;
-    margin-right: 0%;
+    margin-right: 0;
 }
 
 #placeholder {
@@ -694,28 +639,11 @@ footer {
     text-decoration: none;
     font-family: HelveticaNeueCyr;
     position: relative;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     z-index: 210;
     margin-top: 24px;
-    margin-left: 7.096447%;
-    clear: none;
-}
-
-#Подпишитесь_на_нашу_рассылку_будьте_в_курсе_интересных_предложе {
-    float: left;
-    font-size: 1em;
-    width: auto;
-    height: auto;
-    text-align: center;
-    font-weight: normal;
-    line-height: 1em;
-    position: relative;
-    top: 0px;
-    left: 0px;
-    z-index: 213;
-    margin-top: 51px;
-    margin-left: 40.052083%;
+    margin-left: 7.096%;
     clear: none;
 }
 
@@ -726,11 +654,11 @@ footer {
     height: auto;
     color: rgb(0, 0, 0);
     position: relative;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     z-index: 279;
-    margin-top: 0px;
-    margin-left: 50.014561%;
+    margin-top: 0;
+    margin-left: 50%;
     clear: none;
     margin-right: 0%;
 }
@@ -768,12 +696,29 @@ footer {
     max-width: 100%;
     /*position: absolute;*/
     margin: auto;
-    right: 0px;
-    left: 0px;
+    right: 0;
+    left: 0;
     clear: both;
 }
 
-#Главная_Туры_Галерея_Контакты1 {
+#address {
+    float: left;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 22;
+    margin-top: 41px;
+    clear: both;
+    margin-right: 0;
+}
+
+#footer-nav {
     float: left;
     font-size: 0.875em;
     width: auto;
@@ -787,13 +732,13 @@ footer {
     text-decoration: none;
     font-family: HelveticaNeueCyr;
     position: relative;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     z-index: 24;
-    margin-top: 0px;
+    margin-top: 0;
     margin-left: 0.68556606%;
     clear: none;
-    margin-right: 0%;
+    margin-right: 0;
 }
 
 #wath-bg {
@@ -802,8 +747,8 @@ footer {
     width: 20.78125%;
     background-color: rgba(0, 0, 0, 0.439216);
     position: relative;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     z-index: 62;
     margin-top: 5px;
     margin-left: 25.035992%;
@@ -824,13 +769,13 @@ footer {
     text-decoration: none;
     font-family: HelveticaNeueCyr;
     position: relative;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     z-index: 84;
-    margin-top: 0px;
-    margin-left: 0%;
+    margin-top: 0;
+    margin-left: 0;
     clear: none;
-    margin-right: 0%;
+    margin-right: 0;
 }
 
 #arrow3 {
@@ -840,13 +785,13 @@ footer {
     height: auto;
     color: rgb(0, 0, 0);
     position: relative;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     z-index: 175;
     margin-top: 86px;
     margin-left: -63.637654%;
     clear: none;
-    margin-right: 0%;
+    margin-right: 0;
 }
 
 #plane {
@@ -856,8 +801,8 @@ footer {
     height: auto;
     color: rgb(0, 0, 0);
     position: relative;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     z-index: 211;
     margin-top: 16px;
     margin-left: 74.042027%;
@@ -870,8 +815,8 @@ footer {
     height: 245px;
     color: rgb(0, 0, 0);
     position: relative;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     z-index: 207;
     background-image: url("../img/mailme-bg.jpg");
     -webkit-background-size: 100%;
@@ -892,8 +837,6 @@ footer {
 #username {
     /*float: left;*/
     font-size: 0.875em;
-    /*width: auto;*/
-    /*height: auto;*/
     text-align: center;
     font-weight: 300;
     line-height: 1em;
@@ -902,12 +845,7 @@ footer {
     letter-spacing: normal;
     text-decoration: none;
     font-family: HelveticaNeueCyr;
-    /*position: relative;*/
-    /*top: 0px;*/
-    /*left: 0px;*/
     z-index: 326;
-    /*margin-top: 32px;*/
-    /*margin-left: 1.266596%;*/
     clear: none;
     /*margin-right: 0%;*/
 }
@@ -926,13 +864,8 @@ footer {
     font-style: normal;
     text-decoration: none;
     font-family: HelveticaNeueCyr;
-    text-shadow: rgba(0, 0, 0, 0.74902) 0px 1px 1px;
-    /*position: relative;*/
-    /*top: 0px;*/
-    /*left: 0px;*/
+    text-shadow: rgba(0, 0, 0, 0.74902) 0 1px 1px;
     z-index: 310;
-    /*margin-top: -39px;*/
-    /*margin-left: 37.669982%;*/
     clear: both;
 }
 
@@ -960,7 +893,7 @@ footer {
     max-width: 100%;
     margin-left: 3%;
     clear: none;
-    margin-right: 0%;
+    margin-right: 0;
 }
 
 #arrow2 {
@@ -970,8 +903,8 @@ footer {
     height: auto;
     color: rgb(0, 0, 0);
     position: relative;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     z-index: 163;
     margin-top: 86px;
     margin-left: -63.416028%;
@@ -989,13 +922,11 @@ footer {
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
     position: relative;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     z-index: 209;
-    margin-top: 0px;
-    margin-left: 0%;
+    margin: 0;
     clear: none;
-    margin-right: 0%;
 }
 
 .groups {
@@ -1010,34 +941,11 @@ footer {
     border-radius: 6px;
     margin-left: 25%;
     margin-right: 25%;
-    /*top: 50px;*/
-    /*bottom: 50px;*/
-    /*margin: auto;*/
-    /*text-align: center;*/
-    /*vertical-align: middle;*/
 }
-
-/*#scroll {*/
-    /*float: left;*/
-    /*width: auto;*/
-    /*max-width: 100%;*/
-    /*height: auto;*/
-    /*color: rgb(0, 0, 0);*/
-    /*position: relative;*/
-    /*top: 0px;*/
-    /*left: 0px;*/
-    /*z-index: 309;*/
-    /*margin-top: 0px;*/
-    /*margin-left: 0%;*/
-    /*clear: none;*/
-    /*margin-right: 0%;*/
-/*}*/
 
 #wishletter {
     /*float: left;*/
     font-size: 1em;
-    /*width: auto;*/
-    /*height: auto;*/
     text-align: center;
     font-weight: normal;
     line-height: 1em;
@@ -1072,39 +980,16 @@ footer {
 
 #block-border5 {
     float: left;
-    height: 361.71875px;
+    height: 360px;
     width: 18.924154%;
     background-color: rgb(242, 242, 242);
     position: relative;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     z-index: 99;
     margin-top: -200.71875px;
     margin-left: 3.059141%;
     clear: none;
-}
-
-#Мы_рекомендуем_1 {
-    float: left;
-    font-size: 1.5em;
-    width: auto;
-    height: auto;
-    text-align: left;
-    font-weight: 300;
-    line-height: 1em;
-    color: rgb(18, 18, 18);
-    font-style: normal;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-    position: relative;
-    top: 0px;
-    left: 0px;
-    z-index: 153;
-    margin-top: 0px;
-    margin-left: 0%;
-    clear: none;
-    margin-right: 0%;
 }
 
 #Развлечения {
@@ -1119,8 +1004,8 @@ footer {
     text-decoration: none;
     font-family: HelveticaNeueCyr;
     position: relative;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     z-index: 198;
     margin-top: 58px;
     margin-left: 25%;
@@ -1134,8 +1019,8 @@ footer {
     height: auto;
     color: rgb(0, 0, 0);
     position: relative;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     z-index: 244;
     margin-top: 86px;
     margin-left: -63.637654%;
@@ -1183,34 +1068,6 @@ footer {
 #user {
     float: left;
     margin-right: 10px;
-    /*width: auto;*/
-    /*max-width: 100%;*/
-    /*height: auto;*/
-    /*color: rgb(0, 0, 0);*/
-    /*position: relative;*/
-    /*top: 0px;*/
-    /*left: 0px;*/
-    /*z-index: 327;*/
-    /*margin-top: 28px;*/
-    /*margin-left: 2.960896%;*/
-    /*clear: none;*/
-    /*margin-right: 0%;*/
-}
-
-#Нет_что-то_другое {
-    float: left;
-    font-size: 1em;
-    text-align: center;
-    font-weight: normal;
-    line-height: 1em;
-    text-shadow: rgba(0, 0, 0, 0.74902) 1px 1px 2px;
-    position: relative;
-    top: 0px;
-    left: 0px;
-    z-index: 305;
-    margin-top: 17px;
-    margin-left: 9.098011%;
-    clear: none;
 }
 
 #textspan5 {
@@ -1245,8 +1102,8 @@ footer {
     height: auto;
     color: rgb(0, 0, 0);
     position: relative;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     z-index: 104;
     margin-top: 442px;
     margin-left: -18.957566%;
@@ -1255,37 +1112,15 @@ footer {
 
 #block-border4 {
     float: left;
-    height: 361.71875px;
+    height: 360px;
     width: 18.924154%;
     background-color: rgb(242, 242, 242);
     position: relative;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     z-index: 87;
-    margin-top: 48.28125px;
+    margin-top: 48px;
     margin-left: -18.870533%;
-    clear: none;
-}
-
-#Подробнее1 {
-    float: left;
-    font-size: 1.125em;
-    width: auto;
-    height: auto;
-    text-align: left;
-    font-weight: normal;
-    line-height: 1em;
-    color: rgb(255, 255, 255);
-    font-style: normal;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-    position: relative;
-    top: 0px;
-    left: 0px;
-    z-index: 195;
-    margin-top: 11px;
-    margin-left: 30.82883%;
     clear: none;
 }
 
@@ -1295,8 +1130,8 @@ footer {
     width: 99.947944%;
     background-color: rgb(255, 255, 255);
     position: relative;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     z-index: 148;
 }
 .recommendedTour{
@@ -1312,13 +1147,13 @@ footer {
     font-weight: normal;
     line-height: 1em;
     position: relative;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     z-index: 219;
     margin-top: 37px;
     margin-left: 2.051461%;
     clear: both;
-    margin-right: 0%;
+    margin-right: 0;
 }
 
 a.recLink {
@@ -1363,8 +1198,8 @@ a.recLink:hover {
     height: auto;
     color: rgb(0, 0, 0);
     position: relative;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     z-index: 232;
     margin-top: 86px;
     margin-left: -63.416028%;
@@ -1373,20 +1208,9 @@ a.recLink:hover {
 }
 
 #Searching {
-    /*float: left;*/
     display: inline-block;
-    /*width: auto;*/
-    /*max-width: 100%;*/
-    /*height: auto;*/
-    /*color: rgb(0, 0, 0);*/
-    /*position: relative;*/
-    /*top: 0px;*/
-    /*left: 0px;*/
     z-index: 322;
-    /*margin-top: -49px;*/
-    /*margin-left: 97.042407%;*/
     clear: both;
-    /*margin-right: 0%;*/
 }
 
 #textspan2 {
@@ -1407,8 +1231,8 @@ a.recLink:hover {
     height: auto;
     color: rgb(0, 0, 0);
     position: relative;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     z-index: 92;
     margin-top: 48px;
     margin-left: 2.552083%;
@@ -1417,14 +1241,14 @@ a.recLink:hover {
 
 #block-border3 {
     float: left;
-    height: 361.71875px;
+    height: 360px;
     width: 18.924154%;
     background-color: rgb(242, 242, 242);
     position: relative;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     z-index: 168;
-    margin-top: -200.71875px;
+    margin-top: -200px;
     margin-left: 3.058328%;
     clear: none;
 }
@@ -1464,13 +1288,13 @@ h1.groupTitle {
     height: auto;
     color: rgb(0, 0, 0);
     position: relative;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     z-index: 329;
     margin-top: 13px;
-    margin-left: 3.175573%;
+    margin-left: 3.17%;
     clear: none;
-    margin-right: 0%;
+    margin-right: 0;
 }
 
 #small-preview-img3 {
@@ -1480,24 +1304,24 @@ h1.groupTitle {
     height: auto;
     color: rgb(0, 0, 0);
     position: relative;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     z-index: 173;
     margin-top: 442px;
-    margin-left: -18.957566%;
+    margin-left: -18.95%;
     clear: none;
 }
 
 #block-border2 {
     float: left;
-    height: 361.71875px;
+    height: 360px;
     width: 18.924154%;
     background-color: rgb(242, 242, 242);
     position: relative;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     z-index: 156;
-    margin-top: 48.28125px;
+    margin-top: 48px;
     margin-left: -18.870533%;
     clear: none;
 }
@@ -1512,8 +1336,8 @@ h1.groupTitle {
     border-bottom-right-radius: 4px;
     border-bottom-left-radius: 4px;
     position: relative;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     z-index: 192;
     margin-top: 25px;
     margin-left: -96.805696%;
@@ -1535,17 +1359,8 @@ h1.groupTitle {
 
 span.arr {
     background: url("../img/arr.png") no-repeat center center;
-    /*float: left;*/
     width: 15px;
-    /*max-width: 100%;*/
     height: 15px;
-    /*color: rgb(0, 0, 0);*/
-    /*position: relative;*/
-    /*top: 0px;*/
-    /*left: 0px;*/
-    /*z-index: 249;*/
-    /*margin-top: 86px;*/
-    /*margin-left: -27.979086%;*/
     clear: none;
     margin: 5px;
 }
@@ -1560,20 +1375,6 @@ span.arr {
     display: inline;
     margin-left: 10px;
     margin-right: 10px;
-    /*float: left;*/
-    /*width: auto;*/
-    /*width: 1px !important;*/
-    /*max-width: 100%;*/
-    /*height: auto;*/
-    /*color: rgb(0, 0, 0);*/
-    /*position: relative;*/
-    /*top: 0px;*/
-    /*left: 0px;*/
-    /*z-index: 328;*/
-    /*margin-top: 13px;*/
-    /*margin-left: 4.759231%;*/
-    /*clear: none;*/
-    /*margin-right: 0%;*/
 }
 
 #main-preview-image2 {
@@ -1583,8 +1384,8 @@ span.arr {
     height: auto;
     color: rgb(0, 0, 0);
     position: relative;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     z-index: 117;
     margin-top: 48px;
     margin-left: 24.99939%;
@@ -1598,8 +1399,8 @@ span.arr {
     height: auto;
     color: rgb(0, 0, 0);
     position: relative;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     z-index: 161;
     margin-top: 48px;
     margin-left: 2.552083%;
@@ -1616,23 +1417,23 @@ span.arr {
     border-bottom-right-radius: 4px;
     border-bottom-left-radius: 4px;
     position: relative;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     z-index: 193;
     margin-top: 22px;
     margin-left: 0.0063004%;
     clear: both;
-    margin-right: 0%;
+    margin-right: 0;
 }
 
 #block-border1 {
     float: left;
-    height: 361.71875px;
+    height: 361px;
     width: 18.924154%;
     background-color: rgb(242, 242, 242);
     position: relative;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     z-index: 237;
     margin-top: -200.71875px;
     margin-left: 3.058328%;
@@ -1666,8 +1467,8 @@ span.arr {
     width: 28.33252%;
     background-color: rgb(242, 242, 242);
     position: relative;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     z-index: 181;
     margin-top: 48px;
     margin-left: -28.332642%;
@@ -1681,8 +1482,8 @@ span.arr {
     height: auto;
     color: rgb(0, 0, 0);
     position: relative;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     z-index: 242;
     margin-top: 442px;
     margin-left: -18.957566%;
@@ -1691,14 +1492,14 @@ span.arr {
 
 #block-border {
     float: left;
-    height: 361.71875px;
+    height: 360px;
     width: 18.924154%;
     background-color: rgb(242, 242, 242);
     position: relative;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     z-index: 225;
-    margin-top: 48.28125px;
+    margin-top: 48px;
     margin-left: -18.870533%;
     clear: none;
 }
@@ -1746,8 +1547,8 @@ span.arr {
     height: auto;
     color: rgb(0, 0, 0);
     position: relative;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     z-index: 186;
     margin-top: 48px;
     margin-left: 24.99939%;
@@ -1761,8 +1562,8 @@ span.arr {
     height: auto;
     color: rgb(0, 0, 0);
     position: relative;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     z-index: 230;
     margin-top: 48px;
     margin-left: 2.552083%;
@@ -1779,8 +1580,8 @@ span.arr {
     border-bottom-right-radius: 4px;
     border-bottom-left-radius: 4px;
     position: relative;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     z-index: 262;
     margin-top: 22px;
     margin-left: 0%;
@@ -1823,8 +1624,8 @@ h2.tourTitle{
     width: 28.33252%;
     background-color: rgb(242, 242, 242);
     position: relative;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     z-index: 250;
     margin-top: 48px;
     margin-left: -28.332642%;
@@ -1838,8 +1639,8 @@ h2.tourTitle{
     height: auto;
     color: rgb(0, 0, 0);
     position: relative;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     z-index: 255;
     margin-top: 48px;
     margin-left: 24.99939%;
@@ -1870,7 +1671,7 @@ h2.tourTitle{
     float: left;
     height: auto;
     margin-left: 4.483129%;
-    margin-top: 217.71875px;
+    margin-top: 217px;
     clear: none;
     width: 90.268642%;
 }
@@ -1879,7 +1680,7 @@ h2.tourTitle{
     float: left;
     height: auto;
     margin-left: 4.483129%;
-    margin-top: 217.71875px;
+    margin-top: 217px;
     clear: none;
     width: 90.818829%;
 }
@@ -1889,8 +1690,8 @@ h2.tourTitle{
     height: 543px;
     width: 28.33252%;
     position: relative;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     z-index: 112;
     margin-top: 48px;
     margin-left: -28.332642%;
@@ -1914,11 +1715,11 @@ h2.tourTitle{
     height: auto;
     color: rgb(0, 0, 0);
     position: relative;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     z-index: 111;
     margin-top: 86px;
-    margin-left: -27.979086%;
+    margin-left: -27.979%;
     clear: none;
     margin-right: 0%;
 }
@@ -1932,22 +1733,6 @@ h2.tourTitle{
     width: 45.567295%;
 }
 
-#От_13_000_грн_Актуальная_стоимость_тура_формируется_в_корзи2 {
-    float: left;
-    font-size: 1em;
-    text-align: left;
-    font-weight: normal;
-    line-height: 1em;
-    position: relative;
-    top: 0px;
-    left: 0px;
-    z-index: 120;
-    margin-top: 0px;
-    margin-left: 0%;
-    clear: none;
-    margin-right: 0%;
-}
-
 #maincolor2 {
     float: left;
     height: 42px;
@@ -1957,8 +1742,8 @@ h2.tourTitle{
     border-bottom-right-radius: 4px;
     border-bottom-left-radius: 4px;
     position: relative;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     z-index: 124;
     margin-top: 22px;
     margin-left: 0%;
@@ -1976,97 +1761,14 @@ h2.tourTitle{
     border-bottom-right-radius: 4px;
     border-bottom-left-radius: 4px;
     position: relative;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     z-index: 123;
     margin-top: 25px;
-    margin-left: -96.811996%;
+    margin-left: -96.811%;
     clear: none;
-    margin-right: 0%;
+    margin-right: 0;
     background-color: rgb(239, 98, 52);
-}
-
-#Подробнее2 {
-    float: left;
-    font-size: 1.125em;
-    text-align: left;
-    font-weight: normal;
-    line-height: 1em;
-    color: rgb(255, 255, 255);
-    font-style: normal;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-    position: relative;
-    top: 0px;
-    left: 0px;
-    z-index: 126;
-    margin-top: 11px;
-    margin-left: 30.82883%;
-    clear: none;
-}
-
-#box19 {
-    float: left;
-    height: auto;
-    margin-left: 24.975802%;
-    margin-top: 0px;
-    clear: both;
-    width: 27.912935%;
-}
-
-#box15 {
-    float: left;
-    height: auto;
-    margin-left: 37.187152%;
-    margin-top: 49px;
-    clear: both;
-    width: 25.676127%;
-}
-
-#box13 {
-    float: left;
-    height: auto;
-    margin-left: 24.975802%;
-    margin-top: 0px;
-    clear: both;
-    width: 27.912935%;
-}
-
-#box10 {
-    float: left;
-    height: auto;
-    margin-left: 3.304433%;
-    margin-top: 326px;
-    clear: none;
-    width: 47.220946%;
-}
-
-#box11 {
-    float: left;
-    height: auto;
-    margin-left: 2.224966%;
-    margin-top: 367px;
-    clear: none;
-    width: 45.567295%;
-}
-
-#box14 {
-    float: left;
-    height: auto;
-    margin-left: 4.483129%;
-    margin-top: 217.71875px;
-    clear: none;
-    width: 90.818829%;
-}
-
-#box12 {
-    float: left;
-    height: auto;
-    margin-left: 4.483129%;
-    margin-top: 217.71875px;
-    clear: none;
-    width: 90.268642%;
 }
 
 div.tour {
@@ -2234,7 +1936,7 @@ input.mail-input{
     outline: none;
     -webkit-appearance: none;
     width: 255px;
-    margin: 5px 0px 5px 15px;
+    margin: 5px 0 5px 15px;
     height: 40px;
     vertical-align: middle;
 }
