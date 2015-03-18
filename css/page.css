@@ -1,4 +1,6 @@
-nav, footer, header, section, article { display: block }
+nav, footer, header, section, article {
+    display: block
+}
 
 header {
     position: fixed;
@@ -10,7 +12,8 @@ header {
     width: 100%;
 
 }
-nav{
+
+nav {
     display: inline-block;
     font-size: 1em;
     text-align: center;
@@ -24,22 +27,24 @@ nav{
     margin-top: 40px;
     clear: none;
 }
-nav a{
+
+nav a {
     margin-left: 25px;
     padding-bottom: 44px;
 }
-nav a:hover{
+
+nav a:hover {
     padding-bottom: 41px;
-    border-bottom: 3px solid rgba(255,255,255, 0.5);
+    border-bottom: 3px solid rgba(255, 255, 255, 0.5);
 }
 
 .primaryContainer {
     min-height: 100%;
-    position:relative;
+    position: relative;
     width: 100%;
 }
 
-.buttons{
+.buttons {
     z-index: 100;
     width: 510px;
     margin: 50px auto 0 auto;
@@ -62,17 +67,19 @@ nav a:hover{
     -moz-border-radius: 6px;
     border-radius: 6px;
     -webkit-box-shadow: 0 2px 2px 0 rgba(239, 98, 52, 1);
-    -moz-box-shadow:    0 2px 2px 0 rgba(239, 98, 52, 1);
-    box-shadow:         0 2px 2px 0 rgba(239, 98, 52, 1);
+    -moz-box-shadow: 0 2px 2px 0 rgba(239, 98, 52, 1);
+    box-shadow: 0 2px 2px 0 rgba(239, 98, 52, 1);
     clear: none;
 }
-.yes-btn:hover, .no-btn:hover{
+
+.yes-btn:hover, .no-btn:hover {
     margin-top: 2px;
     margin-bottom: -2px;
     -webkit-box-shadow: none;
-    -moz-box-shadow:    none;
-    box-shadow:         none;
+    -moz-box-shadow: none;
+    box-shadow: none;
 }
+
 .no-btn {
     float: right;
     width: 220px;
@@ -85,19 +92,18 @@ nav a:hover{
     -moz-border-radius: 6px;
     border-radius: 6px;
     -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 1);
-    -moz-box-shadow:    0 2px 2px 0 rgba(0, 0, 0, 1);
-    box-shadow:         0 2px 2px 0 rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 1);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 1);
     clear: none;
 }
 
-
-.groupLinks{
+.groupLinks {
     display: inline-block;
     vertical-align: middle;
     color: rgb(255, 254, 254);
 }
 
-.groupLinks a{
+.groupLinks a {
     float: none;
     font-size: 1em;
     line-height: 1em;
@@ -108,6 +114,7 @@ nav a:hover{
     margin-left: 20px;
     font-family: HelveticaNeueCyr;
 }
+
 .groupLinks a:hover {
     color: rgb(124, 161, 179);
 }
@@ -127,7 +134,6 @@ nav a:hover{
     clear: none;
     margin-right: 1.45%;
 }
-
 
 #box22 {
     height: auto;
@@ -219,7 +225,6 @@ nav a:hover{
     z-index: 2;
 }
 
-
 #Наша_почта_kote_turclub_gmail_com_kote_turclub_gmail_com {
     float: left;
     font-size: 1em;
@@ -282,7 +287,7 @@ nav a:hover{
     margin-right: 0%;
 }
 
-#contacts h5{
+#contacts h5 {
     margin-top: 0;
     font-weight: lighter;
     font-size: 1.125em;
@@ -317,7 +322,6 @@ footer {
     background-image: url("../img/footer-bg.jpg");
     -webkit-background-size: 100%;
 }
-
 
 #textspan84 {
     float: none;
@@ -401,7 +405,7 @@ footer {
     clear: none;
 }
 
-.consultLinks{
+.consultLinks {
     margin-top: 50px;
     font-size: 1.125em;
     text-align: center;
@@ -671,7 +675,7 @@ footer {
     margin-top: 31px;
 }
 
-.news-title h3{
+.news-title h3 {
     float: none;
     font-size: 1.5em;
     color: rgb(18, 18, 18);
@@ -681,7 +685,7 @@ footer {
     margin-bottom: 5px;
 }
 
-.news-title h4{
+.news-title h4 {
     margin: 0 auto;
     float: none;
     font-size: 0.875em;
@@ -720,25 +724,25 @@ footer {
 
 #footer-nav {
     float: left;
-    font-size: 0.875em;
-    width: auto;
+    width: 100%;
     height: auto;
     text-align: left;
-    font-weight: bold;
     line-height: 1em;
-    color: rgb(255, 111, 64);
-    font-style: normal;
-    letter-spacing: normal;
-    text-decoration: none;
     font-family: HelveticaNeueCyr;
     position: relative;
     top: 0;
     left: 0;
     z-index: 24;
-    margin-top: 0;
-    margin-left: 0.68556606%;
+    margin: 0;
     clear: none;
-    margin-right: 0;
+}
+#footer-nav a {
+    float: left;
+    text-decoration: none;
+    width: 25%;
+    color: rgb(255, 111, 64);
+    font-size: 0.875em;
+    font-weight: bold;
 }
 
 #wath-bg {
@@ -935,7 +939,7 @@ footer {
     clear: both;
     width: 50%;
     height: 60px;
-    border: 3px solid rgba(255,255,255 ,0.1);
+    border: 3px solid rgba(255, 255, 255, 0.1);
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
     border-radius: 6px;
@@ -1032,14 +1036,15 @@ footer {
     float: none;
     font-size: 1.125em;
     line-height: 18px;
-    color: rgb(255, 111, 64)!important;
+    color: rgb(255, 111, 64) !important;
     font-style: normal;
     font-weight: 900;
     text-decoration: none;
     font-family: HelveticaNeueCyr;
 }
+
 .new-title:hover {
-    color: rgb(124, 161, 179)!important;
+    color: rgb(124, 161, 179) !important;
 }
 
 .new-date {
@@ -1134,10 +1139,12 @@ footer {
     left: 0;
     z-index: 148;
 }
-.recommendedTour{
+
+.recommendedTour {
     float: left;
     width: 30%;
 }
+
 .recomendedLink {
     float: left;
     font-size: 1em;
@@ -1167,6 +1174,7 @@ a.recLink {
     text-decoration: none;
     font-family: HelveticaNeueCyr;
 }
+
 a.recLink:hover {
     float: none;
     font-size: 1.125em;
@@ -1224,6 +1232,7 @@ a.recLink:hover {
     text-decoration: none;
     font-family: HelveticaNeueCyr;
 }
+
 #small-preview-img4 {
     float: left;
     width: auto;
@@ -1455,7 +1464,7 @@ span.arr {
 
 #small-logo {
     opacity: 0;
-    filter:alpha(opacity=0);
+    filter: alpha(opacity=0);
     float: left;
     margin: 15px;
     margin-left: 15%;
@@ -1605,13 +1614,16 @@ div.tourName {
     clear: none;
     display: block;
 }
-img.groupMainPreview{
+
+img.groupMainPreview {
     width: 645px;
 }
-img.groupSubPreview{
+
+img.groupSubPreview {
     width: 418px;
 }
-h2.tourTitle{
+
+h2.tourTitle {
     display: block;
     padding-top: 10px;
     margin: 0 0 0 15px;
@@ -1786,7 +1798,7 @@ div.tour {
     width: 100%;
 }
 
-.news-block article{
+.news-block article {
     float: left;
     font-size: 1em;
     width: 250px;
@@ -1799,7 +1811,7 @@ div.tour {
 
 .scroll {
     display: table;
-    left:0;
+    left: 0;
     right: 0;
     /*position: absolute;*/
     width: 150px;
@@ -1823,41 +1835,44 @@ div.tour {
 }
 
 /*.profile:before {*/
-    /*content: url("img/separator.png");*/
-    /*width: 1px;*/
-    /*height: 44px;*/
-    /*position: inherit;*/
+/*content: url("img/separator.png");*/
+/*width: 1px;*/
+/*height: 44px;*/
+/*position: inherit;*/
 /*}*/
 
 /*.profile:after {*/
-     /*content: url("img/separator.png");*/
-     /*width: 1px;*/
-     /*height: 44px;*/
-     /*position: inherit;*/
- /*}*/
-#bar{
-    border-bottom: 1px solid rgba(0,0,0, 0.1);
+/*content: url("img/separator.png");*/
+/*width: 1px;*/
+/*height: 44px;*/
+/*position: inherit;*/
+/*}*/
+#bar {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     padding-bottom: 28px;
 }
-.wish{
+
+.wish {
     left: 0;
     right: 0;
     margin: auto;
     text-align: center;
 }
-.middleHelper{
-    display:inline-block;
-    vertical-align:middle;
-    height:100%;
-    width:0px;
+
+.middleHelper {
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+    width: 0px;
 }
-div.more{
+
+div.more {
     display: block;
     margin-top: 15px;
     color: #ffffff;
 }
 
-a.link-btn{
+a.link-btn {
     margin: 10px;
     padding: 7px;
     background-color: #ff6f40;
@@ -1865,49 +1880,56 @@ a.link-btn{
     -moz-border-radius: 6px;
     border-radius: 6px;
     -webkit-box-shadow: 0px 2px 2px 0px rgba(239, 98, 52, 1);
-    -moz-box-shadow:    0px 2px 2px 0px rgba(239, 98, 52, 1);
-    box-shadow:         0px 2px 2px 0px rgba(239, 98, 52, 1);
+    -moz-box-shadow: 0px 2px 2px 0px rgba(239, 98, 52, 1);
+    box-shadow: 0px 2px 2px 0px rgba(239, 98, 52, 1);
 }
-a.biglink-btn{
+
+a.biglink-btn {
     padding: 12px 75px 12px 75px;
     background-color: #ff6f40;
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
     border-radius: 6px;
     -webkit-box-shadow: 0px 2px 2px 0px rgba(239, 98, 52, 1);
-    -moz-box-shadow:    0px 2px 2px 0px rgba(239, 98, 52, 1);
-    box-shadow:         0px 2px 2px 0px rgba(239, 98, 52, 1);
+    -moz-box-shadow: 0px 2px 2px 0px rgba(239, 98, 52, 1);
+    box-shadow: 0px 2px 2px 0px rgba(239, 98, 52, 1);
 }
-.biglink-btn:hover{
-      -webkit-box-shadow: none;
-      -moz-box-shadow:    none;
-      box-shadow:         none;
-}
-a.link-btn:hover{
+
+.biglink-btn:hover {
     -webkit-box-shadow: none;
-    -moz-box-shadow:    none;
-    box-shadow:         none;
+    -moz-box-shadow: none;
+    box-shadow: none;
 }
-div.mainTours{
+
+a.link-btn:hover {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+div.mainTours {
     float: left;
     height: auto;
     clear: none;
     width: 60%;
 }
-div.subTours{
+
+div.subTours {
     float: right;
     height: auto;
     clear: none;
     width: 39%;
 }
-div.tourInfo{
+
+div.tourInfo {
     margin-top: 15px;
     margin-left: 15px;
     display: block;
     float: left;
     width: 45%;
 }
-div.tourPrice{
+
+div.tourPrice {
     margin-top: 15px;
     margin-right: 15px;
     display: block;
@@ -1915,20 +1937,23 @@ div.tourPrice{
     text-align: right;
     width: 45%;
 }
-div.recommendedTours{
+
+div.recommendedTours {
     display: block;
     margin-top: 150px;
 }
-div.mailsender{
+
+div.mailsender {
     width: 400px;
     height: 50px;
     /*min-height: 20px;*/
-    border: 3px solid rgba(255,255,255 ,0.1);
+    border: 3px solid rgba(255, 255, 255, 0.1);
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
     border-radius: 6px;
 }
-input.mail-input{
+
+input.mail-input {
     color: #ffffff;
     float: left;
     border: none;
@@ -1940,7 +1965,8 @@ input.mail-input{
     height: 40px;
     vertical-align: middle;
 }
-input.mail-submit{
+
+input.mail-submit {
     margin: 7px 15px 7px 3px;
     float: right;
     width: 30px;
@@ -1948,9 +1974,11 @@ input.mail-submit{
     border: none;
     background: url('../img/plane.png') no-repeat center center;
 }
-form.mailform{
+
+form.mailform {
     margin: 30px 35% 0 35%;
 }
+
 /*
 @media only screen and (min-width: 480px) {
 */
