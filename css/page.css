@@ -347,26 +347,16 @@ footer {
 }
 
 #textspan82 {
-    float: none;
     font-size: 0.875em;
-    line-height: 18px;
     color: rgb(255, 255, 255);
-    font-style: normal;
     font-weight: 300;
-    letter-spacing: normal;
-    text-decoration: none;
     font-family: HelveticaNeueCyr;
 }
 
 #textspan83 {
-    float: none;
     font-size: 1.125em;
-    line-height: 18px;
     color: rgb(255, 111, 64);
-    font-style: normal;
     font-weight: bold;
-    letter-spacing: normal;
-    text-decoration: none;
     font-family: HelveticaNeueCyr;
 }
 
@@ -462,18 +452,6 @@ footer {
     font-family: HelveticaNeueCyr;
 }
 
-#instagram-ico {
-    float: left;
-    width: auto;
-    max-width: 100%;
-    height: auto;
-    color: rgb(0, 0, 0);
-    top: 0;
-    left: 0;
-    clear: none;
-    display:inline-block;
-}
-
 #arrow5 {
     float: left;
     width: auto;
@@ -543,18 +521,6 @@ footer {
     clear: both;
 }
 
-#youtube-ico {
-    float: left;
-    width: auto;
-    max-width: 100%;
-    height: auto;
-    color: rgb(0, 0, 0);
-    top: 0;
-    left: 0;
-    clear: none;
-    display:inline-block;
-}
-
 #video-preview {
     float: left;
     width: 100%;
@@ -571,12 +537,11 @@ footer {
     float: left;
     width: 100%;
     height: auto;
-    top: 0;
-    left: 0;
     -webkit-background-size: 100%;
     background-size: 100%;
-    margin: 0;
+    margin: 15px 0 10px 0;
     clear: none;
+    text-align: center;
 }
 
 #video-title span {
@@ -690,14 +655,57 @@ footer {
     font-weight: bold;
 }
 
-#wath-bg {
+#subscribe {
     float: left;
+    display: block;
     height: 46px;
+    position: relative;
+    width: 100%;
     background-color: rgba(0, 0, 0, 0.439216);
-    top: 0;
-    left: 0;
-    margin-top: 5px;
+}
+
+#subscribe:after
+{
+    content: '';
+    display: block;
     clear: both;
+}
+.align_center_to_left
+{
+    position: relative;
+    right: 50%;
+    float: right;
+}
+.align_center_to_right
+{
+    position: relative;
+    z-index: 1;
+    right: -50%;
+}
+#sub-nav {
+    float: left;
+    margin: 6px auto;
+    color: rgb(255, 255, 255);
+    clear: both;
+    display:inline-block;
+}
+
+#sub-nav dd {
+    float: left;
+    display: inline;
+    margin-right: 10px;
+}
+
+#sub-nav dt {
+    float: left;
+    display: inline;
+    font-size: 0.875em;
+    line-height: 1em;
+    font-weight: 300;
+    padding-top: 10px;
+    letter-spacing: normal;
+    text-decoration: none;
+    font-family: HelveticaNeueCyr;
 }
 
 #Мы_рекомендуем_2 {
