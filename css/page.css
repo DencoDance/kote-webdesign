@@ -1,4 +1,4 @@
-nav, footer, header, section, article {
+nav, footer, header, section, article, iframe {
     display: block
 }
 
@@ -45,7 +45,6 @@ nav a:hover {
 }
 
 .buttons {
-    z-index: 100;
     width: 510px;
     margin: 50px auto 0 auto;
     font-family: georgia;
@@ -125,10 +124,8 @@ nav a:hover {
     max-width: 100%;
     height: auto;
     color: rgb(0, 0, 0);
-    position: relative;
     top: 0;
     left: 0;
-    z-index: 43;
     margin-top: 0;
     margin-left: 1.45%;
     clear: none;
@@ -160,10 +157,8 @@ nav a:hover {
     text-align: center;
     font-weight: normal;
     line-height: 1em;
-    position: relative;
     top: 0;
     left: 0;
-    z-index: 3;
     margin-top: 8px;
     margin-left: 46.979167%;
     clear: none;
@@ -222,7 +217,6 @@ nav a:hover {
     position: relative;
     top: 0;
     left: 0;
-    z-index: 2;
 }
 
 #Наша_почта_kote_turclub_gmail_com_kote_turclub_gmail_com {
@@ -231,10 +225,8 @@ nav a:hover {
     text-align: left;
     font-weight: normal;
     line-height: 1em;
-    position: relative;
     top: 0;
     left: 0;
-    z-index: 9;
     margin-top: 10px;
     margin-left: 0.01062925%;
     clear: both;
@@ -250,17 +242,14 @@ nav a:hover {
     color: rgb(153, 153, 153);
     text-decoration: none;
     font-family: HelveticaNeueCyr;
-    position: relative;
     top: 0;
     left: 0;
-    z-index: 28;
     clear: none;
-    margin-right: 0%;
+    margin-right: 0;
 }
 
 #media-bg {
     height: 605px;
-    z-index: 37;
     background-image: url("../img/media-bg.jpg");
     -webkit-background-size: 100%;
     background-size: 100%;
@@ -280,11 +269,10 @@ nav a:hover {
     position: relative;
     top: 0;
     left: 0;
-    z-index: 12;
     margin-top: 0;
     margin-left: 0.05314626%;
     clear: none;
-    margin-right: 0%;
+    margin-right: 0;
 }
 
 #contacts h5 {
@@ -318,7 +306,6 @@ footer {
     position: relative;
     top: 0;
     left: 0;
-    z-index: 6;
     background-image: url("../img/footer-bg.jpg");
     -webkit-background-size: 100%;
 }
@@ -328,11 +315,11 @@ footer {
     font-size: 0.875em;
     line-height: 1em;
     color: rgb(255, 255, 255);
-    font-style: normal;
     font-weight: 300;
     letter-spacing: normal;
     text-decoration: none;
     font-family: HelveticaNeueCyr;
+    display:inline-block;
 }
 
 #textspan85 {
@@ -340,11 +327,11 @@ footer {
     font-size: 0.875em;
     line-height: 1em;
     color: rgb(255, 255, 255);
-    font-style: italic;
     font-weight: normal;
     letter-spacing: normal;
     text-decoration: none;
     font-family: georgia;
+    display:inline-block;
 }
 
 #textspan86 {
@@ -352,11 +339,11 @@ footer {
     font-size: 0.875em;
     line-height: 1em;
     color: rgb(255, 255, 255);
-    font-style: normal;
     font-weight: normal;
     letter-spacing: normal;
     text-decoration: none;
     font-family: HelveticaNeueCyr;
+    display:inline-block;
 }
 
 #textspan82 {
@@ -399,7 +386,6 @@ footer {
     position: relative;
     top: 0;
     left: 0;
-    z-index: 141;
     margin-top: 24px;
     margin-left: 7.096447%;
     clear: none;
@@ -415,9 +401,8 @@ footer {
     font-style: normal;
     text-decoration: none;
     font-family: HelveticaNeueCyr;
-    z-index: 281;
     clear: none;
-    margin-right: 0%;
+    margin-right: 0;
 }
 
 .subscribe-title {
@@ -448,10 +433,9 @@ footer {
     color: rgb(255, 255, 255);
     font-family: HelveticaNeueCyr;
     position: relative;
-    z-index: 20;
     margin-top: 29px;
     clear: none;
-    margin-right: 0%;
+    margin-right: 0;
 }
 
 #textspan87 {
@@ -484,28 +468,10 @@ footer {
     max-width: 100%;
     height: auto;
     color: rgb(0, 0, 0);
-    position: relative;
     top: 0;
     left: 0;
-    z-index: 64;
-    margin-top: 7px;
-    margin-left: 17.293233%;
     clear: none;
-}
-
-#play-btn {
-    float: left;
-    width: auto;
-    max-width: 100%;
-    height: auto;
-    color: rgb(0, 0, 0);
-    position: relative;
-    top: 0;
-    left: 0;
-    z-index: 70;
-    margin-top: 94px;
-    margin-left: 34.085213%;
-    clear: none;
+    display:inline-block;
 }
 
 #arrow5 {
@@ -517,11 +483,10 @@ footer {
     position: relative;
     top: 0;
     left: 0;
-    z-index: 106;
     margin-top: 86px;
-    margin-left: -63.637654%;
+    margin-left: -63%;
     clear: none;
-    margin-right: 0%;
+    margin-right: 0;
 }
 
 #plane1 {
@@ -533,7 +498,6 @@ footer {
     position: relative;
     top: 0;
     left: 0;
-    z-index: 142;
     margin-top: 16px;
     margin-left: 74.042027%;
     clear: none;
@@ -547,7 +511,6 @@ footer {
     position: relative;
     top: 0;
     left: 0;
-    z-index: 138;
     background-image: url("../img/mailme-bg.jpg");
     -webkit-background-size: 100%;
     background-size: 100%;
@@ -562,7 +525,6 @@ footer {
     position: relative;
     top: 0;
     left: 0;
-    z-index: 280;
     margin-top: 0;
     margin-left: 22.843102%;
     clear: none;
@@ -576,7 +538,6 @@ footer {
     position: relative;
     top: 0;
     left: 0;
-    z-index: 321;
     margin-top: 12%;
     margin-left: 45%;
     clear: both;
@@ -588,29 +549,39 @@ footer {
     max-width: 100%;
     height: auto;
     color: rgb(0, 0, 0);
-    position: relative;
     top: 0;
     left: 0;
-    z-index: 65;
-    margin-top: 7px;
-    margin-left: 44.862155%;
     clear: none;
+    display:inline-block;
 }
 
 #video-preview {
     float: left;
-    width: 100.000361%;
-    height: 275px;
-    color: rgb(0, 0, 0);
-    position: relative;
+    width: 100%;
+    height: auto;
     top: 0;
     left: 0;
-    z-index: 69;
-    background-image: url("../img/video-preview.jpg");
     -webkit-background-size: 100%;
     background-size: 100%;
     margin: 0;
     clear: none;
+}
+
+#video-title {
+    float: left;
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    margin: 0;
+    clear: none;
+}
+
+#video-title span {
+    width: auto;
+    margin: 0 auto;
 }
 
 #arrow4 {
@@ -619,7 +590,6 @@ footer {
     max-width: 100%;
     height: auto;
     color: rgb(0, 0, 0);
-    position: relative;
     top: 0;
     left: 0;
     z-index: 94;
@@ -629,35 +599,12 @@ footer {
     margin-right: 0;
 }
 
-#placeholder {
-    float: left;
-    font-size: 1em;
-    width: auto;
-    height: auto;
-    text-align: center;
-    font-weight: 300;
-    line-height: 1em;
-    color: rgb(245, 247, 250);
-    font-style: normal;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-    position: relative;
-    top: 0;
-    left: 0;
-    z-index: 210;
-    margin-top: 24px;
-    margin-left: 7.096%;
-    clear: none;
-}
-
 #small-btn2 {
     float: left;
     width: auto;
     max-width: 100%;
     height: auto;
     color: rgb(0, 0, 0);
-    position: relative;
     top: 0;
     left: 0;
     z-index: 279;
@@ -713,7 +660,6 @@ footer {
     text-align: left;
     font-weight: normal;
     line-height: 1em;
-    position: relative;
     top: 0;
     left: 0;
     z-index: 22;
@@ -729,7 +675,6 @@ footer {
     text-align: left;
     line-height: 1em;
     font-family: HelveticaNeueCyr;
-    position: relative;
     top: 0;
     left: 0;
     z-index: 24;
@@ -748,14 +693,10 @@ footer {
 #wath-bg {
     float: left;
     height: 46px;
-    width: 20.78125%;
     background-color: rgba(0, 0, 0, 0.439216);
-    position: relative;
     top: 0;
     left: 0;
-    z-index: 62;
     margin-top: 5px;
-    margin-left: 25.035992%;
     clear: both;
 }
 
@@ -772,10 +713,8 @@ footer {
     letter-spacing: normal;
     text-decoration: none;
     font-family: HelveticaNeueCyr;
-    position: relative;
     top: 0;
     left: 0;
-    z-index: 84;
     margin-top: 0;
     margin-left: 0;
     clear: none;
@@ -788,10 +727,8 @@ footer {
     max-width: 100%;
     height: auto;
     color: rgb(0, 0, 0);
-    position: relative;
     top: 0;
     left: 0;
-    z-index: 175;
     margin-top: 86px;
     margin-left: -63.637654%;
     clear: none;
@@ -807,7 +744,6 @@ footer {
     position: relative;
     top: 0;
     left: 0;
-    z-index: 211;
     margin-top: 16px;
     margin-left: 74.042027%;
     clear: none;
@@ -821,7 +757,6 @@ footer {
     position: relative;
     top: 0;
     left: 0;
-    z-index: 207;
     background-image: url("../img/mailme-bg.jpg");
     -webkit-background-size: 100%;
     background-size: 100%;
@@ -849,7 +784,6 @@ footer {
     letter-spacing: normal;
     text-decoration: none;
     font-family: HelveticaNeueCyr;
-    z-index: 326;
     clear: none;
     /*margin-right: 0%;*/
 }
@@ -869,25 +803,18 @@ footer {
     text-decoration: none;
     font-family: HelveticaNeueCyr;
     text-shadow: rgba(0, 0, 0, 0.74902) 0 1px 1px;
-    z-index: 310;
     clear: both;
 }
 
 #google {
-    position: relative;
-    z-index: 18;
     margin-top: 18px;
 }
 
 #facebook {
-    position: relative;
-    z-index: 17;
     margin-top: 18px;
 }
 
 #twitter {
-    position: relative;
-    z-index: 19;
     margin-top: 18px;
 }
 
@@ -909,7 +836,6 @@ footer {
     position: relative;
     top: 0;
     left: 0;
-    z-index: 163;
     margin-top: 86px;
     margin-left: -63.416028%;
     clear: none;
@@ -928,7 +854,6 @@ footer {
     position: relative;
     top: 0;
     left: 0;
-    z-index: 209;
     margin: 0;
     clear: none;
 }
@@ -1153,7 +1078,6 @@ footer {
     text-align: center;
     font-weight: normal;
     line-height: 1em;
-    position: relative;
     top: 0;
     left: 0;
     z-index: 219;
@@ -1879,9 +1803,9 @@ a.link-btn {
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
     border-radius: 6px;
-    -webkit-box-shadow: 0px 2px 2px 0px rgba(239, 98, 52, 1);
-    -moz-box-shadow: 0px 2px 2px 0px rgba(239, 98, 52, 1);
-    box-shadow: 0px 2px 2px 0px rgba(239, 98, 52, 1);
+    -webkit-box-shadow: 0 2px 2px 0 rgba(239, 98, 52, 1);
+    -moz-box-shadow: 0 2px 2px 0 rgba(239, 98, 52, 1);
+    box-shadow: 0 2px 2px 0 rgba(239, 98, 52, 1);
 }
 
 a.biglink-btn {
@@ -1890,9 +1814,9 @@ a.biglink-btn {
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
     border-radius: 6px;
-    -webkit-box-shadow: 0px 2px 2px 0px rgba(239, 98, 52, 1);
-    -moz-box-shadow: 0px 2px 2px 0px rgba(239, 98, 52, 1);
-    box-shadow: 0px 2px 2px 0px rgba(239, 98, 52, 1);
+    -webkit-box-shadow: 0 2px 2px 0 rgba(239, 98, 52, 1);
+    -moz-box-shadow: 0 2px 2px 0 rgba(239, 98, 52, 1);
+    box-shadow: 0 2px 2px 0 rgba(239, 98, 52, 1);
 }
 
 .biglink-btn:hover {
