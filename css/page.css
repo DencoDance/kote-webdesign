@@ -693,7 +693,7 @@ footer {
 #sub-nav dd {
     float: left;
     display: inline;
-    margin-right: 10px;
+    margin-right: 5px;
 }
 
 #sub-nav dt {
@@ -1548,11 +1548,14 @@ div.tourName {
 }
 
 img.groupMainPreview {
-    width: 645px;
+    width: 100%;
+    margin: 0 auto;
+
 }
 
 img.groupSubPreview {
-    width: 418px;
+    width: 100%;
+    margin: 0 auto;
 }
 
 h2.tourTitle {
@@ -1719,11 +1722,7 @@ div.tour {
     width: 100%;
     margin-bottom: 30px;
     padding-bottom: 20px;
-    border: 1px solid #cccccc;
-    /*float: left;*/
-    /*height: auto;*/
-    /*clear: none;*/
-    /*width: 45%;*/
+    background-color: #ecf0f0;
 }
 
 .news-block {
