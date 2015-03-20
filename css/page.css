@@ -126,10 +126,8 @@ nav a:hover {
     color: rgb(0, 0, 0);
     top: 0;
     left: 0;
-    margin-top: 0;
-    margin-left: 1.45%;
+    margin: 0 1.45% 1.45% 1.45%;
     clear: none;
-    margin-right: 1.45%;
 }
 
 #box22 {
@@ -151,20 +149,18 @@ nav a:hover {
     min-width: 930px;
 }
 
-#©_2015_kote_dp_ua_Все_права_защищены {
-    float: left;
+#copyrighter {
     font-size: 1em;
     text-align: center;
     font-weight: normal;
     line-height: 1em;
     top: 0;
     left: 0;
-    margin-top: 8px;
-    margin-left: 46.979167%;
+    margin: 8px auto;
     clear: none;
 }
 
-#textspan103 {
+#copyright {
     float: none;
     font-size: 0.75em;
     line-height: 14px;
@@ -175,23 +171,10 @@ nav a:hover {
     font-family: HelveticaNeueCyr;
 }
 
-#textspan104 {
-    float: none;
-    font-size: 0.75em;
-    line-height: 14px;
-    color: rgb(255, 255, 255);
-    font-style: normal;
-    font-weight: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
-#textspan105 {
-    float: none;
+#copyright-site {
     font-size: 0.75em;
     line-height: 14px;
     color: rgb(255, 111, 64);
-    font-style: normal;
     font-weight: normal;
     letter-spacing: normal;
     text-decoration: none;
@@ -199,11 +182,9 @@ nav a:hover {
 }
 
 #textspan106 {
-    float: none;
     font-size: 0.75em;
     line-height: 14px;
     color: rgb(153, 153, 153);
-    font-style: normal;
     font-weight: 300;
     text-decoration: none;
     font-family: HelveticaNeueCyr;
@@ -212,11 +193,11 @@ nav a:hover {
 #copy-bg {
     float: left;
     height: 40px;
-    width: 99.947944%;
     background-color: rgb(12, 12, 12);
     position: relative;
     top: 0;
     left: 0;
+    width: 100%;
 }
 
 #Наша_почта_kote_turclub_gmail_com_kote_turclub_gmail_com {
@@ -369,7 +350,6 @@ footer {
     font-weight: 300;
     line-height: 1em;
     color: rgb(245, 247, 250);
-    font-style: normal;
     letter-spacing: normal;
     text-decoration: none;
     font-family: HelveticaNeueCyr;
@@ -388,7 +368,6 @@ footer {
     font-weight: 300;
     line-height: 1em;
     color: rgb(255, 255, 255);
-    font-style: normal;
     text-decoration: none;
     font-family: HelveticaNeueCyr;
     clear: none;
@@ -433,7 +412,6 @@ footer {
     font-size: 0.875em;
     line-height: 18px;
     color: rgb(254, 254, 254);
-    font-style: normal;
     font-weight: 300;
     letter-spacing: normal;
     text-decoration: none;
@@ -445,9 +423,7 @@ footer {
     font-size: 0.875em;
     line-height: 24px;
     color: rgb(254, 254, 254);
-    font-style: normal;
     font-weight: normal;
-    letter-spacing: normal;
     text-decoration: none;
     font-family: HelveticaNeueCyr;
 }
@@ -591,7 +567,6 @@ footer {
     float: none;
     font-size: 1.5em;
     color: rgb(18, 18, 18);
-    letter-spacing: normal;
     text-decoration: none;
     font-family: HelveticaNeueCyr;
     margin-bottom: 5px;
@@ -603,7 +578,6 @@ footer {
     font-size: 0.875em;
     color: rgb(18, 18, 18);
     font-weight: 300;
-    letter-spacing: normal;
     text-decoration: none;
     font-family: HelveticaNeueCyr;
 }
@@ -703,7 +677,6 @@ footer {
     line-height: 1em;
     font-weight: 300;
     padding-top: 10px;
-    letter-spacing: normal;
     text-decoration: none;
     font-family: HelveticaNeueCyr;
 }
@@ -718,7 +691,6 @@ footer {
     line-height: 1em;
     color: rgb(18, 18, 18);
     font-style: normal;
-    letter-spacing: normal;
     text-decoration: none;
     font-family: HelveticaNeueCyr;
     top: 0;
@@ -789,7 +761,6 @@ footer {
     line-height: 1em;
     color: rgb(255, 255, 255);
     font-style: normal;
-    letter-spacing: normal;
     text-decoration: none;
     font-family: HelveticaNeueCyr;
     clear: none;
@@ -898,7 +869,6 @@ footer {
     color: rgb(255, 255, 255);
     font-style: italic;
     font-weight: normal;
-    letter-spacing: normal;
     text-decoration: none;
     font-family: georgia;
 }
@@ -910,7 +880,6 @@ footer {
     color: rgb(255, 255, 255);
     font-style: normal;
     font-weight: bold;
-    letter-spacing: normal;
     text-decoration: none;
     font-family: HelveticaNeueCyr;
 }
@@ -918,7 +887,7 @@ footer {
 #block-border5 {
     float: left;
     height: 360px;
-    width: 18.924154%;
+    width: 18.92%;
     background-color: rgb(242, 242, 242);
     position: relative;
     top: 0;
@@ -985,9 +954,7 @@ footer {
     font-size: 0.625em;
     line-height: 18px;
     color: rgb(153, 153, 153);
-    font-style: normal;
     font-weight: normal;
-    letter-spacing: normal;
     text-decoration: none;
     font-family: HelveticaNeueCyr;
 }
@@ -997,7 +964,6 @@ footer {
     font-size: 0.875em;
     line-height: 24px;
     color: rgb(18, 18, 18);
-    font-style: normal;
     font-weight: 300;
     text-decoration: none;
     font-family: HelveticaNeueCyr;
@@ -1456,15 +1422,22 @@ span.arr {
     font-family: HelveticaNeueCyr;
 }
 
+.tourDescription {
+    display: block;
+    font-size: 0.875em;
+    font-weight: normal;
+    line-height: 16px;
+    color: rgb(18, 18, 18);
+    font-family: HelveticaNeueCyr;
+    clear: both;
+}
+
 .smallDescription {
     float: none;
     font-size: 0.875em;
     line-height: 16px;
     color: rgb(18, 18, 18);
-    font-style: normal;
     font-weight: normal;
-    letter-spacing: normal;
-    text-decoration: none;
     margin-top: 15px;
     font-family: HelveticaNeueCyr;
 }
@@ -1788,13 +1761,11 @@ div.tour {
 div.more {
     display: block;
     margin-top: 25px;
+    padding-top: 10px;
+    height: 40px;
     color: #ffffff;
     width: 100%;
-}
-
-a.link-btn {
-    margin: 10px;
-    padding: 7px;
+    text-align: center;
     background-color: #ff6f40;
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
@@ -1804,8 +1775,9 @@ a.link-btn {
     box-shadow: 0 2px 2px 0 rgba(239, 98, 52, 1);
 }
 
-a.biglink-btn {
-    padding: 12px 75px 12px 75px;
+a.link-btn {
+    margin: 10px;
+    padding: 7px;
     background-color: #ff6f40;
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
