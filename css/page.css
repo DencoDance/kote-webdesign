@@ -492,8 +492,7 @@ footer {
     position: relative;
     top: 0;
     left: 0;
-    margin-top: 12%;
-    margin-left: 45%;
+    margin: 12% auto;
     clear: both;
 }
 
@@ -778,8 +777,6 @@ footer {
     font-weight: 300;
     line-height: 14px;
     color: rgb(255, 255, 255);
-    font-style: normal;
-    text-decoration: none;
     font-family: HelveticaNeueCyr;
     text-shadow: rgba(0, 0, 0, 0.74902) 0 1px 1px;
     clear: both;
@@ -852,7 +849,6 @@ footer {
 }
 
 #wishletter {
-    /*float: left;*/
     font-size: 1em;
     text-align: center;
     font-weight: normal;
@@ -1275,7 +1271,8 @@ span.arr {
 .tourGroup {
     margin-left: 10%;
     margin-right: 10%;
-    min-width: 930px;
+    min-width: 800px;
+    width: 80%;
 }
 
 .separator {
@@ -1687,17 +1684,20 @@ div.tour {
 }
 
 .news-block {
-    width: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+    min-width: 800px;
+    width: 80%;
 }
 
 .news-block article {
     float: left;
     font-size: 1em;
-    width: 250px;
+    width: 21%;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: 5%;
+    padding: 0 2%;
     clear: none;
 }
 
