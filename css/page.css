@@ -1381,19 +1381,6 @@ span.arr {
     clear: none;
 }
 
-.tourDescription {
-    display: block;
-    font-size: 0.875em;
-    font-weight: normal;
-    line-height: 16px;
-    color: rgb(18, 18, 18);
-    font-style: normal;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-    clear: both;
-}
-
 #small-logo {
     opacity: 0;
     filter: alpha(opacity=0);
@@ -1478,6 +1465,7 @@ span.arr {
     font-weight: normal;
     letter-spacing: normal;
     text-decoration: none;
+    margin-top: 15px;
     font-family: HelveticaNeueCyr;
 }
 
@@ -1794,13 +1782,14 @@ div.tour {
     display: inline-block;
     vertical-align: middle;
     height: 100%;
-    width: 0px;
+    width: 0;
 }
 
 div.more {
     display: block;
-    margin-top: 15px;
+    margin-top: 25px;
     color: #ffffff;
+    width: 100%;
 }
 
 a.link-btn {
@@ -1857,7 +1846,7 @@ div.tourInfo {
     margin-left: 15px;
     display: block;
     float: left;
-    width: 45%;
+    width: 50%;
 }
 
 div.tourPrice {
@@ -1865,8 +1854,8 @@ div.tourPrice {
     margin-right: 15px;
     display: block;
     float: right;
-    text-align: right;
-    width: 45%;
+    text-align: left;
+    width: 40%;
 }
 
 div.recommendedTours {
