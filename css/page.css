@@ -10,7 +10,7 @@ header {
     margin: auto;
     clear: none;
     width: 100%;
-
+    z-index: 200;
 }
 
 nav {
@@ -515,7 +515,6 @@ footer {
     color: rgb(0, 0, 0);
     top: 0;
     left: 0;
-    z-index: 279;
     margin-top: 0;
     margin-left: 50%;
     clear: none;
@@ -851,26 +850,6 @@ footer {
     clear: none;
 }
 
-#Развлечения {
-    float: left;
-    font-size: 3em;
-    text-align: left;
-    font-weight: normal;
-    line-height: 1em;
-    color: rgb(18, 18, 18);
-    font-style: normal;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-    position: relative;
-    top: 0;
-    left: 0;
-    z-index: 198;
-    margin-top: 58px;
-    margin-left: 25%;
-    clear: none;
-}
-
 #arrow1 {
     float: left;
     width: auto;
@@ -880,11 +859,10 @@ footer {
     position: relative;
     top: 0;
     left: 0;
-    z-index: 244;
     margin-top: 86px;
     margin-left: -63.637654%;
     clear: none;
-    margin-right: 0%;
+    margin-right: 0;
 }
 
 .new-title {
@@ -948,7 +926,7 @@ footer {
     height: 100%;
     min-height: 850px;
     display: block;
-    z-index: 297;
+    z-index: 97;
     background: url("../img/big-preview-img.jpg") no-repeat center;
 }
 
@@ -997,7 +975,7 @@ footer {
     width: 30%;
 }
 
-.recomendedLink {
+.recommendedLink {
     float: left;
     font-size: 1em;
     width: auto;
@@ -1007,7 +985,7 @@ footer {
     line-height: 1em;
     top: 0;
     left: 0;
-    z-index: 219;
+    z-index: 119;
     margin-top: 37px;
     margin-left: 2.051461%;
     clear: both;
@@ -1059,7 +1037,7 @@ a.recLink:hover {
     position: relative;
     top: 0;
     left: 0;
-    z-index: 232;
+    z-index: 22;
     margin-top: 86px;
     margin-left: -63.416028%;
     clear: none;
@@ -1068,7 +1046,7 @@ a.recLink:hover {
 
 #Searching {
     display: inline-block;
-    z-index: 322;
+    z-index: 32;
     clear: both;
 }
 
@@ -1641,10 +1619,8 @@ div.tour {
 }
 
 .news-block {
-    margin-left: 10%;
-    margin-right: 10%;
     min-width: 800px;
-    width: 80%;
+    max-width: 1000px;
 }
 
 .news-block article {
