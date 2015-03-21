@@ -1,4 +1,4 @@
-nav, footer, header, section, article, iframe {
+nav, footer, header, section, article, iframe, img {
     display: block
 }
 
@@ -181,7 +181,7 @@ nav a:hover {
     font-family: HelveticaNeueCyr;
 }
 
-#textspan106 {
+#rights {
     font-size: 0.75em;
     line-height: 14px;
     color: rgb(153, 153, 153);
@@ -192,26 +192,11 @@ nav a:hover {
 
 #copy-bg {
     float: left;
-    height: 40px;
     background-color: rgb(12, 12, 12);
     position: relative;
     top: 0;
     left: 0;
     width: 100%;
-}
-
-#Наша_почта_kote_turclub_gmail_com_kote_turclub_gmail_com {
-    float: left;
-    font-size: 1em;
-    text-align: left;
-    font-weight: normal;
-    line-height: 1em;
-    top: 0;
-    left: 0;
-    margin-top: 10px;
-    margin-left: 0.01062925%;
-    clear: both;
-    margin-right: 0%;
 }
 
 #about {
@@ -407,27 +392,6 @@ footer {
     margin-right: 0;
 }
 
-#textspan87 {
-    float: none;
-    font-size: 0.875em;
-    line-height: 18px;
-    color: rgb(254, 254, 254);
-    font-weight: 300;
-    letter-spacing: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
-#textspan88 {
-    float: none;
-    font-size: 0.875em;
-    line-height: 24px;
-    color: rgb(254, 254, 254);
-    font-weight: normal;
-    text-decoration: none;
-    font-family: HelveticaNeueCyr;
-}
-
 #arrow5 {
     float: left;
     width: auto;
@@ -592,18 +556,20 @@ footer {
 
 #address {
     float: left;
-    font-size: 1em;
+    font-size: 0.875em;
+    color: rgb(254, 254, 254);
     width: auto;
     height: auto;
     text-align: left;
     font-weight: normal;
-    line-height: 1em;
+    line-height: 1.5em;
     top: 0;
     left: 0;
     z-index: 22;
     margin-top: 41px;
     clear: both;
     margin-right: 0;
+    font-family: HelveticaNeueCyr;
 }
 
 #footer-nav {
@@ -796,7 +762,6 @@ footer {
 
 .image-icons {
     float: left;
-    display: block;
     max-width: 100%;
     margin-left: 3%;
     clear: none;
