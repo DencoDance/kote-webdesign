@@ -232,11 +232,10 @@ nav a:hover {
     text-align: left;
     font-weight: normal;
     line-height: 1em;
-    position: relative;
     top: 0;
     left: 0;
     margin-top: 0;
-    margin-left: 0.05314626%;
+    margin-left: 0.06%;
     clear: none;
     margin-right: 0;
 }
@@ -269,7 +268,6 @@ nav a:hover {
 footer {
     height: 244px;
     color: rgb(0, 0, 0);
-    position: relative;
     top: 0;
     left: 0;
     background-image: url("../img/footer-bg.jpg");
@@ -372,10 +370,17 @@ footer {
     line-height: 1em;
     color: rgb(255, 255, 255);
     font-family: HelveticaNeueCyr;
-    position: relative;
     margin-top: 29px;
     clear: none;
     margin-right: 0;
+}
+
+#follow-us p {
+    float: left;
+}
+
+#follow-us img {
+    margin-top: -8px;
 }
 
 #arrow5 {
@@ -745,18 +750,6 @@ footer {
     font-family: HelveticaNeueCyr;
     text-shadow: rgba(0, 0, 0, 0.74902) 0 1px 1px;
     clear: both;
-}
-
-#google {
-    margin-top: 18px;
-}
-
-#facebook {
-    margin-top: 18px;
-}
-
-#twitter {
-    margin-top: 18px;
 }
 
 .image-icons {
