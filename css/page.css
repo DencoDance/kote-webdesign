@@ -312,20 +312,6 @@ footer {
     display:inline-block;
 }
 
-#textspan82 {
-    font-size: 0.875em;
-    color: rgb(255, 255, 255);
-    font-weight: 300;
-    font-family: HelveticaNeueCyr;
-}
-
-#textspan83 {
-    font-size: 1.125em;
-    color: rgb(255, 111, 64);
-    font-weight: bold;
-    font-family: HelveticaNeueCyr;
-}
-
 #placeholder1 {
     float: left;
     font-size: 1em;
@@ -486,6 +472,19 @@ footer {
 #video-title span {
     width: auto;
     margin: 0 auto;
+    font-family: HelveticaNeueCyr;
+}
+
+#video-title-date {
+    font-size: 0.875em;
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+}
+
+#video-title-name {
+    font-size: 1.125em;
+    color: rgb(255, 111, 64);
+    font-weight: bold;
 }
 
 #arrow4 {
@@ -1517,20 +1516,20 @@ h2.tourTitle {
     clear: both;
 }
 
-#box23 {
+#column1 {
     float: left;
     height: auto;
     width: 33%;
 }
 
-#box24 {
+#column2 {
     float: left;
     height: auto;
     margin-left: 5%;
     width: 36%;
 }
 
-#box25 {
+#column3 {
     float: left;
     height: auto;
     margin-left: 10%;
