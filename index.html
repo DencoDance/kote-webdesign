@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "xhtml11.dtd">
+<html>
+<head>
+    <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1251"/>
+    <TITLE>KOTE Traver. Look soon.</TITLE>
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="parked.css" type="text/css"/>
+</head>
+<body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script>
+    $(function() {
+        var curr = new Date();
+        var estim = 33;
+        var res = estim - curr.getDate();
+        var day = 'дня';
+        if ($.inArray(res, [1,2,3,4])){
+            day = 'дней';
+        }else if(res == 1){
+            day = 'день';
+        }
+        document.getElementById('day').innerHTML = res+ "&nbsp;"+ day;
+        console.log(curr.getDate());
+    });
+</script>
+<div class="container">
+    <img src="parked.jpg" class="bg">
+
+    <div class="content">
+        <div class="start">
+            До запуска осталось <span id="day" class="day">дней</span>
+        </div>
+        <div class="links">
+            <a class="fb" href="https://www.facebook.com/kotetravel"><img src="fb.png"></a>
+            <a class="kote">kote.travel@gmail.com</a>
+        </div>
+    </div>
+
+
+</div>
+</body>
+</html>

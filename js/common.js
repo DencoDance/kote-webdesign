@@ -12,11 +12,12 @@ function switchLogo(pos){
         document.getElementById('small-logo').style.opacity = '1';
         document.getElementById('big-logo').style.opacity = '0';
         document.getElementById('bar').style.backgroundColor = 'rgba(0,0,0, 0.6)';
-
+        $('#text-shadow').hide();
     }
     else{
         document.getElementById('bar').style.backgroundColor = 'transparent';
         document.getElementById('small-logo').style.opacity = '0';
         document.getElementById('big-logo').style.opacity = '1';
+        $('#text-shadow').show();
     }
 }
