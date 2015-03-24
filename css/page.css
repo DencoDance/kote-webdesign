@@ -973,6 +973,7 @@ footer {
 .recommendedTour {
     float: left;
     width: 30%;
+    max-width: 160px;
 }
 
 .recommendedLink {
