@@ -9,22 +9,58 @@
     height: 650px;
     display: block;
     z-index: 97;
+    position: relative;
     background: url("../img/big-preview-img.jpg") no-repeat 50% 100%;
 }
 
-.wish {
-    left: 0;
-    right: 0;
-    margin: auto;
+.tour-name {
+    margin: 300px auto auto auto;
     text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.7) 1px 1px 2px;
+    clear: both;
+    float: none;
+    font-size: 3em;
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: HelveticaNeueCyr;
 }
 
-#wishletter {
-    font-size: 1em;
+.short-description {
+    background-color: #ffffff;
+    width: 400px;
     text-align: center;
-    font-weight: normal;
-    line-height: 1em;
-    text-shadow: rgba(0, 0, 0, 0.74902) 1px 1px 2px;
-    margin-top: 97px;
-    clear: both;
+    font-family: HelveticaNeueCyr;
+}
+
+.tour-date {
+    font-size: 1.45em;
+    font-weight: 300;
+    padding-top: 3%;
+}
+
+.tour-destination {
+    font-size: 0.89em;
+    font-weight: 300;
+    padding-top: 3%;
+}
+
+.bottom {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.align_center_to_left
+{
+    position: relative;
+    right: 50%;
+    float: right;
+}
+.align_center_to_right
+{
+    position: relative;
+    z-index: 1;
+    right: -50%;
 }
