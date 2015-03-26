@@ -190,7 +190,47 @@
     background-color: rgb(245, 245, 240);
 }
 
+.social p {
+    color: rgb(18, 18, 18);
+    font-weight: 300;
+    font-size: 1.125em;
+    line-height: 30px;
+}
 
+.social ul {
+    padding: 0;
+    display: inline-block;
+}
+
+.social ul li{
+    float: left;
+    margin-left: 25px;
+    font-size: 0.75em;
+    color: rgb(153, 153, 153);
+}
+
+.similar-tour a {
+    float: none;
+    font-size: 0.875em;
+    line-height: 24px;
+    color: rgb(255, 111, 64);
+    font-style: normal;
+    font-weight: 300;
+    text-decoration: underline;
+    display: block;
+}
+
+.tourists {
+    width: 100%;
+    float: left;
+}
+
+.tourist {
+    height: 72px;
+    width: 72px;
+    border-radius: 50%;
+    float: left;
+    margin: 3px;
 }
 
 h1 {
