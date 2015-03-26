@@ -116,8 +116,21 @@
     float: right;
     width: 35%;
     margin-top: 20px;
-    border: solid #000000 1px;
+    border: solid rgb(220, 220, 220) 1px;
+    background-color: rgb(245, 245, 240);
     padding: 1.5% 1%;
+}
+
+.telephone {
+    line-height: 3em;
+}
+
+.right-column a {
+    float: none;
+    font-size: 0.75em;
+    color: rgb(255, 111, 64);
+    text-decoration: underline;
+    font-family: HelveticaNeueCyr;
 }
 
 #description {
@@ -141,6 +154,14 @@
     width: 100%;
 }
 
-.buttons > div {
+.buttons > a {
     float: right;
+    padding: 15px 0;
+    margin-left: 3%;
+    width: 25%;
+    text-align: center;
+    background-color: rgb(237, 95, 49);
+    color: #ffffff;
+    border-radius: 6px;
+    clear: none;
 }
