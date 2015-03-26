@@ -165,3 +165,26 @@
     border-radius: 6px;
     clear: none;
 }
+
+.right-panel {
+    float: right;
+    width: 350px;
+}
+
+.full-description {
+    margin-right: 360px;
+}
+
+.guide {
+    text-align: center;
+    padding: 1.5% 1%;
+    border: solid rgb(220, 220, 220) 1px;
+    background-color: rgb(245, 245, 240);
+}
+
+.social {
+
+    padding: 1.5% 1%;
+    border: solid rgb(220, 220, 220) 1px;
+    background-color: rgb(245, 245, 240);
+}
