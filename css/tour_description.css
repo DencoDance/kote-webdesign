@@ -75,14 +75,16 @@
 
 .booking {
     display: inline-block;
+    padding-top: 8px;
 }
 
 .left-column {
     color: rgb(60, 60, 60);
-    line-height: 1.5em;
+    line-height: 1.8em;
     font-size: 0.875em;
     float: left;
     width: 60%;
+    margin-top: 20px;
 }
 
 .old-price{
@@ -104,6 +106,7 @@
 .right-column {
     float: right;
     width: 35%;
+    margin-top: 20px;
 }
 
 #description {
@@ -116,7 +119,7 @@
 }
 
 #description p {
-    border-top: 1px solid #000000 ;
+    border-top: 1px solid rgb(255, 111, 64);
     width: 200px;
     margin: auto;
 }
