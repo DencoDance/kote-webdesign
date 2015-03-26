@@ -50,6 +50,29 @@ nav a:hover {
     padding-bottom: 41px;
     border-bottom: 3px solid rgba(255, 255, 255, 0.5);
 }
+.nav-other {
+    display: inline-block;
+    font-size: 1em;
+    text-align: center;
+    font-weight: 300;
+    line-height: 1em;
+    color: #121212;
+    font-style: normal;
+    text-decoration: none;
+    z-index: 324;
+    margin-top: 40px;
+    clear: none;
+}
+
+.nav-other a {
+    margin-left: 25px;
+    padding-bottom: 44px;
+}
+
+.nav-other a:hover {
+    padding-bottom: 41px;
+    border-bottom: 3px solid #acacac;
+}
 
 .separator {
     display: inline;
@@ -81,6 +104,10 @@ nav a:hover {
     font-style: normal;
     text-decoration: none;
     clear: none;
+}
+
+.username-other {
+    color: #121212 !important;
 }
 
 #Searching {
