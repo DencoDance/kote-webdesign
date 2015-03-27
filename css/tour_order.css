@@ -63,6 +63,11 @@ h4 {
 .price {
     margin-right: 33%;
     width: 67%;
+    font-size: 1.125em;
+    line-height: 36px;
+    color: rgb(18, 18, 18);
+    font-style: normal;
+    font-weight: 300;
 }
 
 .personal-information {
