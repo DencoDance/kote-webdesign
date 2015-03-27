@@ -58,7 +58,32 @@ h4 {
     padding: 1.5%;
     border: solid rgb(220, 220, 220) 1px;
     background-color: rgb(245, 245, 240);
+
+    font-size: 0.875em;
+    color: rgb(18, 18, 18);
 }
+
+input[type=date], input[type=number] {
+    display: inline-block;
+}
+input[type=date] {
+    width: 38.5%;
+}
+input[type=number] {
+    width: 10%;
+}
+
+input[type=radio].css-checkbox + label.css-label {
+    padding-left: 19px;
+    height: 14px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-top: -2.5em;
+}
+
 
 .price {
     margin-right: 33%;
