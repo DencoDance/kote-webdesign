@@ -10,9 +10,61 @@
     background: url("../img/top-bg.jpg") no-repeat center;
 }
 
-.container {
+.container, hgroup {
     margin: 0 auto;
     width: 80%;
     min-width: 930px;
     font-family: HelveticaNeueCyr;
+}
+
+h1 {
+    font-size: 2.25em;
+    line-height: 18px;
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    font-weight: 300;
+}
+
+h2 {
+    font-size: 0.75em;
+    line-height: 24px;
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    font-weight: 300;
+}
+
+h3 {
+    font-size: 1.5em;
+    font-weight: normal;
+    line-height: 1em;
+    color: rgb(18, 18, 18);
+    font-style: normal;
+}
+
+h4 {
+    font-size: 1.125em;
+    line-height: 36px;
+    color: rgb(255, 111, 64);
+    font-weight: normal;
+    margin: 0;
+}
+
+.order {
+}
+
+.additional {
+    float: right;
+    width: 30%;
+    padding: 1.5%;
+    border: solid rgb(220, 220, 220) 1px;
+    background-color: rgb(245, 245, 240);
+}
+
+.price {
+    margin-right: 33%;
+    width: 67%;
+}
+
+.personal-information {
+    width: 100%;
 }
