@@ -78,29 +78,51 @@
 
             </div>
         </div>
-        <div class="personal-information">
-            <h3> Введите свои данные</h3>
+        <h3> Введите свои данные</h3>
 
-            <div class="info">Ваш пол</div>
-            <div class="info">ФИО</div>
-            <div class="info">Дата рождения</div>
-            <div class="info">Гражданство</div>
-            <div class="info">Паспорт</div>
-            <div class="info">Контактные данные:</div>
-            <div class="info">Номер телефона</div>
-            <div class="info">Почта</div>
+        <div class="personal-information">
+            <div class="info">
+                <label>Ваш пол</label>
+                <input>
+            </div>
+            <div class="info">
+                <label>ФИО</label>
+                <input placeholder="Фамилия">
+                <input placeholder="Имя">
+                <input placeholder="Отчество">
+            </div>
+            <div class="info">
+                <label>Дата рождения</label>
+                <input placeholder="__ . __ . ____">
+            </div>
+            <div class="info">
+                <label>Гражданство</label>
+                <input>
+            </div>
+            <div class="info">
+                <label>Паспорт</label>
+                <input placeholder="АН 000000">
+            </div>
+        </div>
+        <div class="contact-information">
+            <div class="info">
+                <p>Контактные данные:</p>
+            </div>
+            <div class="info">
+                <label>Номер телефона</label>
+                <input placeholder="+38 (___) ___-__-__" type="tel">
+            </div>
+            <div class="info">
+                <label>Почта</label>
+                <input placeholder="user000@mail.com">
+            </div>
             <div class="info">Ваша личная информация никогда не будет разглащена или передана третьим лицам без Вашего
                 на то прямого согласия.
             </div>
-
-
-            Муж. Фамилия Имя Отчество __ . __ . ____ Украина АН 290987
-
-            +38 (___) ___-__-__ user000@mail.com
-            Перейти к оплате
-            Согласен с условиями соглашения
-
-
+        </div>
+        <div class="agreement-and-pay">
+            <input type="checkbox"><label>Согласен с условиями соглашения</label>
+            <a href="#">Перейти к оплате</a>
         </div>
     </div>
 </div>
@@ -166,7 +188,6 @@
         <span id="copyright-site">kote.dp.ua<br/></span>
         <span id="rights">Все права защищены</span>
     </div>
-</div>
 </div>
 </body>
 </html>
