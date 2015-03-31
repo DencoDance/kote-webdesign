@@ -34,6 +34,7 @@ h2 {
 }
 
 h3 {
+    margin-top: 0;
     font-size: 1.5em;
     font-weight: normal;
     line-height: 1em;
@@ -49,16 +50,17 @@ h4 {
     margin: 0;
 }
 
-.order {
+.layout {
+    overflow: hidden;
+    margin-top: 5%;
 }
 
-.additional {
+.layout-right-column {
     float: right;
     width: 30%;
     padding: 1.5%;
     border: solid rgb(220, 220, 220) 1px;
     background-color: rgb(245, 245, 240);
-
     font-size: 0.875em;
     color: rgb(18, 18, 18);
 }
@@ -85,7 +87,7 @@ input[type=radio].css-checkbox + label.css-label {
 }
 
 
-.price {
+.layout-main {
     margin-right: 33%;
     width: 67%;
     font-size: 1.125em;
@@ -93,11 +95,6 @@ input[type=radio].css-checkbox + label.css-label {
     color: rgb(18, 18, 18);
     font-style: normal;
     font-weight: 300;
-}
-
-.personal-information, .contact-information, .agreement-and-pay  {
-    width: 100%;
-    clear: both;
 }
 
 .info {
