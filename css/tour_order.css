@@ -97,6 +97,11 @@ input[type=radio].css-checkbox + label.css-label {
     font-weight: 300;
 }
 
+.personal-information, .contact-information, .agreement-and-pay  {
+    width: 100%;
+    clear: both;
+}
+
 .info {
     float: left;
     text-align: center;
