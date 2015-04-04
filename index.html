@@ -11,13 +11,13 @@
 <script>
     $(function() {
         var curr = new Date();
-        var estim = 33;
+        var estim = 37;
         var res = estim - curr.getDate();
-        var day = 'фэџ';
+        var day = 'дней';
         if ($.inArray(res, [1,2,3,4])){
-            day = 'фэхщ';
+            day = 'дня';
         }else if(res == 1){
-            day = 'фхэќ';
+            day = 'день';
         }
         document.getElementById('day').innerHTML = res+ "&nbsp;"+ day;
         console.log(curr.getDate());
@@ -28,7 +28,7 @@
 
     <div class="content">
         <div class="start">
-            Фю чряѓёър юёђрыюёќ <span id="day" class="day">фэхщ</span>
+            До запуска осталось <span id="day" class="day"></span>
         </div>
         <div class="links">
             <a class="fb" href="https://www.facebook.com/kotetravel"><img src="fb.png"></a>
