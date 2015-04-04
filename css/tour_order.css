@@ -62,7 +62,7 @@ h4 {
 
 .layout-right-column {
     float: right;
-    width: 30%;
+    width: 40%;
     padding: 1.5%;
     border: solid rgb(220, 220, 220) 1px;
     background-color: rgb(245, 245, 240);
@@ -72,7 +72,7 @@ h4 {
 
 .layout-left-column {
     float: left;
-    width: 30%;
+    width: 40%;
     padding: 1.5%;
     border: solid rgb(220, 220, 220) 1px;
     background-color: rgb(245, 245, 240);
@@ -107,8 +107,8 @@ input[type=radio].css-checkbox + label.css-label {
 }
 
 .layout-main {
-    margin-right: 33%;
-    width: 67%;
+    margin-right: 43%;
+    width: 57%;
     font-size: 1.125em;
     line-height: 36px;
     color: rgb(18, 18, 18);
@@ -119,6 +119,14 @@ input[type=radio].css-checkbox + label.css-label {
 .personal-information, .contact-information, .agreement-and-pay  {
     width: 100%;
     clear: both;
+}
+
+.tourist {
+    height: 72px;
+    width: 72px;
+    border-radius: 50%;
+    float: left;
+    margin: 3px;
 }
 
 .info {
@@ -152,12 +160,22 @@ input[type=radio].css-checkbox + label.css-label {
     width: 100px;
 }
 
+#user-profile{
+    float: right;
+    width: 30%;
+}
+
+
 .history {
     width: 100%;
 }
 
-.history tr:first-child {
-    width: 70%;
+.history tr > *:first-child {
+    width: 60%;
+}
+
+.history tr > *:last-child {
+    text-align: center;
 }
 
 .history th {
