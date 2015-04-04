@@ -74,6 +74,15 @@ nav a:hover {
     border-bottom: 3px solid #acacac;
 }
 
+#second-navigation{
+    text-transform: capitalize;
+    opacity: 0;
+    top: 50px;
+    padding: 10px;
+    border-top: 1px solid #ffffff;
+    background-color: rgba(0,0,0,0.6);
+}
+
 .separator {
     display: inline;
     margin-left: 10px;
