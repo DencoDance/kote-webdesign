@@ -8,6 +8,7 @@
     min-height: 230px;
     display: block;
     background: url("../img/top-bg.jpg") no-repeat center;
+    margin-top: 100px;
 }
 
 .container, hgroup {
@@ -15,6 +16,10 @@
     width: 80%;
     min-width: 930px;
     font-family: HelveticaNeueCyr;
+}
+
+hgroup {
+    margin-top: 6%;
 }
 
 h1 {
@@ -34,6 +39,7 @@ h2 {
 }
 
 h3 {
+    margin-top: 0;
     font-size: 1.5em;
     font-weight: normal;
     line-height: 1em;
@@ -49,16 +55,27 @@ h4 {
     margin: 0;
 }
 
-.order {
+.layout {
+    overflow: hidden;
+    margin-top: 5%;
 }
 
-.additional {
+.layout-right-column {
     float: right;
     width: 30%;
     padding: 1.5%;
     border: solid rgb(220, 220, 220) 1px;
     background-color: rgb(245, 245, 240);
+    font-size: 0.875em;
+    color: rgb(18, 18, 18);
+}
 
+.layout-left-column {
+    float: left;
+    width: 30%;
+    padding: 1.5%;
+    border: solid rgb(220, 220, 220) 1px;
+    background-color: rgb(245, 245, 240);
     font-size: 0.875em;
     color: rgb(18, 18, 18);
 }
@@ -84,8 +101,12 @@ input[type=radio].css-checkbox + label.css-label {
     margin-top: -2.5em;
 }
 
+.layout-main-right {
+    margin-left: 33%;
+    width: 67%;
+}
 
-.price {
+.layout-main {
     margin-right: 33%;
     width: 67%;
     font-size: 1.125em;
@@ -95,6 +116,52 @@ input[type=radio].css-checkbox + label.css-label {
     font-weight: 300;
 }
 
-.personal-information {
+.personal-information, .contact-information, .agreement-and-pay  {
     width: 100%;
+    clear: both;
+}
+
+.info {
+    float: left;
+    text-align: center;
+    margin: 0 5px;
+}
+
+.info > input, .info > select {
+    float: left;
+    padding-right: 5%;
+}
+
+.info > label {
+    display: block;
+}
+
+#name, #surname, #second-name {
+    width: 33%;
+}
+
+#date-of-birth {
+    width: 120px;
+}
+
+#nationality {
+    width: 120px;
+}
+
+#passport {
+    width: 100px;
+}
+
+.history {
+    width: 100%;
+}
+
+.history tr:first-child {
+    width: 70%;
+}
+
+.history th {
+    background-color: #ff6f40;
+    text-align: center;
+    color: #ffffff;
 }
