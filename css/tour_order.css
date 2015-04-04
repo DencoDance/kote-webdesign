@@ -124,14 +124,32 @@ input[type=radio].css-checkbox + label.css-label {
 .info {
     float: left;
     text-align: center;
+    margin: 0 5px;
 }
 
-.info > input {
+.info > input, .info > select {
     float: left;
+    padding-right: 5%;
 }
 
 .info > label {
     display: block;
+}
+
+#name, #surname, #second-name {
+    width: 33%;
+}
+
+#date-of-birth {
+    width: 120px;
+}
+
+#nationality {
+    width: 120px;
+}
+
+#passport {
+    width: 100px;
 }
 
 .history {

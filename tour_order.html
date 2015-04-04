@@ -78,30 +78,34 @@
 
             </div>
         </div>
-
         <div class="layout">
             <h3> Введите свои данные</h3>
             <div class="info">
                 <label>Ваш пол</label>
-                <input>
+                <select>
+                    <option>Муж</option>
+                    <option>Жен</option>
+                </select>
             </div>
             <div class="info">
                 <label>ФИО</label>
-                <input placeholder="Фамилия">
-                <input placeholder="Имя">
-                <input placeholder="Отчество">
+                <input placeholder="Фамилия" id="surname">
+                <input placeholder="Имя" id="name">
+                <input placeholder="Отчество" id="second-name">
             </div>
-            <div class="info">
+            <div class="info" >
                 <label>Дата рождения</label>
-                <input placeholder="__ . __ . ____">
+                <input id="date-of-birth" placeholder="__ . __ . ____" maxlength="10">
             </div>
+        </div>
+        <div class="layout">
             <div class="info">
                 <label>Гражданство</label>
-                <input>
+                <input id="nationality">
             </div>
             <div class="info">
                 <label>Паспорт</label>
-                <input placeholder="АН 000000">
+                <input id="passport" placeholder="АН 000000" maxlength="9">
             </div>
         </div>
         <div class="layout">
