@@ -124,12 +124,12 @@ input[type=radio].css-checkbox + label.css-label {
 .info {
     float: left;
     text-align: center;
-    margin: 0 5px;
+    margin: 0 2% 0 0;
 }
 
 .info > input, .info > select {
     float: left;
-    padding-right: 5%;
+    padding: 5px;
 }
 
 .info > label {
