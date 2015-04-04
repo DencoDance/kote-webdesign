@@ -16,6 +16,7 @@
     width: 80%;
     min-width: 930px;
     font-family: HelveticaNeueCyr;
+    font-weight: 300;
 }
 
 hgroup {
@@ -66,7 +67,6 @@ h4 {
     padding: 1.5%;
     border: solid rgb(220, 220, 220) 1px;
     background-color: rgb(245, 245, 240);
-    font-weight: 300;
     color: rgb(18, 18, 18);
 }
 
@@ -76,7 +76,6 @@ h4 {
     padding: 1.5%;
     border: solid rgb(220, 220, 220) 1px;
     background-color: rgb(245, 245, 240);
-    font-weight: 300;
     color: rgb(18, 18, 18);
 }
 
@@ -109,11 +108,8 @@ input[type=radio].css-checkbox + label.css-label {
 .layout-main {
     margin-right: 43%;
     width: 57%;
-    font-size: 1.125em;
-    line-height: 36px;
     color: rgb(18, 18, 18);
     font-style: normal;
-    font-weight: 300;
 }
 
 .personal-information, .contact-information, .agreement-and-pay  {
@@ -169,8 +165,9 @@ input[type=radio].css-checkbox + label.css-label {
     float: left;
 }
 
-.history {
+table {
     width: 100%;
+    line-height: 36px;
 }
 
 .history tr > *:first-child {
@@ -181,8 +178,10 @@ input[type=radio].css-checkbox + label.css-label {
     text-align: center;
 }
 
-.history th {
+th {
     background-color: #ff6f40;
     text-align: center;
     color: #ffffff;
+    font-weight: 300;
+    font-size: 1.25em;
 }
