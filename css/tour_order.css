@@ -58,7 +58,7 @@ h4 {
 
 .layout {
     overflow: hidden;
-    margin-top: 5%;
+    margin: 3% 0 2% 0;
 }
 
 .layout-right-column {
@@ -82,14 +82,16 @@ h4 {
 input[type=date], input[type=number] {
     display: inline-block;
 }
+
 input[type=date] {
     width: 38.5%;
 }
+
 input[type=number] {
     width: 10%;
 }
 
-input[type=radio].css-checkbox + label.css-label {
+input[type=checkbox].css-checkbox + label.css-label {
     padding-left: 19px;
     height: 14px;
     display: inline-block;
@@ -112,7 +114,7 @@ input[type=radio].css-checkbox + label.css-label {
     font-style: normal;
 }
 
-.personal-information, .contact-information, .agreement-and-pay  {
+.personal-information, .contact-information, .agreement-and-pay {
     width: 100%;
     clear: both;
 }
@@ -156,26 +158,33 @@ input[type=radio].css-checkbox + label.css-label {
     width: 100px;
 }
 
-#user-profile{
+#user-profile {
     float: right;
     width: 35%;
 }
 
-#user-profile > *{
+#user-profile > * {
     float: left;
 }
 
 table {
     width: 100%;
-    line-height: 36px;
-}
-
-.history tr > *:first-child {
-    width: 60%;
-}
-
-.history tr > *:last-child {
     text-align: center;
+}
+
+td, th {
+    padding: 1%;
+    border-right: 1px solid #cccccc;
+    border-left: 1px solid #cccccc;
+}
+
+tbody {
+    border: 1px solid #cccccc;
+}
+
+.history tr > td:first-child {
+    width: 60%;
+    text-align: left;
 }
 
 th {
@@ -183,5 +192,26 @@ th {
     text-align: center;
     color: #ffffff;
     font-weight: 300;
-    font-size: 1.25em;
+    font-size: 1.125em;
+}
+
+#agreement label {
+    border-bottom: 1px dotted #ff6f40;
+    color: #ff6f40;
+    margin-left: 3%;
+}
+
+#i-agree {
+    float: left;
+    padding: 1% 2% 0 0;
+}
+
+#change-order, #pay-order, #delete-order {
+    width: 15%;
+    margin: 0 1% 0 1%;
+}
+
+#change-profile, #change-password {
+    width: 150px;
+    margin: 3% 3% 0 0;
 }
