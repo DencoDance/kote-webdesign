@@ -2,19 +2,19 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="css/boilerplate.css">
-    <link rel="stylesheet" href="css/common.css">
-    <link rel="stylesheet" href="css/tour_description.css">
-    <meta charset="utf-8">
-    <meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0">
+    <link rel="stylesheet" href="css/boilerplate.css" />
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/tour_description.css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />
     <!--[if IE]>
-    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="js/common.js"></script>
 </head>
-<body>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script src="js/common.js"></script>
 
+<body>
 <div class="primaryContainer clearfix">
     <div id="big-preview-img" class="clearfix">
         <header>
@@ -27,6 +27,7 @@
                     <a href="#">Галерея</a>
                     <a href="#">Контакты</a>
                 </nav>
+
                 <img src="img/separator.png" class="separator"/>
 
                 <div class="profile">
@@ -47,9 +48,18 @@
             <div class="align_center_to_left">
                 <div class="align_center_to_right">
                     <div class="short-description">
-                        <p class="tour-date">25.06.2015 - 28.06.2015</p>
+                        <p class="tour-date">
+                            25.06.2015 - 28.06.2015
+                            <img id="tour_calendar" src="img/calendar.png" />
+                        </p>
 
-                        <p class="tour-destination">Днепропетровск Карпаты Днепропетровск</p>
+                        <p class="tour-destination">
+                          <span>Днепропетровск</span>
+                            <img class="destination_arrow" src="img/arrow_small.png" />
+                          <span>Карпаты</span>
+                            <img class="destination_arrow" src="img/arrow_small.png" />
+                          <span> Днепропетровск</span>
+                        </p>
                     </div>
                 </div>
             </div>
@@ -65,10 +75,10 @@
                 <p>Стоимость:</p>
 
                 <p><span class="old-price">295 $</span> <span class="new-price"> 275 $</span> — проживание в 5ти местных
-                    номерах ( с удобствами)</p>
+                    номерах ( с удобствами )</p>
 
                 <p><span class="old-price">375 $</span> <span class="new-price"> 375 $</span> — проживание в 2х местных
-                    номерах ( с удобствами)</p>
+                    номерах ( с удобствами )</p>
 
                 <p>Тип тура: <a href="">Семейный отдых</a>, <a href="">бизнес отдых</a></p>
 
@@ -76,14 +86,17 @@
 
                 <p>Дополнительные услуги: Заказ экскурсий, оренда машины, дайвинг</p>
 
-                <span>Количество участников: 50 (Осталось 9 мест)</span>
+                <img id="people_count" src="img/guys-count.png" />
+                <span>Количество участников: 50 (Осталось <span id="places">9</span> мест)</span>
             </div>
             <div class="right-column">
                 <p>Если у Вас есть вопросы,обратитесь к нашему консультанту:</p>
+                <div>
+                  <img class="phone_icon" src="img/megafon.png" /> <span class="telephone">+38 097-815-68-38</span>
+                  <img class="phone_icon" src="img/megafon.png" /> <span class="telephone">+38 050-774-99-18</span>
+                </div>
 
-                <p><span class="telephone">+38 097-815-68-38</span> <span class="telephone">+38 050-774-99-18</span></p>
-
-                <p><a href="">Обратный звонок</a></p>
+                <p><a href="" id="reverse_call">Обратный звонок</a></p>
             </div>
             <div class="buttons">
                 <a href="#" class="button" id="book-and-pay">Бронь и оплата</a>
